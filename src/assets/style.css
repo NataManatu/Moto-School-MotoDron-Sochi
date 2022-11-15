@@ -10,13 +10,15 @@
     font-family: 'Jost', sans-serif;
 }
 
-html,body {
+html,
+body {
     background-color: #838383;
     margin: 0px;
     padding: 0px;
     height: auto;
     width: auto;
 }
+
 html::-webkit-scrollbar {
     width: 5px;
     height: 5px;
@@ -34,6 +36,7 @@ html::-webkit-scrollbar-thumb {
     height: auto;
     margin: 0px auto;
 }
+
 /* HEADER */
 
 .header {
@@ -127,7 +130,7 @@ html::-webkit-scrollbar-thumb {
     align-items: center;
     margin-top: 114px;
     font-size: inherit;
-    
+
 }
 
 .wrapper {
@@ -320,7 +323,7 @@ html::-webkit-scrollbar-thumb {
 
 .course {
     padding: 100px 100px 155px 100px;
-}   
+}
 
 .content-vector {
     display: flex;
@@ -340,15 +343,16 @@ html::-webkit-scrollbar-thumb {
     clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
     cursor: pointer;
 }
-#vector-1:active{
+
+#vector-1:active {
     background-color: red;
 }
 
-.but_vect1{
+.but_vect1 {
     background-color: #000000;
 }
 
-.but_vect2{
+.but_vect2 {
     background-color: #000000;
 }
 
@@ -362,7 +366,7 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-#vector-2:active{
+#vector-2:active {
     background-color: red;
 }
 
@@ -375,6 +379,7 @@ html::-webkit-scrollbar-thumb {
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
+
 .course-content::-webkit-scrollbar {
     display: none;
 }
@@ -391,7 +396,7 @@ html::-webkit-scrollbar-thumb {
 
 
 
-#price { 
+#price {
     text-align: center;
     width: 225px;
     height: 48px;
@@ -1645,9 +1650,89 @@ hr {
     text-align: center;
     margin-top: 42px;
 }
- /* STATISTIC-13-блок  */
 
+/* STATISTIC-13-блок  */
 
+.statistic {
+    padding: 100px 100px 180px 100px;
+}
+
+.about-figure {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* gap: 167px; */
+    margin-top: 127px;
+
+}
+
+#about-figure-p {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+#statistic-text-block {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    color: #8C8C8C;
+}
+
+.block-statistic {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 30% 30% 30%;
+    gap: 50px;
+    margin-top: 124px;
+
+}
+
+.article-statistic {
+    border-top: 1px solid white;
+    text-align: left;
+    padding-top: 30px;
+}
+
+#title-article {
+    position: absolute;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    /* or 50px */
+    text-align: right;
+    letter-spacing: 0.025em;
+    color: #E3E3E3;
+    margin-top: -41px;
+    margin-left: 151px;
+
+}
+#title-article_2 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    /* or 50px */
+    text-align: right;
+    letter-spacing: 0.025em;
+    color: #E3E3E3;
+    margin-top: -41px;
+    margin-left: 121px;
+
+}
+
+.article-stat-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #8C8C8C;
+    margin-top: 60px;
+
+}
 
 
 

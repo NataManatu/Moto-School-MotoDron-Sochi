@@ -1123,17 +1123,25 @@ const butVect2 = (() => {
     </div>
 
 
+<!-- STATISTIC-блок-13 -->
+
+
+        <div class="statistic">
+           
+            <div class="statistic-title">
+                <img src="@/assets/img-statistic-bl-13/Статистика.svg" alt="" id="reviews-title_1">
+                <img src="@/assets/img-statistic-bl-13/Line 11.svg" alt="" id="reviews-title_3">
+                <img src="@/assets/img-statistic-bl-13/Статистика (1).svg" alt="" id="reviews-title_2">
+            </div>
 
 
 
-        <div class="statistic" style="color:gray">
-            <p>13 БЛОК</p>
+
+
+
+
+
         </div>
-
-
-
-
-
 
         <div class="reviews">
             <div class="reviews-title">

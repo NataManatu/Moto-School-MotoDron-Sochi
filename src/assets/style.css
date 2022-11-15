@@ -11,7 +11,7 @@
 }
 
 html,body {
-    background-color: #000000;
+    background-color: #838383;
     margin: 0px;
     padding: 0px;
     height: auto;
@@ -477,13 +477,13 @@ html::-webkit-scrollbar-thumb {
 
 #entry-logo_2 {
     position: relative;
-    margin-left: 110px;
+    margin-left: 160px;
     margin-top: 20px;
 }
 
 #entry-logo_3 {
     position: absolute;
-    margin-left: -100px;
+    margin-left: -50px;
     margin-top: 33px;
 }
 
@@ -584,6 +584,24 @@ html::-webkit-scrollbar-thumb {
     height: auto;
     padding: 100px 100px 100px 100px;
 
+}
+
+#bee-moto-title_1 {
+    position: absolute;
+    margin-left: -50px;
+
+}
+
+#bee-moto-title_2 {
+    position: relative;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+#bee-moto-title_3 {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 33px;
 }
 
 .bee-moto-slogan {
@@ -843,7 +861,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #about-gallery_1 {
-    margin-left: -100px;
+    margin-left: -50px;
     position: absolute;
 }
 
@@ -1420,19 +1438,19 @@ hr {
 
 #about-news_1 {
     width: 1390px;
-    margin-left: -100px;
+    margin-left: -50px;
     position: relative;
 }
 
 #about-news_2 {
     position: absolute;
-    margin-top: -60px;
+    margin-top: -45px;
     margin-left: 111px;
 }
 
 #about-news_3 {
     position: absolute;
-    margin-top: -50px;
+    margin-top: -35px;
     margin-left: -100px;
 }
 
@@ -1560,27 +1578,26 @@ hr {
 /* 12-тренировки */
 
 
-
 .workout {
     padding: 100px;
 }
 
-#reviews-title_1 {
+#workout-title_1 {
     margin-left: -50px;
-    position: absolute;
+    position: relative;
 }
 
-#reviews-title_2 {
+#workout-title_2 {
     position: absolute;
     margin-left: 111px;
-    margin-top: 20px;
+    margin-top: -60px;
 
 }
 
-#reviews-title_3 {
+#workout-title_3 {
     position: absolute;
     margin-left: -100px;
-    margin-top: 35px;
+    margin-top: -55px;
 
 }
 

@@ -75,7 +75,7 @@ const butVect2 = (() => {
 
             <div class="about_logo">
                 <img src="@/assets/img-about-bl-2/О нас.svg " alt="" id="about-logo_1">
-                <img src="@/assets/ img-about-bl-2/Line 11.svg" alt="" id="about-logo_3">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="" id="about-logo_3">
                 <img src="@/assets/img-about-bl-2/О нас (1).svg" alt="" id="about-logo_2">
             </div>
 
@@ -112,7 +112,7 @@ const butVect2 = (() => {
         <div class="why">
             <div class="why-2-logo">
                 <img src="@/assets/img-why-bl-3/Почему мы_.svg" alt="" id="why-logo_1">
-                <img src="@/assets/ img-why-bl-3/Line 11.svg" alt="" id="why-logo_3">
+                <img src="@/assets/img-why-bl-3/Line 11.svg" alt="" id="why-logo_3">
                 <img src="@/assets/img-why-bl-3/Почему мы_ (1).svg" alt="" id="why-logo_2">
             </div>
 
@@ -432,10 +432,10 @@ const butVect2 = (() => {
         <!-- BEE-MOTO--блок-6 -->
 
         <div class="bee-moto">
-            <div class="about-bee-moto">
-                <img src="@/assets/img-bee-moto-bl-6/бЫТЬ МОТОЦИКЛИСТОМ.svg" alt="" id="about-logo_1">
-                <img src="@/assets/img-entry-bl-5/Line 11.svg" id="about-logo_3">
-                <img src="@/assets/img-bee-moto-bl-6/Быть мотоциклистом (1).svg" alt="" id="about-logo-be-moto">
+            <div class="bee-moto-title">
+                <img src="@/assets/img-bee-moto-bl-6/бЫТЬ МОТОЦИКЛИСТОМ.svg" alt="" id="bee-moto-title_1">
+                <img src="@/assets/img-entry-bl-5/Line 11.svg" id="bee-moto-title_3">
+                <img src="@/assets/img-bee-moto-bl-6/Быть мотоциклистом (1).svg" alt="" id="bee-moto-title_2">
             </div>
 
             <div class="bee-moto-slogan">
@@ -1068,66 +1068,63 @@ const butVect2 = (() => {
 
         <div class="workout">
             <div class="workout-title">
-                <img src="src/assets/img-workout-bl-12/Тренировки (1).svg" alt="" id="about-news_1">
-                <img src="src/assets/img-news-bl-11/Line 11.svg" alt="" id="about-news_3">
-                <img src="src/assets/img-workout-bl-12/тренировки.svg" alt="" id="about-news_2">
+                <img src="@/assets/img-workout-bl-12/Тренировки-1.svg" alt="" id="workout-title_1">
+                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="" id="workout-title_3">
+                <img src="@/assets/img-workout-bl-12/тренировки.svg" alt="" id="workout-title_2">
             </div>
-
 
             <div class="video-block">
 
                 <article class="video-card">
                     <p id="p-name">Наш гараж</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">23.09.2022</p>
                 </article>
 
                 <article class="video-card">
                     <p id="p-name">Андрей, курс “Категория А”, 2-я тренировка</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">17.08.2022</p>
                 </article>
 
                 <article class="video-card">
                     <p id="p-name-3">Анастасия, курс “Контраварийный”, 4-я <br>тренировка</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">09.05.2022</p>
                 </article>
 
                 <article class="video-card">
                     <p id="p-name">Михаил, сдача внутреннего экзамена</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">17.02.2022</p>
                 </article>
 
                 <article class="video-card">
                     <p id="p-name">Игорь, курс “Категория А”, 5-я тренировка</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">03.02.2022</p>
                 </article>
 
                 <article class="video-card">
                     <p id="p-name">Трек, на котором мы учимся вождению</p>
-                    <img src="src/assets/img-workout-bl-12/Rectangle 56.png" alt="">
+                    <img src="@/assets/img-workout-bl-12/Rectangle-57.png" alt="">
                     <p id="p-date">30.12.2021 </p>
                 </article>
 
             </div>
 
             <div class="vector-nav" id="video-block-vector">
-                <div id="vector-3"><img src="src/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
-
+                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
                 <sup id="sup-1">1</sup>
-                <img src="src/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
+                <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
                 <sub id="sub-2">9</sub>
-
-                <div id="vector-4"><img src="src/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
             </div>
     </div>
 
 
 
-    
+
 
         <div class="statistic" style="color:gray">
             <p>13 БЛОК</p>

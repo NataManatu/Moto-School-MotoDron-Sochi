@@ -10,14 +10,13 @@ const butVect2 = (() => {
 <template>
 
     <body>
-        <div class="container">
 
-            <!-- HEADER -->
 
-            <header class="header">
+        <!-- HEADER -->
 
+        <header>
+            <div class="header-container">
                 <div class="header-menu">
-
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
                     </div>
@@ -28,7 +27,7 @@ const butVect2 = (() => {
                             <li><a href="#news">Новости</a> </li>
                             <li><a href="#about">О нас</a></li>
                             <li><a href="/">Контакты</a></li>
-                            <li><a href="/">Отзывы</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
                         </ul>
                     </div>
 
@@ -68,345 +67,347 @@ const butVect2 = (() => {
                         <button type="button" id="btn3">Записаться</button>
                     </div>
                 </div>
-            </header>
+            </div>
+        </header>
 
-            <!--ABOUT-- 2 блок -->
+        <!--ABOUT-- 2 блок -->
 
-            <div class="about" id="about">
+        <div class="about" id="about">
 
-                <div class="about_logo">
-                    <img src="@/assets/img-about-bl-2/О нас.svg " alt="" id="about-logo_1">
-                    <img src="@/assets/img-about-bl-2/Line 11.svg" alt="" id="about-logo_3">
-                    <img src="@/assets/img-about-bl-2/О нас (1).svg" alt="" id="about-logo_2">
+            <div class="about_logo">
+                <img src="@/assets/img-about-bl-2/О нас.svg " alt="" id="about-logo_1">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="" id="about-logo_3">
+                <img src="@/assets/img-about-bl-2/О нас (1).svg" alt="" id="about-logo_2">
+            </div>
+
+            <div class="about-text-img">
+
+                <div class="about-text">
+                    <p>Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в обучении
+                        мотоциклистов. А
+                        постоянное повышение своих навыков инструкторами даст вам возможность узнать что-то новое
+                        даже
+                        если
+                        вы уже отучились на наших курсах(перефорулировать, можно совсем)
+                    </p>
+                    <br>
+                    <p> Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в обучении
+                        мотоциклистов.
+                        А постоянное повышение своих навыков инструкторами даст вам возможность узнать что-то новое
+                        даже
+                        если вы уже отучились на наших курсах(перефорулировать, можно совсем)
+                    </p>
                 </div>
 
-                <div class="about-text-img">
+                <div class="about-img">
+                    <img src="@/assets/img-about-bl-2/pic 1.png" alt="" id="pic-1">
+                    <img src="@/assets/img-about-bl-2/pic 5.png" alt="" id="pic-5">
+                    <img src="@/assets/img-about-bl-2/pic 4.png" alt="" id="pic-4">
+                    <img src="@/assets/img-about-bl-2/pic 3.png" alt="" id="pic-3">
+                    <img src="@/assets/img-about-bl-2/pic 2.png" alt="" id="pic-2">
+                </div>
 
-                    <div class="about-text">
-                        <p>Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в обучении
-                            мотоциклистов. А
-                            постоянное повышение своих навыков инструкторами даст вам возможность узнать что-то новое
-                            даже
-                            если
-                            вы уже отучились на наших курсах(перефорулировать, можно совсем)
+            </div>
+        </div>
+
+        <!-- WHY ARE WE--3 блок -->
+
+        <div class="why">
+            <div class="why-2-logo">
+                <img src="@/assets/img-why-bl-3/Почему мы_.svg" alt="" id="why-logo_1">
+                <img src="@/assets/img-why-bl-3/Line 11.svg" alt="" id="why-logo_3">
+                <img src="@/assets/img-why-bl-3/Почему мы_ (1).svg" alt="" id="why-logo_2">
+            </div>
+
+            <div class="why-content">
+                <img src="@/assets/img-why-bl-3/Image.png" alt="" id="why-img-content">
+
+                <div class="why-text-block">
+                    <div class="block-1">
+                        <img src="@/assets/img-why-bl-3/01.svg" alt="" id="why-svg">
+                        <p id="title">ОПЫТ</p>
+                        <p id="text">Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в
+                            обучении
+                            мотоциклистов. А постоянное повышение своих навыков инструкторами даст вам возможность
+                            узнать что-то новое даже если вы уже отучились на наших курсах (перефорулировать, можно
+                            совсем)
                         </p>
-                        <br>
-                        <p> Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в обучении
-                            мотоциклистов.
-                            А постоянное повышение своих навыков инструкторами даст вам возможность узнать что-то новое
-                            даже
-                            если вы уже отучились на наших курсах(перефорулировать, можно совсем)
+                    </div>
+                    <div class="block-2">
+                        <img src="@/assets/img-why-bl-3/02.svg" alt="" id="why-svg">
+                        <p id="title">ОТВЕТСТВЕННОСТЬ</p>
+                        <p id="text">Тщательная проработка всех без исключения ошибок учеников, а если точнее
+                            бескомпромисное
+                            отношение к ним, не оставит вам шанса на провал в постижении искусства управления
+                            мотоциклом
+                            и сдаче экзаменов.</p>
+                    </div>
+                    <div class="block-3">
+                        <img src="@/assets/img-why-bl-3/03.svg" alt="" id="why-svg">
+                        <p id="title">ГИБКИЙ ГРАФИК <br>ТРЕНИРОВОК</p>
+                        <p id="text">Вы сами назначаете время каждой тренировки тогда, когда удобно вам. Не будет
+                            никаких
+                            пропущеных занятий, потраченных впустую денег (потому что вы не смогли прийти).
+                            Тренировка
+                            раз в неделю? - пожалуйста, каждый день? - не вопрос, три дня подряд и перерыв две
+                            недели? -
+                            так тоже можно.</p>
+                    </div>
+                    <div class="block-4">
+                        <img src="@/assets/img-why-bl-3/04.svg" alt="" id="why-svg">
+                        <p id="title">ИНДИВИДУАЛЬНЫЙ<br> ПОДХОД</p>
+                        <p id="text">Тренировки проводятся только в индивидуальном режиме. Никаких групповых
+                            занятий.
+                            Всё время
+                            отведенное для практических занятий достанется только вам. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COURSE-- 4 блок -->
+
+        <div class="course">
+            <div class="about-course">
+                <img src="@/assets/img-course-bl-4/Наши курсы.svg" alt="" id="about-logo_1">
+                <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="about-logo_3">
+                <img src="@/assets/img-course-bl-4/Наши курсы (1).svg" alt="" id="about-logo_2">
+            </div>
+
+            <div class="content-vector">
+                <button @click="butVect1" class="but_vect1">
+                    <div id="vector-1"><img src="@/assets/img-course-bl-4/Vector 10.png" alt=""></div>
+                </button>
+                <button @click="butVect2" class="but_vect2">
+                    <div id="vector-2"><img src="@/assets/img-course-bl-4/Vector 10 (1).png" alt=""></div>
+                </button>
+            </div>
+
+            <div class="course-content" id="course-content">
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image-1.png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>КAТЕГОРИЯ “А”</h1>
+                        <p>Курс для получения прав категории “А”, предназначен для людей, не умеющих управлять
+                            мотоциклом. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно сдать
+                            практический экзамен в ГИБДД.
                         </p>
                     </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
 
-                    <div class="about-img">
-                        <img src="@/assets/img-about-bl-2/pic 1.png" alt="" id="pic-1">
-                        <img src="@/assets/img-about-bl-2/pic 5.png" alt="" id="pic-5">
-                        <img src="@/assets/img-about-bl-2/pic 4.png" alt="" id="pic-4">
-                        <img src="@/assets/img-about-bl-2/pic 3.png" alt="" id="pic-3">
-                        <img src="@/assets/img-about-bl-2/pic 2.png" alt="" id="pic-2">
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image.png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
                     </div>
 
-                </div>
-            </div>
+                    <div class="course-text">
+                        <h1>“PRO”</h1>
+                        <p>Предназначен для желающих максимально ознакомиться с устройством мотоцикла. Получить
+                            начальные навыки безопасного управления мотоциклом на малых и средних скоростях.
+                            Отработать
+                            правильный алгоритм торможения. Подходит для тех, кому нужны основные навыки вождения.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
 
-            <!-- WHY ARE WE--3 блок -->
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
 
-            <div class="why">
-                <div class="why-2-logo">
-                    <img src="@/assets/img-why-bl-3/Почему мы_.svg" alt="" id="why-logo_1">
-                    <img src="@/assets/img-why-bl-3/Line 11.svg" alt="" id="why-logo_3">
-                    <img src="@/assets/img-why-bl-3/Почему мы_ (1).svg" alt="" id="why-logo_2">
-                </div>
+                    <div class="course-text">
+                        <h1>Категория “А” + “PRO”</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
 
-                <div class="why-content">
-                    <img src="@/assets/img-why-bl-3/Image.png" alt="" id="why-img-content">
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
 
-                    <div class="why-text-block">
-                        <div class="block-1">
-                            <img src="@/assets/img-why-bl-3/01.svg" alt="" id="why-svg">
-                            <p id="title">ОПЫТ</p>
-                            <p id="text">Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в
-                                обучении
-                                мотоциклистов. А постоянное повышение своих навыков инструкторами даст вам возможность
-                                узнать что-то новое даже если вы уже отучились на наших курсах (перефорулировать, можно
-                                совсем)
-                            </p>
-                        </div>
-                        <div class="block-2">
-                            <img src="@/assets/img-why-bl-3/02.svg" alt="" id="why-svg">
-                            <p id="title">ОТВЕТСТВЕННОСТЬ</p>
-                            <p id="text">Тщательная проработка всех без исключения ошибок учеников, а если точнее
-                                бескомпромисное
-                                отношение к ним, не оставит вам шанса на провал в постижении искусства управления
-                                мотоциклом
-                                и сдаче экзаменов.</p>
-                        </div>
-                        <div class="block-3">
-                            <img src="@/assets/img-why-bl-3/03.svg" alt="" id="why-svg">
-                            <p id="title">ГИБКИЙ ГРАФИК <br>ТРЕНИРОВОК</p>
-                            <p id="text">Вы сами назначаете время каждой тренировки тогда, когда удобно вам. Не будет
-                                никаких
-                                пропущеных занятий, потраченных впустую денег (потому что вы не смогли прийти).
-                                Тренировка
-                                раз в неделю? - пожалуйста, каждый день? - не вопрос, три дня подряд и перерыв две
-                                недели? -
-                                так тоже можно.</p>
-                        </div>
-                        <div class="block-4">
-                            <img src="@/assets/img-why-bl-3/04.svg" alt="" id="why-svg">
-                            <p id="title">ИНДИВИДУАЛЬНЫЙ<br> ПОДХОД</p>
-                            <p id="text">Тренировки проводятся только в индивидуальном режиме. Никаких групповых
-                                занятий.
-                                Всё время
-                                отведенное для практических занятий достанется только вам. </p>
+                    <div class="course-text">
+                        <h1>“КонтрАварийный”</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (3).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1 id="course-text-h1">Категория “А”+<br>“КонтрАварийный”</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (4).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>“Городской”</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (5).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Индивидуальный курс</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (6).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Разовое занятие</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (7).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Бесплатное пробное</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (8).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Мопед</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом.
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (9).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Детский</h1>
+                        <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
+                            отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
+                            свободно управлять мотоциклом. полосе?
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <button id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (10).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Тренажер “Вилли-паук”</h1>
+                        <p>Вилли машина и Вилли Паук - безопасные тренажеры для отработки базовых навыков исполнения
+                            “вилли” на мотоцикле любого класса. 3500р за 1 час
+                        </p>
+                    </div>
+                    <div class="why-button">
+                        <div class="why-button">
+                            <button id="why-btn">Подробнее</button>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
+        </div>
 
-            <!--COURSE-- 4 блок -->
+        <!-- ENTRY--блок-5 -->
 
-            <div class="course">
-                <div class="about-course">
-                    <img src="@/assets/img-course-bl-4/Наши курсы.svg" alt="" id="about-logo_1">
-                    <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="about-logo_3">
-                    <img src="@/assets/img-course-bl-4/Наши курсы (1).svg" alt="" id="about-logo_2">
-                </div>
-
-                <div class="content-vector">
-                    <button @click="butVect1" class="but_vect1">
-                        <div id="vector-1"><img src="@/assets/img-course-bl-4/Vector 10.png" alt=""></div>
-                    </button>
-                    <button @click="butVect2" class="but_vect2">
-                        <div id="vector-2"><img src="@/assets/img-course-bl-4/Vector 10 (1).png" alt=""></div>
-                    </button>
-                </div>
-
-                <div class="course-content" id="course-content">
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image-1.png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>КAТЕГОРИЯ “А”</h1>
-                            <p>Курс для получения прав категории “А”, предназначен для людей, не умеющих управлять
-                                мотоциклом. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно сдать
-                                практический экзамен в ГИБДД.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image.png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>“PRO”</h1>
-                            <p>Предназначен для желающих максимально ознакомиться с устройством мотоцикла. Получить
-                                начальные навыки безопасного управления мотоциклом на малых и средних скоростях.
-                                Отработать
-                                правильный алгоритм торможения. Подходит для тех, кому нужны основные навыки вождения.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Категория “А” + “PRO”</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>“КонтрАварийный”</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (3).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1 id="course-text-h1">Категория “А”+<br>“КонтрАварийный”</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (4).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>“Городской”</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (5).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Индивидуальный курс</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (6).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Разовое занятие</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (7).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Бесплатное пробное</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (8).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Мопед</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (9).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Детский</h1>
-                            <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
-                                отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                                свободно управлять мотоциклом. полосе?
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </article>
-
-                    <article class="course-program-card">
-                        <div class="course-img">
-                            <img src="@/assets/img-course-bl-4/Image (10).png" alt="" id="cours_img">
-                            <div id="price">50 000 ₽</div>
-                        </div>
-
-                        <div class="course-text">
-                            <h1>Тренажер “Вилли-паук”</h1>
-                            <p>Вилли машина и Вилли Паук - безопасные тренажеры для отработки базовых навыков исполнения
-                                “вилли” на мотоцикле любого класса. 3500р за 1 час
-                            </p>
-                        </div>
-                        <div class="why-button">
-                            <div class="why-button">
-                                <button id="why-btn">Подробнее</button>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-
-            <!-- ENTRY--блок-5 -->
-
-            <div class="entry">
+        <div class="entry">
+            <div class="entry-container">
                 <div class="about-entry">
                     <img src="@/assets/img-entry-bl-5/Он ждет тебя.svg" alt="" id="entry-logo_1">
                     <img src="@/assets/img-entry-bl-5/Line 11.svg" alt="" id="entry-logo_3">
@@ -441,9 +442,10 @@ const butVect2 = (() => {
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- BEE-MOTO--блок-6 -->
-
+        <!-- BEE-MOTO--блок-6 -->
+       
             <div class="bee-moto">
                 <div class="bee-moto-title">
                     <img src="@/assets/img-bee-moto-bl-6/бЫТЬ МОТОЦИКЛИСТОМ.svg" alt="" id="bee-moto-title_1">
@@ -1208,7 +1210,7 @@ const butVect2 = (() => {
             <!-- ОТЗЫВЫ-14-блок -->
 
 
-            <div class="reviews">
+            <div class="reviews" id="reviews">
                 <div class="reviews-title">
                     <img src="@/assets/img-revievs-bl-14/Отзывы.svg" alt="" id="reviews-title_1">
                     <img src="@/assets/img-revievs-bl-14/Line 11.svg" alt="" id="reviews-title_3">
@@ -1239,9 +1241,7 @@ const butVect2 = (() => {
                     <img src="@/assets/img-revievs-bl-14/Photo (7).png" alt="">
                 </div>
 
-                <div class="reviews-form">
-
-
+                <div class="reviews-form" id="">
 
                     <form action="">
 
@@ -1332,7 +1332,7 @@ const butVect2 = (() => {
 
 
 
-        </div>
+       
     </body>
 
 </template>

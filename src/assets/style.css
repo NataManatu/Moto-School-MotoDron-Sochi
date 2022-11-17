@@ -12,7 +12,6 @@
 
 html,
 body {
-    background-color: #838383;
     margin: 0px;
     padding: 0px;
     height: auto;
@@ -34,15 +33,23 @@ html::-webkit-scrollbar-thumb {
     background-color: #000000;
     width: 1400px;
     height: auto;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* HEADER */
 
-.header {
+header {
     background-image: url(@/assets/img-header/mota1.png);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0 auto;
+
+
+}
+
+.header-container {
+    width: 1400px;
     padding: 7px 100px 250px 100px;
     margin: 0 auto;
 }
@@ -178,6 +185,9 @@ html::-webkit-scrollbar-thumb {
 /* ABOUT--2 блок*/
 
 .about {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 100px 100px;
 }
 
@@ -251,6 +261,9 @@ html::-webkit-scrollbar-thumb {
 
 
 .why {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 100px 100px;
 }
 
@@ -322,6 +335,10 @@ html::-webkit-scrollbar-thumb {
 
 
 .course {
+
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 155px 100px;
 }
 
@@ -469,10 +486,20 @@ html::-webkit-scrollbar-thumb {
 /*entry  блок-5 */
 
 .entry {
-
+    background-color: #000000;
     background-image: url(@/assets/img-entry-bl-5/Rectangle-126.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+.entry-container {
+    width: 1400px;
+    margin: 0 auto;
     padding: 75px 50px 100px 50px;
+
 }
 
 #entry-logo_1 {
@@ -586,7 +613,9 @@ html::-webkit-scrollbar-thumb {
 /*BEE MOTO-- блок-6 */
 
 .bee-moto {
-    height: auto;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 100px 100px;
 
 }
@@ -673,7 +702,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-/* НЕ ВИДИТ МАСКУ?????????????? */
+
 
 #be-moto-img-1 {
     object-fit: cover;
@@ -848,6 +877,9 @@ html::-webkit-scrollbar-thumb {
 
 
 .photo-gallery {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 100px 100px;
 }
 
@@ -1026,6 +1058,9 @@ html::-webkit-scrollbar-thumb {
 /* 8-блок */
 
 .garage {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 0px;
 }
 
@@ -1198,6 +1233,8 @@ html::-webkit-scrollbar-thumb {
 
 .command {
     max-width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 0px 100px 0px;
 }
 
@@ -1282,6 +1319,9 @@ hr {
 /* блок-10-выбери свой байк */
 
 .bike {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 50px 100px;
 }
 
@@ -1437,7 +1477,9 @@ hr {
 
 
 .news {
-    height: auto;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 50px 100px 100px;
 }
 
@@ -1584,6 +1626,9 @@ hr {
 
 
 .workout {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px;
 }
 
@@ -1654,6 +1699,9 @@ hr {
 /* STATISTIC-13-блок  */
 
 .statistic {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 180px 100px;
 }
 
@@ -1710,6 +1758,7 @@ hr {
     margin-left: 151px;
 
 }
+
 #title-article_2 {
     position: absolute;
     font-weight: 600;
@@ -1743,6 +1792,9 @@ hr {
 
 
 .reviews {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
     padding: 100px 100px 110px 100px;
 }
 

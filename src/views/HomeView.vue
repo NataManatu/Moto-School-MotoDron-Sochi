@@ -1209,13 +1209,15 @@ const butVect2 = (() => {
         </div>
 
 
-  <!-- DOCUMENTS-15-БЛОК -->
-  <div class="documetns">
-            
+        <!-- DOCUMENTS-15-БЛОК -->
+        <div class="documetns">
+
             <div class="title-documets">
-                <div class=" title-shadow"></div>
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2">
+                <div class=" title-shadow">
+                    <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                    <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2">
+                </div>
+
             </div>
 
             <div class="documents-container">
@@ -1361,7 +1363,7 @@ const butVect2 = (() => {
         </div>
 
 
-      
+
 
 
 

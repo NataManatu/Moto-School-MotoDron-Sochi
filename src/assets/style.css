@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@700&display=swap');
-@import url('https://allfont.ru/allfont.css?fonts=metro');
+@import url('https://fonts.cdnfonts.com/css/metro');
+
+
 
 * {
     margin: 0;
@@ -2045,7 +2047,7 @@ input[type=submit] {
 }
 
 .title-shadow {
-    font-family: 'Metro';
+    font-family: 'Metro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -2070,7 +2072,7 @@ input[type=submit] {
     display: grid;
     overflow-x: scroll;
     padding-bottom: 80px;
-   
+
 }
 
 .documents-block-grid::-webkit-scrollbar {

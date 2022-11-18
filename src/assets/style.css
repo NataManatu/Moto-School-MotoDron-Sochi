@@ -2031,3 +2031,53 @@ input[type=submit] {
 #rev_btn {
     margin-top: 15px;
 }
+
+
+
+/* DOCUMENTS-15-БЛОК */
+
+
+.title-documets {
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.title-shadow {
+    font-family: 'Metro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.title-shadow::before {
+    content: "наши документы";
+}
+
+.documents-container {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 100px 100px 100px 100px;
+}
+
+.documents-block-grid {
+    display: grid;
+    overflow-x: scroll;
+    padding-bottom: 80px;
+   
+}
+
+.documents-block-grid::-webkit-scrollbar {
+    height: 5px;
+}
+
+.documents-block-grid::-webkit-scrollbar-thumb {
+    background: #FCD702;
+    border-radius: 20px;
+}

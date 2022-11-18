@@ -1208,6 +1208,47 @@ const butVect2 = (() => {
             </div>
         </div>
 
+
+  <!-- DOCUMENTS-15-БЛОК -->
+  <div class="documetns">
+            
+            <div class="title-documets">
+                <div class=" title-shadow"></div>
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2">
+            </div>
+
+            <div class="documents-container">
+
+                <div class="documents-block-grid">
+
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" alt="" id="grid-41">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" alt="" id="grid-42">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" alt="" id="grid-60">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 62.png" alt="" id="grid-62">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 63.png" alt="" id="grid-63">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" alt="" id="grid-67">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" alt="" id="grid-41-b">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" alt="" id="grid-177">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" alt="" id="grid-178">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" alt="" id="grid-64-1">
+
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" alt="" id="grid-61">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" alt="" id="grid-64">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" alt="" id="grid-42-1">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 54.png" alt="" id="grid-54">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" alt="" id="grid-60-1">
+
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" alt="" id="grid-61-1">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" alt="" id="grid-179">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" alt="" id="grid-180">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" alt="" id="grid-65">
+                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" alt="" id="grid-66">
+                </div>
+            </div>
+        </div>
+
+
         <!-- ОТЗЫВЫ-14-блок -->
 
 
@@ -1320,9 +1361,7 @@ const butVect2 = (() => {
         </div>
 
 
-
-
-
+      
 
 
 

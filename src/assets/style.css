@@ -1231,16 +1231,17 @@ header {
 
 /* блок-9-команда  */
 
-.command {
+
+.command{
+    margin-top: 200px;
     max-width: 1400px;
     margin: 0 auto;
     background-color: #000000;
     padding: 100px 0px 100px 0px;
 }
-
 #about-command_1 {
     margin-left: 50px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #about-command_2 {
@@ -1250,32 +1251,43 @@ header {
 }
 
 #about-command_3 {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 40px;
 }
 
 #bg-1 {
-    margin-top: 126px;
+    /* margin-top: 126px; */
 
 }
 
-.instructor-card {
-    position: absolute;
-    width: 1100px;
-    padding: 0px 150px 0px 100px;
+.instructor-card-1 {
+    background-image: url("@/assets/img-command-bl-9/BG.png" );
+    background-repeat: no-repeat;
+  
+   
     display: flex;
     justify-content: space-between;
     gap: 50px;
 
 }
+.instructor-card-2 {
+    background-image: url("@/assets/img-command-bl-9/BG-2.png" );
+    background-repeat: no-repeat;
+   
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 200px;
 
+}
 #instructor-text-p-1 {
-    z-index: 1;
+   
     margin-top: -53px;
 }
 
 #instructor-text-p-2 {
-    z-index: 2;
+  
     margin-top: -50px;
     font-weight: 700;
     font-size: 32px;
@@ -1310,11 +1322,7 @@ header {
 
 }
 
-hr {
-    margin-top: 250px;
-    background-color: #000000;
-    border-style: none;
-}
+
 
 /* блок-10-выбери свой байк */
 
@@ -1323,6 +1331,7 @@ hr {
     margin: 0 auto;
     background-color: #000000;
     padding: 50px 100px;
+   
 }
 
 #about-bike_1 {
@@ -1783,13 +1792,7 @@ hr {
 
 }
 
-
-
-
-
 /* ОТЗЫВЫ-14-блок */
-
-
 
 .reviews {
     width: 1400px;
@@ -1824,6 +1827,7 @@ hr {
     margin-top: 150px;
     overflow-x: scroll;
     padding-bottom: 80px;
+   align-items: flex-start;
 }
 
 /* .rev-photo-text-1 img{

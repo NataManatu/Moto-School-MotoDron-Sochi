@@ -2060,6 +2060,15 @@ input[type=submit] {
 .title-shadow::before {
     content: "наши документы";
 }
+.title-shadow p{
+    font-family: 'Metro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3; 
+}
 
 .documents-container {
     width: 1400px;

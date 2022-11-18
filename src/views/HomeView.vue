@@ -1215,7 +1215,8 @@ const butVect2 = (() => {
             <div class="title-documets">
                 <div class=" title-shadow">
                     <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                    <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2">
+                    <!-- <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2"> -->
+                    <p>наши документы</p>
                 </div>
 
             </div>

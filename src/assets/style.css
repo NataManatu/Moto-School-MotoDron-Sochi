@@ -1231,70 +1231,77 @@ header {
 
 /* блок-9-команда  */
 
-
-.command{
+.command {
     margin-top: 200px;
     max-width: 1400px;
     margin: 0 auto;
     background-color: #000000;
     padding: 100px 0px 100px 0px;
 }
+
 #about-command_1 {
     margin-left: 50px;
-    /* position: absolute; */
+    position: absolute;
+
 }
 
 #about-command_2 {
-    position: relative;
+    position: absolute;
     margin-left: 210px;
     margin-top: 30px;
 }
 
 #about-command_3 {
-    /* position: absolute; */
+    position: absolute;
     margin-top: 40px;
 }
 
-#bg-1 {
-    /* margin-top: 126px; */
-
-}
 
 .instructor-card-1 {
-    background-image: url("@/assets/img-command-bl-9/BG.png" );
+    background-image: url("@/assets/img-command-bl-9/BG.png");
     background-repeat: no-repeat;
-  
-   
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    margin-top: 125px;
 
 }
+
 .instructor-card-2 {
-    background-image: url("@/assets/img-command-bl-9/BG-2.png" );
+    background-image: url("@/assets/img-command-bl-9/BG-2.png");
     background-repeat: no-repeat;
-   
-    
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
     margin-top: 200px;
 
 }
+
+.content-card-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 150px;
+    width: 1200px;
+    padding: 150px 100px 0px 100px;
+}
+
+.content-card-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1200px;
+    padding: 150px 100px 0px 100px;
+}
+
 #instructor-text-p-1 {
-   
-    margin-top: -53px;
+    position: relative;
 }
 
 #instructor-text-p-2 {
-  
-    margin-top: -50px;
+    position: absolute;
+    margin-top: -45px;
     font-weight: 700;
     font-size: 32px;
     line-height: 46px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #E3E3E3;
+
 
 }
 
@@ -1312,15 +1319,11 @@ header {
 }
 
 #instructor-photo-1 {
-    margin-top: -110px;
     width: 300px;
     height: 300px;
 }
 
-#bg-2 {
-    margin-top: 458px;
 
-}
 
 
 
@@ -1331,7 +1334,7 @@ header {
     margin: 0 auto;
     background-color: #000000;
     padding: 50px 100px;
-   
+
 }
 
 #about-bike_1 {
@@ -1827,7 +1830,7 @@ header {
     margin-top: 150px;
     overflow-x: scroll;
     padding-bottom: 80px;
-   align-items: flex-start;
+    align-items: flex-start;
 }
 
 /* .rev-photo-text-1 img{

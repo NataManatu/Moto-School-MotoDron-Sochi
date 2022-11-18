@@ -686,15 +686,16 @@ const butVect2 = (() => {
         <!--COMMAND-- блок-9- -->
 
         <div class="command">
-          
-                <div class="about-command">
-                    <img src="@/assets/img-command-bl-9/Команда.svg" alt="" id="about-command_1">
-                    <img src="@/assets/img-command-bl-9/Line 11.svg" alt="" id="about-command_3">
-                    <img src="@/assets/img-command-bl-9/Команда (1).svg" alt="" id="about-command_2">
-                </div>
+
+            <div class="about-command">
+                <img src="@/assets/img-command-bl-9/Команда.svg" alt="" id="about-command_1">
+                <img src="@/assets/img-command-bl-9/Line 11.svg" alt="" id="about-command_3">
+                <img src="@/assets/img-command-bl-9/Команда (1).svg" alt="" id="about-command_2">
+            </div>
 
 
-                <div class="instructor-card-1">
+            <div class="instructor-card-1">
+                <div class="content-card-1">
                     <div class="text-card">
                         <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
                         <p id="instructor-text-p-2">Терентьев Андрей</p>
@@ -710,9 +711,11 @@ const butVect2 = (() => {
                     </div>
                     <img src="@/assets/img-command-bl-9/Photo.png" alt="" id="instructor-photo-1">
                 </div>
+            </div>
 
 
-                <div class="instructor-card-2">
+            <div class="instructor-card-2">
+                <div class="content-card-2">
                     <img src="@/assets/img-command-bl-9/Photo-2.png" alt="" id="instructor-photo-1">
                     <div class="text-card">
                         <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
@@ -729,8 +732,9 @@ const butVect2 = (() => {
                     </div>
                 </div>
             </div>
-     
-        
+        </div>
+
+
         <!-- BIKE--блок-10-->
 
         <div class="bike">

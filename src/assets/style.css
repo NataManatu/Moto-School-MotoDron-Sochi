@@ -2219,18 +2219,15 @@ input[type=submit] {
 
 .quest-text li {
     border-style: none;
-    border-top: 1px solid #191919;  
+    border-top: 1px solid #191919;
     border-bottom: 1px solid #191919;
-  
-
+    cursor: pointer;
 }
 
 .quest-text li::before {
     content: "-";
     color: #FCD702;
     padding: 10px;
-  
-
 
 }
 
@@ -2238,17 +2235,19 @@ input[type=submit] {
     line-height: normal;
     height: 78px;
     display: flex;
-    align-items: center;      
+    align-items: center;
 }
-#li-lh-3{
-    background-color: #191919; 
-     border-radius: 5px 0px 0px 5px;
+
+.quest-text li:hover{
+    background-color: #191919;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .quest-box {
     padding: 20px 30px;
     background: #191919;
-    border-radius: 5px;;
+    border-radius: 5px;
+    ;
 }
 
 .quest-box li {

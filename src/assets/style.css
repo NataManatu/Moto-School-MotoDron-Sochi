@@ -2157,3 +2157,72 @@ input[type=submit] {
     border-bottom: 1px solid #373737;
 
 }
+
+
+/* question-17-блок  */
+
+.title-question {
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.title-shadow-quest {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.title-shadow-quest::before {
+    content: "партнеры";
+}
+
+.title-shadow-quest p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.container-question{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 100px 100px 100px 100px; 
+}
+.quest-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    color: #8C8C8C;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.quest-text ul{
+    line-height: 78px;
+    list-style: none;
+
+    /* border-bottom: 1px solid #8C8C8C; */
+}
+.quest-text li{
+    border-top: 1px solid  #191919;
+    border-style: none;
+   
+   
+}
+.quest-text #li-lh{
+    line-height: normal;
+}
+.quest-box{
+    padding:20px 30px ;
+}

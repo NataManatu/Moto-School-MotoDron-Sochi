@@ -2087,22 +2087,6 @@ input[type=submit] {
     padding-bottom: 80px;
 
 }
-
-#doc-67 {
-    grid-column: 3/span 2;
-    grid-row: 1/span 2;
-}
-
-#doc-64 {
-    grid-column: 1/span 2;
-    grid-row: 2/span 2;
-
-}
-#doc-64-1 {
-    grid-column: 9/span 2;
-    grid-row: 1/span 2;
-
-}
 #doc-41 {
     grid-column: 5/span 2;
     grid-row: 2/span 2;
@@ -2116,6 +2100,21 @@ input[type=submit] {
     grid-column: 9;
     grid-row: 3;
 }
+#doc-64 {
+    grid-column: 1/span 2;
+    grid-row: 2/span 2;
+
+}
+#doc-64-1 {
+    grid-column: 9/span 2;
+    grid-row: 1/span 2;
+
+}
+#doc-67 {
+    grid-column: 3/span 2;
+    grid-row: 1/span 2;
+}
+
 #doc-179{
     grid-column: 6;
     grid-row: 2/span 2;
@@ -2135,8 +2134,6 @@ input[type=submit] {
     grid-column: 3;
     grid-row: 3;
 }
-
-
 
 .documents-block-grid img {
     border-radius: 2px;

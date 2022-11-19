@@ -1209,7 +1209,7 @@ const butVect2 = (() => {
         </div>
 
 
-        <!-- DOCUMENTS-15-БЛОК -->
+        <!-- DOCUMENTS-14-БЛОК -->
         <div class="documetns">
 
             <div class="title-documets">
@@ -1225,65 +1225,62 @@ const butVect2 = (() => {
 
                 <div class="documents-block-grid">
 
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" alt="" id="grid-41">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" alt="" id="grid-42">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" alt="" id="grid-60">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 62.png" alt="" id="grid-62">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 63.png" alt="" id="grid-63">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" alt="" id="grid-67">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" alt="" id="grid-41-b">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" alt="" id="grid-177">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" alt="" id="grid-178">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" alt="" id="grid-64-1">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 42.png" alt="" id="doc-42">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 60.png" alt="" id="doc-60">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 67.png" alt="" id="doc-67">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 61.png" alt="" id="doc-61">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 177.png" alt="" id="doc-177">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 178.png" alt="" id="doc-178">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 64-1.png" alt="" id="doc-64-1">
 
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" alt="" id="grid-61">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" alt="" id="grid-64">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" alt="" id="grid-42-1">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 54.png" alt="" id="grid-54">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" alt="" id="grid-60-1">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 64.png" alt="" id="doc-64">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 41.png" alt="" id="doc-41">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 179.png" alt="" id="doc-179">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 180.png" alt="" id="doc-180">
 
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" alt="" id="grid-61-1">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" alt="" id="grid-179">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" alt="" id="grid-180">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" alt="" id="grid-65">
-                    <img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" alt="" id="grid-66">
+                    
+                    <img src="@/assets/img-doc-bl-14/Rectangle 181.png" alt="" id="doc-181">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 182.png" alt="" id="doc-182">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 60-1.png" alt="" id="doc-60-1">
+                    <img src="@/assets/img-doc-bl-14/Rectangle 42-1.png" alt="" id="doc-42-1">
+                    
                 </div>
             </div>
         </div>
 
 
-        <!-- ОТЗЫВЫ-14-блок -->
+        <!-- ОТЗЫВЫ-15-блок -->
 
 
         <div class="reviews" id="reviews">
             <div class="reviews-title">
-                <img src="@/assets/img-revievs-bl-14/Отзывы.svg" alt="" id="reviews-title_1">
-                <img src="@/assets/img-revievs-bl-14/Line 11.svg" alt="" id="reviews-title_3">
-                <img src="@/assets/img-revievs-bl-14/Отзывы (1).svg" alt="" id="reviews-title_2">
+                <img src="@/assets/img-revievs-bl-15/Отзывы.svg" alt="" id="reviews-title_1">
+                <img src="@/assets/img-revievs-bl-15/Line 11.svg" alt="" id="reviews-title_3">
+                <img src="@/assets/img-revievs-bl-15/Отзывы (1).svg" alt="" id="reviews-title_2">
             </div>
 
             <div class="reviews-photo-flex">
                 <div class="rev-photo-text-1">
-                    <img src="@/assets/img-revievs-bl-14/Photo.png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo.png" alt="">
                 </div>
 
                 <div class="rev-photo-text-2">
-                    <img src="@/assets/img-revievs-bl-14/Photo (1).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (1).png" alt="">
                 </div>
                 <div class="rev-photo-text-2">
-                    <img src="@/assets/img-revievs-bl-14/Photo (2).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (2).png" alt="">
                 </div>
 
                 <div class="rev-photo-text-4">
-                    <img src="@/assets/img-revievs-bl-14/Photo (3).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (3).png" alt="">
                 </div>
 
 
 
-                <img src="@/assets/img-revievs-bl-14/Photo (4).png" alt="">
-                <img src="@/assets/img-revievs-bl-14/Photo (5).png" alt="">
-                <img src="@/assets/img-revievs-bl-14/Photo (6).png" alt="">
-                <img src="@/assets/img-revievs-bl-14/Photo (7).png" alt="">
+                <img src="@/assets/img-revievs-bl-15/Photo (4).png" alt="">
+                <img src="@/assets/img-revievs-bl-15/Photo (5).png" alt="">
+                <img src="@/assets/img-revievs-bl-15/Photo (6).png" alt="">
+                <img src="@/assets/img-revievs-bl-15/Photo (7).png" alt="">
             </div>
 
             <div class="reviews-form" id="">
@@ -1293,7 +1290,7 @@ const butVect2 = (() => {
                     <div class="reviews-btn-input">
                         <button class="reviews-btn" type="button">Закрыть</button>
                         <div class="yandex">
-                            <img src="@/assets/img-revievs-bl-14/202877_normal 2.svg" alt="">
+                            <img src="@/assets/img-revievs-bl-15/202877_normal 2.svg" alt="">
                             <p><a href="">Смотреть все отзывы</a></p>
                         </div>
                     </div>
@@ -1350,10 +1347,10 @@ const butVect2 = (() => {
                             </div>
                             <div class="col-75">
                                 <div class="photo-form">
-                                    <img src="@/assets/img-revievs-bl-14/Rectangle 293.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-14/Rectangle 292.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-14/Rectangle 290.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-14/Rectangle 291.png" alt="">
+                                    <img src="@/assets/img-revievs-bl-15/Rectangle 293.png" alt="">
+                                    <img src="@/assets/img-revievs-bl-15/Rectangle 292.png" alt="">
+                                    <img src="@/assets/img-revievs-bl-15/Rectangle 290.png" alt="">
+                                    <img src="@/assets/img-revievs-bl-15/Rectangle 291.png" alt="">
                                 </div>
                                 <input type="submit" value="Опубликовать отзыв" id="rev_btn">
                             </div>

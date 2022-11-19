@@ -1210,43 +1210,41 @@ const butVect2 = (() => {
 
 
         <!-- DOCUMENTS-14-БЛОК -->
-        <div class="documetns">
 
-            <div class="title-documets">
-                <div class=" title-shadow">
-                    <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                    <!-- <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2"> -->
-                    <p>наши документы</p>
-                </div>
 
-            </div>
-
-            <div class="documents-container">
-
-                <div class="documents-block-grid">
-
-                    <img src="@/assets/img-doc-bl-14/Rectangle 42.png" alt="" id="doc-42">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 60.png" alt="" id="doc-60">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 67.png" alt="" id="doc-67">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 61.png" alt="" id="doc-61">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 177.png" alt="" id="doc-177">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 178.png" alt="" id="doc-178">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 64-1.png" alt="" id="doc-64-1">
-
-                    <img src="@/assets/img-doc-bl-14/Rectangle 64.png" alt="" id="doc-64">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 41.png" alt="" id="doc-41">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 179.png" alt="" id="doc-179">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 180.png" alt="" id="doc-180">
-
-                    
-                    <img src="@/assets/img-doc-bl-14/Rectangle 181.png" alt="" id="doc-181">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 182.png" alt="" id="doc-182">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 60-1.png" alt="" id="doc-60-1">
-                    <img src="@/assets/img-doc-bl-14/Rectangle 42-1.png" alt="" id="doc-42-1">
-                    
-                </div>
+        <div class="title-documets">
+            <div class=" title-shadow-doc">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <p>наши документы</p>
             </div>
         </div>
+
+        <div class="documents-container">
+
+            <div class="documents-block-grid">
+
+                <img src="@/assets/img-doc-bl-14/Rectangle 42.png" alt="" id="doc-42">
+                <img src="@/assets/img-doc-bl-14/Rectangle 60.png" alt="" id="doc-60">
+                <img src="@/assets/img-doc-bl-14/Rectangle 67.png" alt="" id="doc-67">
+                <img src="@/assets/img-doc-bl-14/Rectangle 61.png" alt="" id="doc-61">
+                <img src="@/assets/img-doc-bl-14/Rectangle 177.png" alt="" id="doc-177">
+                <img src="@/assets/img-doc-bl-14/Rectangle 178.png" alt="" id="doc-178">
+                <img src="@/assets/img-doc-bl-14/Rectangle 64-1.png" alt="" id="doc-64-1">
+
+                <img src="@/assets/img-doc-bl-14/Rectangle 64.png" alt="" id="doc-64">
+                <img src="@/assets/img-doc-bl-14/Rectangle 41.png" alt="" id="doc-41">
+                <img src="@/assets/img-doc-bl-14/Rectangle 179.png" alt="" id="doc-179">
+                <img src="@/assets/img-doc-bl-14/Rectangle 180.png" alt="" id="doc-180">
+
+
+                <img src="@/assets/img-doc-bl-14/Rectangle 181.png" alt="" id="doc-181">
+                <img src="@/assets/img-doc-bl-14/Rectangle 182.png" alt="" id="doc-182">
+                <img src="@/assets/img-doc-bl-14/Rectangle 60-1.png" alt="" id="doc-60-1">
+                <img src="@/assets/img-doc-bl-14/Rectangle 42-1.png" alt="" id="doc-42-1">
+
+            </div>
+        </div>
+
 
 
         <!-- ОТЗЫВЫ-15-блок -->
@@ -1359,6 +1357,50 @@ const butVect2 = (() => {
                 </form>
             </div>
         </div>
+
+
+        <!-- PARTNERS-16-BLOCK -->
+
+
+        <div class="title-partners">
+            <div class=" title-shadow-part">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <p>партнеры</p>
+            </div>
+        </div>
+        <div class="container-partners">
+
+            <img src="@/assets/img-partners-bl-16/logo_gray-2.png" alt="">
+            <img src="@/assets/img-partners-bl-16/Partner_Card02.png" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (1).svg" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (1).png" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (2).png" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (3).png" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (4).png" alt="">
+            <img src="@/assets/img-partners-bl-16/logo_gray (5).png" alt="">
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

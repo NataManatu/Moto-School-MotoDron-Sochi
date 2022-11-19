@@ -2179,7 +2179,7 @@ input[type=submit] {
 }
 
 .title-shadow-quest::before {
-    content: "партнеры";
+    content: "Часто задаваемые вопросы";
 }
 
 .title-shadow-quest p {

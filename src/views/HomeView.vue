@@ -180,9 +180,9 @@ const butVect2 = (() => {
                             мотоциклом. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно сдать
                             практический экзамен в ГИБДД.
                         </p>
-                        <button type="button"  id="why-btn">Подробнее</button>
+                        <button type="button" id="why-btn">Подробнее</button>
                     </div>
-                    
+
                 </article>
 
                 <article class="course-program-card">
@@ -199,7 +199,7 @@ const butVect2 = (() => {
                             правильный алгоритм торможения. Подходит для тех, кому нужны основные навыки вождения.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -215,7 +215,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -231,7 +231,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -247,7 +247,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -263,7 +263,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -279,7 +279,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -295,7 +295,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -311,7 +311,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -327,7 +327,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -343,7 +343,7 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <button type="button"  id="why-btn">Подробнее</button>
+                    <button type="button" id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -358,9 +358,9 @@ const butVect2 = (() => {
                             “вилли” на мотоцикле любого класса. 3500р за 1 час
                         </p>
                     </div>
-                    
-                        <button type="button"  id="why-btn">Подробнее</button>
-                    
+
+                    <button type="button" id="why-btn">Подробнее</button>
+
                 </article>
             </div>
         </div>
@@ -368,32 +368,32 @@ const butVect2 = (() => {
         <!-- ENTRY--блок-5 -->
 
         <div class="entry">
-            <div class="entry-container">
-                <div class="entry-title">
-                    <img src="@/assets/img-entry-bl-5/Line 11.svg" alt="" id="entry-logo_3">
-                   <p>он ждет тебя</p>
-                </div>
 
-                <div class="entry-content">
+            <div class="entry-title">
+                <img src="@/assets/img-entry-bl-5/Line 11.svg" alt="">
+                <p>он ждет тебя</p>
+            </div>
 
-                    <h1>ЗАПИШИТЕСЬ<br> НА БЕСПЛАТНОЕ <br>ПРОБНОЕ ЗАНЯТИЕ</h1>
+            <div class="entry-content">
 
-                    <div class="entry-block ">
-                        <p>Это абсолютно бесплатно! Никаких скрытых платежей и сборов на бензин. Посещение пробного занятия не обязывает вас покупать какой-либо курс и не входит в его стоимость.
-                        </p>
+                <h1>ЗАПИШИТЕСЬ<br> НА БЕСПЛАТНОЕ <br>ПРОБНОЕ ЗАНЯТИЕ</h1>
 
-                        <div class="entry-inp-btn">
-                            <div class="entry-input">
-                                <input type="tel" placeholder="Номер телефона ">
-                            </div>
+                <div class="entry-block ">
+                    <p>Это абсолютно бесплатно! Никаких скрытых платежей и сборов на бензин. Посещение пробного занятия
+                        не обязывает вас покупать какой-либо курс и не входит в его стоимость.
+                    </p>
 
-                                <button type="submit" id="#entry-button">Записаться</button>
+                    <div class="entry-inp-btn">
+                        <div class="entry-input">
+                            <input type="tel" placeholder="Номер телефона ">
                         </div>
 
-                        <p class="entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с
-                            <a href="/">Политикой Конфиденциальности.</a>
-                        </p>
+                        <button type="submit" id="#entry-button">Записаться</button>
                     </div>
+
+                    <p class="entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с
+                        <a href="/">Политикой Конфиденциальности.</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -402,9 +402,8 @@ const butVect2 = (() => {
 
         <div class="bee-moto">
             <div class="bee-moto-title">
-                <img src="@/assets/img-bee-moto-bl-6/бЫТЬ МОТОЦИКЛИСТОМ.svg" alt="" id="bee-moto-title_1">
-                <img src="@/assets/img-entry-bl-5/Line 11.svg" id="bee-moto-title_3">
-                <img src="@/assets/img-bee-moto-bl-6/Быть мотоциклистом (1).svg" alt="" id="bee-moto-title_2">
+                <img src="@/assets/img-entry-bl-5/Line 11.svg">
+                <p>быть мотоциклистом</p>
             </div>
 
             <div class="bee-moto-slogan">
@@ -414,117 +413,116 @@ const butVect2 = (() => {
                     repellendus magni reprehenderit optio est
                     quos!</p>
             </div>
+            <div class="be-moto-content">
+                <div class="bee-moto-content-1">
+                    <div class="t-text">
+                        <img src="@/assets/img-bee-moto-bl-6/01.svg" alt="" id="t-1">
+                        <div class="title-1">
+                            <p id="t-text">Путешествия</p>
 
-            <div class="bee-moto-content-1">
-                <div class="t-text">
-                    <img src="@/assets/img-bee-moto-bl-6/01.svg" alt="" id="t-01">
-                    <div class="title-01">
-                        <p id="t-text">Путешествия</p>
+                            <p id="p-text">Романтика дороги и свобода передвижения, когда можно быстро без пробок
+                                преодолеть большие расстояния, привлекает многих. Если использовать мотоцикл не на
+                                гоночном треке и не в городе для поездок на работу, то путешествия – определенно в топе
+                                причин отучиться у нас.
+                            </p>
+                        </div>
+                    </div>
 
-                        <p id="p-text">Не всем нравится идея путешествовать на машине, романтика дороги на байке
-                            привлекает
-                            многих.
-                            Если
-                            использовать мотоцикл не на гоночном треке и не в городе для поездок на работу, то
-                            путешествия
-                            определенно в топе причин отучиться у нас.
+                    <img src="@/assets/img-bee-moto-bl-6/Rectangle-160.png" alt="" id="be-moto-img-1">
+                </div>
+
+                <div class="bee-moto-content-2">
+                    <img src="@/assets/img-bee-moto-bl-6/sunset-motorcycle-acrobatics-silhouette 1 (1).png" alt=""
+                        id="be-img-1">
+                    <img src="@/assets/img-bee-moto-bl-6/image 162.png" alt="" id="be-img-2">
+                    <div class="t-text-2">
+                        <div class="title-2">
+                            <img src="@/assets/img-bee-moto-bl-6/02.svg" alt="" id="t-2">
+                            <p id="t-text">Саморазвитие</p>
+                        </div>
+                        <p id="p-text">Наличие мотоцикла вынуждает человека вникать в технические тонкости, а также
+                            меняться
+                            психологически.
+                            Владение байком заставляет чаще задумываться
+                            об ответственности за свои решения, адекватно воспринимать опасность возможного падения, а
+                            также
+                            учиться контролю над телом и разумом.
                         </p>
                     </div>
                 </div>
 
-                <img src="@/assets/img-bee-moto-bl-6/Rectangle-160.png" alt="" id="be-moto-img-1">
-            </div>
-
-            <div class="bee-moto-content-2">
-                <img src="@/assets/img-bee-moto-bl-6/sunset-motorcycle-acrobatics-silhouette 1 (1).png" alt=""
-                    id="be-img-1">
-                <img src="@/assets/img-bee-moto-bl-6/image 162.png" alt="" id="be-img-2">
-                <div class="t-text">
-                    <div class="title-02">
-                        <img src="@/assets/img-bee-moto-bl-6/02.svg" alt="" id="t-02">
-                        <p id="t-text">Саморазвитие</p>
+                <div class="bee-moto-content-3">
+                    <div class="t-text-03">
+                        <div class="title-03">
+                            <img src="@/assets/img-bee-moto-bl-6/03.svg" alt="" id="t-03">
+                            <p id="t-text">Мотоцикл поможет</p>
+                        </div>
+                        <p id="p-text-3">Мотоцикл помогает справиться
+                            с кризисами в жизни. Мотоспорт
+                            или просто навык езды на двух колесах может стать новым хобби, теми самыми долгожданными
+                            переменами, поводом расширить круг общения, узнать себя
+                            с иной непривычной стороны.
+                        </p>
                     </div>
-                    <p id="p-text">Наличие мотоцикла вынуждает человека вникать в технические тонкости, а также
-                        меняться
-                        психологически.
-                        Владение байком заставляет чаще задумываться
-                        об ответственности за свои решения, адекватно воспринимать опасность возможного падения, а
-                        также
-                        учиться контролю над телом и разумом.
-                    </p>
+                    <img src="@/assets/img-bee-moto-bl-6/image-258.png" alt="" id="be-moto-img-3">
                 </div>
-            </div>
 
-            <div class="bee-moto-content-3">
-                <div class="t-text-03">
-                    <div class="title-03">
-                        <img src="@/assets/img-bee-moto-bl-6/03.svg" alt="" id="t-03">
-                        <p id="t-text">Мотоцикл поможет</p>
+                <div class="bee-moto-content-4">
+                    <img src="@/assets/img-bee-moto-bl-6/img04.png" alt="">
+                    <div class="t-text">
+                        <div class="title-04">
+                            <img src="@/assets/img-bee-moto-bl-6/04.svg" alt="" id="t-04">
+                            <p id="t-text">Братство</p>
+                        </div>
+                        <p id="p-text">В мотокругах норма – помогать другому мотоциклисту, поддерживать друг друга
+                            не только на дороге. Дух взаимопомощи
+                            часто объединяет этих людей. Общайтесь
+                            с теми, с кем вам, действительно, интересно, кто “на одной волне” с вами и разделяет ваши
+                            ценности.
+                        </p>
                     </div>
-                    <p id="p-text-3">Cправиться с кризисами в жизни. Иногда человека постоянно преследует желание
-                        что-либо изменить в своей жизни. Двухколёсный друг может помочь в этом
-                        вопросе.
-                    </p>
                 </div>
-                <img src="@/assets/img-bee-moto-bl-6/image-258.png" alt="" id="be-moto-img-3">
-            </div>
 
-            <div class="bee-moto-content-4">
-                <img src="@/assets/img-bee-moto-bl-6/img04.png" alt="">
-                <div class="t-text">
-                    <div class="title-04">
-                        <img src="@/assets/img-bee-moto-bl-6/04.svg" alt="" id="t-04">
-                        <p id="t-text">Братство</p>
+                <div class="bee-moto-content-5">
+                    <div class="t-text">
+                        <div class="title-05">
+                            <img src="@/assets/img-bee-moto-bl-6/05.svg" alt="" id="t-05">
+                            <p id="t-text">Победить страх</p>
+                        </div>
+                        <p id="p-text">Вы способны на большее, чем думаете
+                            о себе. Сделайте шаг к знаниям и опыту, чтобы развеять сомнения. После обучения
+                            на наших курсах вы не будете задумываться об управлении – научитесь “чувствовать” технику,
+                            превратите вождение мотоцикла
+                            в естественный комфортный процесс.
+                        </p>
                     </div>
-                    <p id="p-text">Зачастую мы контактируем с людьми, с которыми у нас мало общего. Мотоцикл
-                        позволяет
-                        приобщиться к
-                        абсолютно иному сообществу. В мотокругах считается нормой помогать другому мотоциклисту,
-                        поддерживать друг друга. Дух взаимопомощи часто объединяет этих людей.
-                    </p>
+                    <img src="@/assets/img-bee-moto-bl-6/image-259.png" alt="" id="be-moto-img-5">
                 </div>
-            </div>
 
-            <div class="bee-moto-content-5">
-                <div class="t-text">
-                    <div class="title-05">
-                        <img src="@/assets/img-bee-moto-bl-6/05.svg" alt="" id="t-05">
-                        <p id="t-text">Победить страх</p>
+
+                <div class="bee-moto-border-text">
+
+                    <div class="cav-up">
+                        <img src="@/assets/img-bee-moto-bl-6/quotes.svg" alt="">
+                        <img src="@/assets/img-bee-moto-bl-6/quotes.svg" alt="">
                     </div>
-                    <p id="p-text">Не дайте страху и неизвестности встать на пути к вашей мечте. Один шаг к знаниям
-                        и опыту,
-                        мигом
-                        развеет все опасения. Вы не будете задумываться об управлении, ваше тело будет автоматически
-                        делать
-                        все за вас.
-                    </p>
-                </div>
-                <img src="@/assets/img-bee-moto-bl-6/image-259.png" alt="" id="be-moto-img-5">
-            </div>
 
-
-            <div class="bee-moto-border-text">
-
-                <div class="cav-up">
-                    <img src="@/assets/img-bee-moto-bl-6/quotes.svg" alt="">
-                    <img src="@/assets/img-bee-moto-bl-6/quotes.svg" alt="">
-                </div>
-
-                <div class=" t-text-author">
-                    <p id="autor">Человек, оседлавший мотоцикл, может сконцентрироваться только на очередной секунде
-                        своей гонки; он цепляется за клочок времени, оторванный и от прошлого, и от будущего; он
-                        выдернут из
-                        непрерывности времени; он вне его; иначе говоря, он находится в состоянии экстаза, он ничего
-                        не
-                        знает ни о
-                        своем возрасте, ни о своей жене, детях, заботах и, следовательно, ничего не боится, ибо
-                        источник
-                        страха — в будущем, а он освобожден от будущего и ему нечего бояться.<br><br><span
-                            id="autor-name"> Милан Кундера, из книги «Неспешность»</span></p>
-                </div>
-                <div class="cav-down">
-                    <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
-                    <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
+                    <div class=" t-text-author">
+                        <p id="autor">Человек, оседлавший мотоцикл, может сконцентрироваться только на очередной секунде
+                            своей гонки; он цепляется за клочок времени, оторванный и от прошлого, и от будущего; он
+                            выдернут из
+                            непрерывности времени; он вне его; иначе говоря, он находится в состоянии экстаза, он ничего
+                            не
+                            знает ни о
+                            своем возрасте, ни о своей жене, детях, заботах и, следовательно, ничего не боится, ибо
+                            источник
+                            страха — в будущем, а он освобожден от будущего и ему нечего бояться.<br><br><span
+                                id="autor-name"> Милан Кундера, из книги «Неспешность»</span></p>
+                    </div>
+                    <div class="cav-down">
+                        <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
+                        <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>

@@ -614,7 +614,7 @@ header {
 
 .entry-inp-btn {
     display: flex;
-    
+
     gap: 16px;
     margin-top: 42px;
 }
@@ -677,33 +677,45 @@ header {
 /*BEE MOTO-- блок-6 */
 
 .bee-moto {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 100px 100px;
+    padding-top: 100px;
 
 }
 
-#bee-moto-title_1 {
-    position: absolute;
-    margin-left: -50px;
-
+.bee-moto::before {
+    content: "быть мотоциклистом";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#bee-moto-title_2 {
-    position: relative;
-    margin-left: 110px;
-    margin-top: 20px;
-}
-
-#bee-moto-title_3 {
-    position: absolute;
+.bee-moto-title {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
-    margin-top: 33px;
+}
+
+.bee-moto-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
 }
 
 .bee-moto-slogan {
     margin-top: 51px;
+    padding: 0px 100px;
     font-weight: 400;
     margin-left: 50px;
     font-size: 40px;
@@ -713,38 +725,33 @@ header {
     overflow-wrap: anywhere;
 
 }
-
-.bee-moto-slogan p {
-    overflow: hidden;
+.be-moto-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
 }
 
 .bee-moto-content-1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 216px;
-    margin-left: 50px;
+    gap: 112px;
+    margin-top: 160px;  
 }
 
-#about-logo-be-moto {
-    position: relative;
-    margin-left: 50px;
-    margin-top: 20px;
+.t-text {
+    font-weight: 400;
+    color: #8C8C8C;
 }
 
-.title-01 {
-    position: relative;
-}
-
-#t-01 {
+#t-1 {
     margin: -25px 0px 0px -33px;
     position: absolute;
 }
 
 #t-text {
-    font-weight: 600;
     font-size: 24px;
-    line-height: 90%;
+    font-weight: 600;
     text-transform: uppercase;
     color: #E3E3E3;
 }
@@ -756,39 +763,26 @@ header {
     overflow: hidden;
 }
 
-.t-text {
-    width: 319px;
-    height: 154px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    color: #8C8C8C;
-}
-
-
-
-
 #be-moto-img-1 {
     object-fit: cover;
     -webkit-mask-image: url(@/assets/img-bee-moto-bl-6/Frame-311.png);
     mask-image: url(@/assets/img-bee-moto-bl-6/Rectangle-160.png);
 }
 
-
 .bee-moto-content-2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 100px;
     margin-top: 150px;
-    margin-left: 50px;
 
 }
-
-.title-02 {
-    position: relative;
+.t-text-2 {
+    font-weight: 400;
+    color: #8C8C8C;
+    margin-left: 200px;
 }
-
-#t-02 {
+#t-2 {
     margin: -25px 0px 0px -33px;
     position: absolute;
 
@@ -796,7 +790,6 @@ header {
 
 #be-img-2 {
     position: absolute;
-    z-index: 2;
     padding: 60px 533px 58px 433px;
 }
 
@@ -805,7 +798,6 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 274px;
-    margin-left: 50px;
     color: #8C8C8C;
 }
 
@@ -835,16 +827,16 @@ header {
     width: 288px;
     height: 133px;
     margin-top: 40px;
-    overflow-wrap: anywhere;
-    overflow: hidden;
+    /* overflow-wrap: anywhere;
+    overflow: hidden; */
 }
 
 .bee-moto-content-4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 100px;
     margin-top: 150px;
-    margin-left: 50px;
     color: #8C8C8C;
 }
 
@@ -858,8 +850,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 150px;
     margin-top: 150px;
-    margin-left: 50px;
     color: #8C8C8C;
 }
 

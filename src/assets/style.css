@@ -186,17 +186,17 @@ header {
     margin: 0 auto;
     background-color: #000000;
     padding-top: 100px;
-    
+
 }
 
 .about::before {
     content: "о нас";
-   padding-left: 50px;
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
     line-height: 144px;
+    padding-left: 50px;
     text-transform: uppercase;
     color: #191919;
 }
@@ -219,7 +219,7 @@ header {
 }
 
 
-.about-content{
+.about-content {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 100px 100px 100px;
@@ -232,12 +232,8 @@ header {
 }
 
 .about-text {
-    width: 560px;
-    height: 300px;
-    letter-spacing: 0.025em;
     font-size: 18px;
     font-weight: 400;
-    line-height: 140%;
     color: #8C8C8C;
     overflow-wrap: anywhere;
     overflow: hidden;
@@ -254,20 +250,22 @@ header {
 }
 
 #pic-1 {
-    margin-top: 20px;
-}
-
-#pic-4 {
-    margin-top: -24px;
-}
-
-#pic-3 {
-    margin-top: -50px;
+    margin-top: 42px;
 }
 
 #pic-2 {
-    margin-top: -75px;
+    margin-top: -45px;
 }
+
+#pic-3 {
+    margin-top: -25px;
+}
+
+#pic-5 {
+    margin-top: 20px;
+}
+
+
 
 
 /* WHY ARE WE--(3 блок)*/

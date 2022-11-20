@@ -119,23 +119,32 @@ const butVect2 = (() => {
                     <div class="block-1">
                         <img src="@/assets/img-why-bl-3/01.svg" alt="" id="why-svg">
                         <p id="title">ОПЫТ</p>
-                        <p id="text">Наши инструкторы – не только опытные мотоциклисты, но и отличные педагоги со знанием психологии, методик преподавания. Все они регулярно повышают квалификацию, оттачивают мастерство – даже если вы когда-то уже отучились на наших курсах, всё равно узнаете что-то новое, если придете снова.
+                        <p id="text">Наши инструкторы – не только опытные мотоциклисты, но и отличные педагоги со
+                            знанием психологии, методик преподавания. Все они регулярно повышают квалификацию,
+                            оттачивают мастерство – даже если вы когда-то уже отучились на наших курсах, всё равно
+                            узнаете что-то новое, если придете снова.
                         </p>
                     </div>
                     <div class="block-2">
                         <img src="@/assets/img-why-bl-3/02.svg" alt="" id="why-svg">
                         <p id="title">ОТВЕТСТВЕННОСТЬ</p>
-                        <p id="text">Бескомпромиссное отношение к ошибкам и тщательная проработка каждой из них в процессе обучения не оставят вам шанса на провал на экзамене в ГИБДД или в реальных условиях на дороге.</p>
+                        <p id="text">Бескомпромиссное отношение к ошибкам и тщательная проработка каждой из них в
+                            процессе обучения не оставят вам шанса на провал на экзамене в ГИБДД или в реальных условиях
+                            на дороге.</p>
                     </div>
                     <div class="block-3">
                         <img src="@/assets/img-why-bl-3/03.svg" alt="" id="why-svg">
                         <p id="title">ГИБКИЙ ГРАФИК <br>ТРЕНИРОВОК</p>
-                        <p id="text">Тренируемся с вами один на один. Никаких групповых занятий. Всё время, отведенное для практических занятий, и внимание инструктора достанутся только вам. Адаптируем каждое занятие под ваши задачи.</p>
+                        <p id="text">Тренируемся с вами один на один. Никаких групповых занятий. Всё время, отведенное
+                            для практических занятий, и внимание инструктора достанутся только вам. Адаптируем каждое
+                            занятие под ваши задачи.</p>
                     </div>
                     <div class="block-4">
                         <img src="@/assets/img-why-bl-3/04.svg" alt="" id="why-svg">
                         <p id="title">ИНДИВИДУАЛЬНЫЙ<br> ПОДХОД</p>
-                        <p id="text">Вы сами назначаете удобное вам время каждой тренировки. Адаптируйте обучение под свой график и задачи. Тренировка раз в неделю? - пожалуйста! Каждый день? - не вопрос! Три дня подряд и перерыв две недели? - так тоже можно. </p>
+                        <p id="text">Вы сами назначаете удобное вам время каждой тренировки. Адаптируйте обучение под
+                            свой график и задачи. Тренировка раз в неделю? - пожалуйста! Каждый день? - не вопрос! Три
+                            дня подряд и перерыв две недели? - так тоже можно. </p>
                     </div>
                 </div>
             </div>
@@ -162,7 +171,7 @@ const butVect2 = (() => {
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image-1.png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">25 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -171,16 +180,15 @@ const butVect2 = (() => {
                             мотоциклом. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно сдать
                             практический экзамен в ГИБДД.
                         </p>
+                        <button type="button"  id="why-btn">Подробнее</button>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image.png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">35 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -191,9 +199,7 @@ const butVect2 = (() => {
                             правильный алгоритм торможения. Подходит для тех, кому нужны основные навыки вождения.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
@@ -209,15 +215,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">60 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -227,15 +231,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (3).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">70 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -245,15 +247,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (4).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">19 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -263,15 +263,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (5).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">00 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -281,15 +279,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (6).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">4 000 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -299,15 +295,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (7).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price-b">БЕСПЛАТНО</div>
                     </div>
 
                     <div class="course-text">
@@ -317,15 +311,13 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (8).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">7 500 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -335,33 +327,29 @@ const butVect2 = (() => {
                             свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (9).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">15 000 ₽</div>
                     </div>
 
                     <div class="course-text">
                         <h1>Детский</h1>
                         <p>Вы научитесь правильно и безопасно применять полученные и существующие навыки, сможете
                             отработать типичные городские ситуации, а также исправить ошибки, мешающие уверенно и
-                            свободно управлять мотоциклом. полосе?
+                            свободно управлять мотоциклом.
                         </p>
                     </div>
-                    <div class="why-button">
-                        <button id="why-btn">Подробнее</button>
-                    </div>
+                    <button type="button"  id="why-btn">Подробнее</button>
                 </article>
 
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image (10).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
+                        <div id="price">3 500 ₽</div>
                     </div>
 
                     <div class="course-text">
@@ -370,11 +358,9 @@ const butVect2 = (() => {
                             “вилли” на мотоцикле любого класса. 3500р за 1 час
                         </p>
                     </div>
-                    <div class="why-button">
-                        <div class="why-button">
-                            <button id="why-btn">Подробнее</button>
-                        </div>
-                    </div>
+                    
+                        <button type="button"  id="why-btn">Подробнее</button>
+                    
                 </article>
             </div>
         </div>
@@ -383,10 +369,9 @@ const butVect2 = (() => {
 
         <div class="entry">
             <div class="entry-container">
-                <div class="about-entry">
-                    <img src="@/assets/img-entry-bl-5/Он ждет тебя.svg" alt="" id="entry-logo_1">
+                <div class="entry-title">
                     <img src="@/assets/img-entry-bl-5/Line 11.svg" alt="" id="entry-logo_3">
-                    <img src="@/assets/img-entry-bl-5/Он ждет тебя (1).svg" alt="" id="entry-logo_2">
+                   <p>он ждет тебя</p>
                 </div>
 
                 <div class="entry-content">
@@ -394,11 +379,7 @@ const butVect2 = (() => {
                     <h1>ЗАПИШИТЕСЬ<br> НА БЕСПЛАТНОЕ <br>ПРОБНОЕ ЗАНЯТИЕ</h1>
 
                     <div class="entry-block ">
-                        <p>Пробное занятие в нашей школе абсолютно<br> бесплатное, без скрытых платежей и сборов на
-                            бензин.<br>
-                            Также посещение пробного занятия не обязывает вас<br> покупать какой-либо курс и не входит в
-                            его
-                            стоимость.
+                        <p>Это абсолютно бесплатно! Никаких скрытых платежей и сборов на бензин. Посещение пробного занятия не обязывает вас покупать какой-либо курс и не входит в его стоимость.
                         </p>
 
                         <div class="entry-inp-btn">
@@ -406,9 +387,7 @@ const butVect2 = (() => {
                                 <input type="tel" placeholder="Номер телефона ">
                             </div>
 
-                            <div class="entry-button">
-                                <button type="button">Записаться</button>
-                            </div>
+                                <button type="submit" id="#entry-button">Записаться</button>
                         </div>
 
                         <p class="entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с

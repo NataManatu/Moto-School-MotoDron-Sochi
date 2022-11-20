@@ -319,7 +319,7 @@ header {
 .why-text-block {
     display: grid;
     grid-template-columns: 42% 42%;
-    grid-template-rows:auto auto;
+    grid-template-rows: auto auto;
     align-items: flex-start;
     color: #8C8C8C;
     margin-top: -33px;
@@ -361,10 +361,10 @@ header {
 
 
 .course {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 155px 100px;
+    padding-top: 100px;
 }
 
 .course::before {
@@ -376,7 +376,7 @@ header {
     line-height: 144px;
     text-transform: uppercase;
     color: #191919;
-    margin-left: -50px;
+    padding-left: 50px;
 }
 
 .course-title {
@@ -397,14 +397,17 @@ header {
 }
 
 .content-vector {
+    width: 1400px;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
     margin-top: 71px;
-    margin-left: 25px;
+
 }
 
-#vector-1 {
+#vector-1,
+#vector-2 {
     width: 50px;
     height: 37px;
     text-align: center;
@@ -415,26 +418,13 @@ header {
     cursor: pointer;
 }
 
-#vector-1:active {
-    background-color: red;
-}
-
-.but_vect1 {
-    background-color: #000000;
-}
-
+.but_vect1,
 .but_vect2 {
     background-color: #000000;
 }
 
-#vector-2 {
-    width: 50px;
-    height: 37px;
-    text-align: center;
-    background-color: #FCD702;
-    line-height: 40px;
-    clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
-    cursor: pointer;
+#vector-1:active {
+    background-color: red;
 }
 
 #vector-2:active {
@@ -442,9 +432,12 @@ header {
 }
 
 .course-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
     display: flex;
     justify-content: space-between;
-    margin-left: -25px;
+    align-items: flex-end;
     margin-top: 52px;
     gap: 75px;
     overflow-x: scroll;
@@ -457,6 +450,8 @@ header {
 
 .course-program-card {
     vertical-align: middle;
+    align-items: flex-end;
+
 }
 
 #cours_img {
@@ -476,7 +471,6 @@ header {
     /* transform: skew(-15deg); */
     font-weight: 700;
     font-size: 42px;
-    line-height: 49px;
     font-family: 'Roboto', sans-serif;
     clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
     color: #000000;
@@ -484,19 +478,33 @@ header {
 
 }
 
-.course-text {
-    margin-top: 30px;
-    padding: 30px;
-    overflow-wrap: anywhere;
-    overflow: hidden;
-
+#price-b {
+    width: 225px;
+    height: 48px;
+    margin-top: -50px;
+    margin-left: 225px;
+    /* transform: skew(-15deg); */
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+    color: #000000;
+    background-color: #FCD702;
 }
 
+.course-text {
+    margin-top: 41px;
+    padding: 0px 30px;
+    overflow-wrap: anywhere;
+    overflow: hidden;
+}
 
 .course-text h1 {
     font-weight: 600;
     font-size: 24px;
-    line-height: 90%;
     color: #E3E3E3;
     text-transform: uppercase;
 }
@@ -505,7 +513,6 @@ header {
     font-weight: 400;
     margin-top: 15px;
     font-size: 16px;
-    line-height: 140%;
     color: #8C8C8C;
 }
 
@@ -514,10 +521,13 @@ header {
 #why-btn {
     width: 146px;
     height: 48px;
+    margin-top: 55px;
+    border-style: none;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 12px 32px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    border-style: none;
     color: #000000;
     background-color: #FCD702;
     border-radius: 3px;
@@ -525,15 +535,7 @@ header {
     font-size: inherit;
 }
 
-.why-button {
-    margin-top: 55px;
-    padding-left: 30px;
 
-}
-
-#course-text-h1 {
-    margin-top: -23px;
-}
 
 
 
@@ -543,40 +545,50 @@ header {
     background-color: #000000;
     background-image: url(@/assets/img-entry-bl-5/Rectangle-126.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 
 
 }
 
-.entry-container {
-    width: 1400px;
+.entry {
+    width: 100%;
     margin: 0 auto;
-    padding: 75px 50px 100px 50px;
-
+    padding-top: 100px;
 }
 
-#entry-logo_1 {
-    position: absolute;
-
+.entry::before {
+    content: "он ждет тебя";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#entry-logo_2 {
-    position: relative;
-    margin-left: 160px;
-    margin-top: 20px;
+.entry-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
 }
 
-#entry-logo_3 {
-    position: absolute;
-    margin-left: -50px;
-    margin-top: 33px;
-}
+.entry-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
 
+}
 
 .entry-content {
     display: flex;
     justify-content: center;
+    padding: 0px 100px 100px 100px;
     margin-top: 192px;
     gap: 48px;
     color: #E3E3E3;
@@ -586,25 +598,23 @@ header {
 .entry-content h1 {
     font-weight: 600;
     font-size: 28px;
-    line-height: 115%;
     justify-content: end;
     text-align: right;
     overflow-wrap: anywhere;
     overflow: hidden;
 }
 
-.entry-block p {
 
-    height: 100px;
+
+.entry-block p {
+    max-width: 451px;
     font-weight: 400;
     font-size: 18px;
-    line-height: 140%;
-    overflow-wrap: anywhere;
-    overflow: hidden;
 }
 
 .entry-inp-btn {
     display: flex;
+    
     gap: 16px;
     margin-top: 42px;
 }
@@ -624,13 +634,13 @@ header {
     font-size: inherit;
 }
 
-/* ?????? */
+
 .entry-input input:focus {
     outline: none;
     font-size: inherit;
 }
 
-.entry-button button {
+.entry-inp-btn button {
     width: 126px;
     height: 48px;
     align-items: center;

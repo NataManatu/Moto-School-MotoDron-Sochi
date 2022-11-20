@@ -185,12 +185,13 @@ header {
     width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    /* padding: 100px 100px 100px 100px; */
+    padding-top: 100px;
+    
 }
 
 .about::before {
     content: "о нас";
-    margin-left: 50px;
+   padding-left: 50px;
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -214,14 +215,14 @@ header {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
-   
+
 }
 
 
 .about-text-img {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 100px 100px 100px; 
+    padding: 0px 100px 100px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,8 +307,9 @@ header {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
-   
+
 }
+
 .why-content {
     display: flex;
     justify-content: space-between;
@@ -364,6 +366,7 @@ header {
     background-color: #000000;
     padding: 100px 100px 155px 100px;
 }
+
 .course::before {
     content: "наши курсы";
     font-family: 'Metro', sans-serif;
@@ -390,8 +393,9 @@ header {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
-   
+
 }
+
 .content-vector {
     display: flex;
     justify-content: flex-end;

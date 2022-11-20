@@ -182,30 +182,46 @@ header {
 /* ABOUT--2 блок*/
 
 .about {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 100px 100px;
+    /* padding: 100px 100px 100px 100px; */
 }
 
-#about-logo_1 {
-    position: absolute;
-    margin-left: -50px;
+.about::before {
+    content: "о нас";
+    margin-left: 50px;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
 }
 
-#about-logo_2 {
-    position: relative;
-    margin-left: 110px;
-    margin-top: 20px;
-}
-
-#about-logo_3 {
-    position: absolute;
+.about_logo {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
-    margin-top: 33px;
 }
+
+.about_logo p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+   
+}
+
 
 .about-text-img {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 100px 100px 100px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -264,23 +280,34 @@ header {
     padding: 100px 100px 100px 100px;
 }
 
-#why-logo_1 {
-    position: absolute;
+.why::before {
+    content: "почему мы?";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
     margin-left: -50px;
 }
 
-#why-logo_2 {
-    position: relative;
-    margin-left: 110px;
-    margin-top: 20px;
-}
-
-#why-logo_3 {
-    position: absolute;
+.why-title {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
-    margin-top: 33px;
 }
 
+.why-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+   
+}
 .why-content {
     display: flex;
     justify-content: space-between;
@@ -332,13 +359,39 @@ header {
 
 
 .course {
-
     width: 1400px;
     margin: 0 auto;
     background-color: #000000;
     padding: 100px 100px 155px 100px;
 }
+.course::before {
+    content: "наши курсы";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    margin-left: -50px;
+}
 
+.course-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.course-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+   
+}
 .content-vector {
     display: flex;
     justify-content: flex-end;
@@ -2294,7 +2347,7 @@ input[type=submit] {
     background-size: cover;
     background-size: 100%;
     background-color: #000000;
-   
+
     background-repeat: no-repeat;
     margin: 0 auto;
     /* background-attachment: fixed; */

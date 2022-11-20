@@ -15,7 +15,7 @@ const butVect2 = (() => {
         <!-- HEADER -->
 
         <header>
-            <div class="header-container" >
+            <div class="header-container">
                 <div class="header-menu">
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
@@ -75,9 +75,8 @@ const butVect2 = (() => {
         <div class="about" id="about">
 
             <div class="about_logo">
-                <img src="@/assets/img-about-bl-2/О нас.svg " alt="" id="about-logo_1">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="" id="about-logo_3">
-                <img src="@/assets/img-about-bl-2/О нас (1).svg" alt="" id="about-logo_2">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>о нас</p>
             </div>
 
             <div class="about-text-img">
@@ -113,10 +112,9 @@ const butVect2 = (() => {
         <!-- WHY ARE WE--3 блок -->
 
         <div class="why">
-            <div class="why-2-logo">
-                <img src="@/assets/img-why-bl-3/Почему мы_.svg" alt="" id="why-logo_1">
-                <img src="@/assets/img-why-bl-3/Line 11.svg" alt="" id="why-logo_3">
-                <img src="@/assets/img-why-bl-3/Почему мы_ (1).svg" alt="" id="why-logo_2">
+            <div class="why-title">
+                <img src="@/assets/img-why-bl-3/Line 11.svg" alt="">
+                <p>почему мы?</p>
             </div>
 
             <div class="why-content">
@@ -168,10 +166,9 @@ const butVect2 = (() => {
         <!--COURSE-- 4 блок -->
 
         <div class="course">
-            <div class="about-course">
-                <img src="@/assets/img-course-bl-4/Наши курсы.svg" alt="" id="about-logo_1">
-                <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="about-logo_3">
-                <img src="@/assets/img-course-bl-4/Наши курсы (1).svg" alt="" id="about-logo_2">
+            <div class="course-title">
+                <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="">
+                <p>наши курсы</p>
             </div>
 
             <div class="content-vector">
@@ -1470,11 +1467,12 @@ const butVect2 = (() => {
                     </div>
                 </div>
 
-                
+
                 <div class="contact-course">
                     <div class="nav-cont">
-                    <p><a href=""><span>Главная</span> </a><a href=".header-container"> / Курс “Категория “А”</a></p>
-                </div>
+                        <p><a href=""><span>Главная</span> </a><a href=".header-container"> / Курс “Категория “А”</a>
+                        </p>
+                    </div>
                     <div class="cont-content">
                         <p id="cont-p-1">Курс “Категория “А”</p>
                         <p id="cont-p-2">Курс для получения прав категории “А”</p>

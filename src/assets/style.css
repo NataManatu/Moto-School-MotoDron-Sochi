@@ -2294,6 +2294,8 @@ input[type=submit] {
     background-image: url(@/assets/img-cont-bl-18/Rectangle1.png);
     background-size: cover;
     background-size: 100%;
+    background-color: #000000;
+   
     background-repeat: no-repeat;
     margin: 0 auto;
     /* background-attachment: fixed; */
@@ -2301,7 +2303,6 @@ input[type=submit] {
 
 .contact-content {
     max-width: 1400px;
-    height: 800px;
     margin: 0 auto;
     padding: 100px 100px 53px 100px;
 }
@@ -2326,16 +2327,29 @@ input[type=submit] {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.025em;
+
 }
 
 .contact-course {
-    background-color: #FCD702;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont-content {
+    text-align: left;
+    padding: 50px;
+    margin-right: -50px;
+    margin-top: 100px;
     color: #191919;
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
+    background-color: #FCD702;
     width: 645px;
     height: 733px;
+    border-radius: 3px;
+
 }
 
 .contact-course #cont-p-1 {
@@ -2345,8 +2359,49 @@ input[type=submit] {
     color: #191919;
 }
 
-.contact-course #cont-p-2 {}
+.contact-course #cont-p-2 {
 
-.contact-course #cont-p-3 {}
+    margin-top: 6px;
+}
 
-.contact-course #cont-p-4 {}
+.contact-course #cont-p-3 {
+
+    margin-top: 45px;
+}
+
+.contact-course #cont-p-4 {
+
+    margin-top: 55px;
+
+}
+
+.contact-course #cont-p-5 {
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.contact-course ul {
+
+    list-style: none;
+    margin-top: 60px;
+}
+
+.contact-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 84px;
+}
+
+.contact-price button {
+    width: 156px;
+    height: 55px;
+    background: #000000;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 32px;
+    color: #FFFFFF;
+    font-size: inherit;
+
+}

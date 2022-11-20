@@ -31,12 +31,7 @@ html::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
-.container {
-    background-color: #000000;
-    width: 1400px;
-    height: auto;
-    margin: 0 auto;
-}
+
 
 /* HEADER */
 
@@ -2238,7 +2233,7 @@ input[type=submit] {
     align-items: center;
 }
 
-.quest-text li:hover{
+.quest-text li:hover {
     background-color: #191919;
     border-radius: 5px 0px 0px 5px;
 }
@@ -2247,7 +2242,7 @@ input[type=submit] {
     padding: 20px 30px;
     background: #191919;
     border-radius: 5px;
-    ;
+
 }
 
 .quest-box li {
@@ -2259,3 +2254,99 @@ input[type=submit] {
     padding-right: 10px;
     display: inline-block;
 }
+
+
+/* CONTACT-18-BLOCK */
+
+
+.title-contact {
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.title-shadow-cont {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.title-shadow-cont::before {
+    content: "контакты";
+}
+
+.title-shadow-cont p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.container-contact {
+    background-image: url(@/assets/img-cont-bl-18/Rectangle1.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    /* background-attachment: fixed; */
+}
+
+.contact-content {
+    max-width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 100px 100px 53px 100px;
+}
+
+.nav-cont a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #E3E3E3;
+}
+
+.nav-cont {
+    margin-top: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+}
+
+.nav-cont span {
+    color: #FCD702;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+}
+
+.contact-course {
+    background-color: #FCD702;
+    color: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    width: 645px;
+    height: 733px;
+}
+
+.contact-course #cont-p-1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    color: #191919;
+}
+
+.contact-course #cont-p-2 {}
+
+.contact-course #cont-p-3 {}
+
+.contact-course #cont-p-4 {}

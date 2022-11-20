@@ -15,7 +15,7 @@ const butVect2 = (() => {
         <!-- HEADER -->
 
         <header>
-            <div class="header-container">
+            <div class="header-container" >
                 <div class="header-menu">
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
@@ -26,7 +26,7 @@ const butVect2 = (() => {
                             <li><a href="#course">Курсы</a></li>
                             <li><a href="#news">Новости</a> </li>
                             <li><a href="#about">О нас</a></li>
-                            <li><a href="/">Контакты</a></li>
+                            <li><a href="#contact">Контакты</a></li>
                             <li><a href="#reviews">Отзывы</a></li>
                         </ul>
                     </div>
@@ -1440,7 +1440,7 @@ const butVect2 = (() => {
         </div>
 
 
-        <div class="container-contact">
+        <div class="container-contact" id="contact">
 
             <div class="contact-content">
                 <div class="header-menu">
@@ -1473,7 +1473,7 @@ const butVect2 = (() => {
                 
                 <div class="contact-course">
                     <div class="nav-cont">
-                    <p><a href=""><span>Главная</span> </a><a href=""> / Курс “Категория “А”</a></p>
+                    <p><a href=""><span>Главная</span> </a><a href=".header-container"> / Курс “Категория “А”</a></p>
                 </div>
                     <div class="cont-content">
                         <p id="cont-p-1">Курс “Категория “А”</p>

@@ -219,7 +219,7 @@ header {
 }
 
 
-.about-text-img {
+.about-content{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 100px 100px 100px;
@@ -234,7 +234,6 @@ header {
 .about-text {
     width: 560px;
     height: 300px;
-
     letter-spacing: 0.025em;
     font-size: 18px;
     font-weight: 400;
@@ -244,7 +243,7 @@ header {
     overflow: hidden;
 }
 
-.about-img {
+.about-img-modul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;

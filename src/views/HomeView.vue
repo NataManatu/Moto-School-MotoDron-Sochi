@@ -79,7 +79,7 @@ const butVect2 = (() => {
                 <p>о нас</p>
             </div>
 
-            <div class="about-text-img">
+            <div class="about-content">
 
                 <div class="about-text">
                     <p>Наши инструкторы имеют огромный опыт как в управлении мототехникой, так и в обучении
@@ -98,7 +98,7 @@ const butVect2 = (() => {
                     </p>
                 </div>
 
-                <div class="about-img">
+                <div class="about-img-modul">
                     <img src="@/assets/img-about-bl-2/pic 1.png" alt="" id="pic-1">
                     <img src="@/assets/img-about-bl-2/pic 5.png" alt="" id="pic-5">
                     <img src="@/assets/img-about-bl-2/pic 4.png" alt="" id="pic-4">

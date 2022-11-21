@@ -1318,7 +1318,7 @@ header {
 /* блок-9-команда  */
 
 .command {
-    width:100% ;
+    width: 100%;
     background-color: #000000;
     padding-top: 100px;
 }
@@ -1351,6 +1351,7 @@ header {
     color: #E3E3E3;
 
 }
+
 /* .command-content{
     max-width: 1400px;
     margin: 0 auto;
@@ -1372,9 +1373,11 @@ header {
     margin-top: 200px;
 
 }
-.command-content{
-  padding-bottom: 100px; 
+
+.command-content {
+    padding-bottom: 114px;
 }
+
 .content-card-1 {
     display: flex;
     justify-content: space-between;
@@ -1382,7 +1385,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 172px;
-   
+
 }
 
 .content-card-2 {
@@ -1392,7 +1395,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 172px;
-   
+
 }
 
 
@@ -1402,7 +1405,6 @@ header {
     font-size: 32px;
     text-transform: uppercase;
     color: #E3E3E3;
-
 
 }
 
@@ -1422,18 +1424,17 @@ header {
 
 
 
-
-
 /* блок-10-выбери свой байк */
 
+
+
 .bike {
-    width:100% ;
+    width: 100%;
     background-color: #000000;
-    
-    
+
 }
 
-.bike-bg::before {
+.bike::before {
     content: "выбери свой байк";
     font-family: 'Metro', sans-serif;
     font-style: normal;
@@ -1449,6 +1450,7 @@ header {
     display: flex;
     margin-top: -100px;
     margin-left: -100px;
+
 }
 
 .bike-title p {
@@ -1468,9 +1470,8 @@ header {
     margin: 0 auto;
     text-align: center;
     max-width: 1200px;
+    height: 600px;
     padding: 50px 100px;
-
-
 }
 
 .bike-content {
@@ -1478,6 +1479,7 @@ header {
     justify-content: center;
     gap: 48px;
     color: #E3E3E3;
+    margin-top: 188px;
 
 }
 
@@ -1572,43 +1574,56 @@ header {
 
 
 .news {
-    width: 1400px;
-    margin: 0 auto;
+    width: 100%;
     background-color: #000000;
-    padding: 100px 50px 100px 100px;
+    padding-top: 100px;
 }
 
-#about-news_1 {
-    width: 1390px;
-    margin-left: -50px;
-    position: relative;
+.news::before {
+    content: "новости и события";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#about-news_2 {
-    position: absolute;
-    margin-top: -45px;
-    margin-left: 111px;
-}
-
-#about-news_3 {
-    position: absolute;
-    margin-top: -35px;
+.news-title {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
+
 }
 
-.news-box {
+.news-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
+}
+
+.news-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
     display: flex;
     gap: 45px;
     margin-top: 101px;
-    padding-bottom: 80px;
     overflow-x: scroll;
 }
 
-.news-box::-webkit-scrollbar {
+.news-content::-webkit-scrollbar {
     height: 5px;
 }
 
-.news-box::-webkit-scrollbar-thumb {
+.news-content::-webkit-scrollbar-thumb {
     background: #FCD702;
     border-radius: 20px;
 }
@@ -1716,30 +1731,43 @@ header {
 
 
 .workout {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px;
+    padding-top: 100px;
 }
 
-#workout-title_1 {
-    margin-left: -50px;
-    position: relative;
+
+.workout::before {
+    content: "тренировки";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#workout-title_2 {
-    position: absolute;
-    margin-left: 111px;
-    margin-top: -60px;
-
-}
-
-#workout-title_3 {
-    position: absolute;
+.workout-title {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
-    margin-top: -55px;
 
 }
+
+.workout-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
+}
+
 
 #p-name {
     color: #8C8C8C;
@@ -1766,13 +1794,16 @@ header {
 }
 
 .video-block {
+    max-width: 1400px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     justify-content: center;
     align-items: end;
     gap: 50px;
-    margin-top: 75px;
+    margin-top: 125px;
+    padding: 0px 100px;
 
 }
 
@@ -1784,15 +1815,55 @@ header {
     margin: 0 auto;
     text-align: center;
     margin-top: 42px;
+    padding-bottom: 100px;
 }
 
 /* STATISTIC-13-блок  */
 
 .statistic {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 180px 100px;
+    padding-top: 100px;
+}
+
+
+.statistic::before {
+    content: "Статистика";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
+}
+
+.statistic-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
+}
+
+.statistic-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
+}
+
+.statistic-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 101px;
+    padding: 0px 100px 100px 100px;
+
 }
 
 .about-figure {
@@ -1878,14 +1949,16 @@ header {
 /* DOCUMENTS-14-БЛОК */
 
 
-.title-documets {
-    background-color: #000000;
+.documents {
+    width: 100%;
     margin: 0 auto;
-    text-align: center;
+    background-color: #000000;
+    padding-top: 100px;
 
 }
 
-.title-shadow-doc {
+.documets::before {
+    content: "Наши документы";
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1893,37 +1966,39 @@ header {
     line-height: 144px;
     text-transform: uppercase;
     color: #191919;
+    padding-left: 50px;
 }
 
-.title-shadow-doc::before {
-    content: "наши документы";
+.title-documets {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
 }
 
-.title-shadow-doc p {
-    font-family: 'Metro';
+.title-documets p {
+    font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
+
 }
 
-.documents-container {
-    width: 1400px;
-    margin: 0 auto;
-    background-color: #000000;
-    padding: 100px 100px 100px 100px;
-}
 
 .documents-block-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 101px;
+    padding: 0px 100px 100px 100px;
     display: grid;
     grid-template-columns: repeat(10, auto);
     grid-template-rows: auto auto auto;
     gap: 20px;
     object-fit: cover;
     overflow-x: scroll;
-    padding-bottom: 80px;
 
 }
 
@@ -2005,29 +2080,10 @@ header {
 
 
 .reviews {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 110px 100px;
-}
-
-#reviews-title_1 {
-    margin-left: -50px;
-    position: absolute;
-}
-
-#reviews-title_2 {
-    position: absolute;
-    margin-left: 111px;
-    margin-top: 20px;
-
-}
-
-#reviews-title_3 {
-    position: absolute;
-    margin-left: -100px;
-    margin-top: 35px;
-
+    padding-top: 100px;
 }
 
 .reviews-photo-flex {

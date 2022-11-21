@@ -696,7 +696,10 @@ const butVect2 = (() => {
 
         <div class="bike">
 
-
+            <div class="bike-title">
+                <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="">
+                <p>выбери свой байк</p>
+            </div>
             <!-- если отдельные фрагменты,то бекграунд убрать -->
 
             <!-- <div class="bike-img-grid">
@@ -707,10 +710,6 @@ const butVect2 = (() => {
             </div> -->
 
             <div class="bike-bg">
-                <div class="bike-title">
-                    <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="">
-                    <p>выбери свой байк</p>
-                </div>
                 <div class="bike-content">
                     <div class="bike-block ">
                         <p id="bike-text">Пробное занятие в нашей школе абсолютно бесплатное, без скрытых платежей и
@@ -743,13 +742,12 @@ const butVect2 = (() => {
         <!--NEWS --блок-11-->
 
         <div class="news" id="news">
-            <div class="about-news">
-                <img src="@/assets/img-news-bl-11/Новости и события.svg" alt="" id="about-news_1">
-                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="" id="about-news_3">
-                <img src="@/assets/img-news-bl-11/новости и события (1).svg" alt="" id="about-news_2">
+            <div class="news-title">
+                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="">
+                <p>новости и события</p>
             </div>
 
-            <div class="news-box">
+            <div class="news-content">
 
                 <article class="news-program-card">
                     <div class="article-header">
@@ -1052,9 +1050,8 @@ const butVect2 = (() => {
 
         <div class="workout">
             <div class="workout-title">
-                <img src="@/assets/img-workout-bl-12/Тренировки-1.svg" alt="" id="workout-title_1">
-                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="" id="workout-title_3">
-                <img src="@/assets/img-workout-bl-12/тренировки.svg" alt="" id="workout-title_2">
+                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="">
+                <p>тренировки</p>
             </div>
 
             <div class="video-block">
@@ -1096,7 +1093,6 @@ const butVect2 = (() => {
                 </article>
 
             </div>
-
             <div class="vector-nav" id="video-block-vector">
                 <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
                 <sup id="sup-1">1</sup>
@@ -1104,6 +1100,8 @@ const butVect2 = (() => {
                 <sub id="sub-2">9</sub>
                 <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
             </div>
+
+
         </div>
 
 
@@ -1113,70 +1111,68 @@ const butVect2 = (() => {
         <div class="statistic">
 
             <div class="statistic-title">
-                <img src="@/assets/img-statistic-bl-13/Статистика.svg" alt="" id="reviews-title_1">
-                <img src="@/assets/img-statistic-bl-13/Line 11.svg" alt="" id="reviews-title_3">
-                <img src="@/assets/img-statistic-bl-13/Статистика (1).svg" alt="" id="reviews-title_2">
+                <img src="@/assets/img-statistic-bl-13/Line 11.svg" alt="">
+                <p>Статистика</p>
             </div>
+            <div class="statistic-content">
+                <div class="about-figure">
+                    <p id="about-figure-p">Немного цифр</p>
 
-            <div class="about-figure">
-                <p id="about-figure-p">Немного цифр</p>
+                    <p id="statistic-text-block">Не перестаем улучшать условия занятий, совершенствовать учебный
+                        процесс. За прошедший год мы
+                        расширили парк мототехники, обновили учебную экипировку, чтобы обеспечить каждому ученику
+                        максимально безопасные эффективные тренировки.<br><br>
+                        Инструкторы постоянно оттачивают мастерство управления мототехникой и навыки ее
+                        обслуживания. Мы уже обучили десятки мотоциклистов, помогли им подготовиться к экзаменам
+                        в ГИБДД и соревнованиям по мотоспорту, освоить тонкости экстремального вождения, обрести
+                        уверенность на дороге в любых условиях.
+                    </p>
+                </div>
 
-                <p id="statistic-text-block">Не перестаем улучшать условия занятий, совершенствовать учебный
-                    процесс. За прошедший год мы
-                    расширили парк мототехники, обновили учебную экипировку, чтобы обеспечить каждому ученику
-                    максимально безопасные эффективные тренировки.<br><br>
-                    Инструкторы постоянно оттачивают мастерство управления мототехникой и навыки ее
-                    обслуживания. Мы уже обучили десятки мотоциклистов, помогли им подготовиться к экзаменам
-                    в ГИБДД и соревнованиям по мотоспорту, освоить тонкости экстремального вождения, обрести
-                    уверенность на дороге в любых условиях.
-                </p>
-            </div>
+                <div class="block-statistic">
 
-            <div class="block-statistic">
+                    <article class="article-statistic">
+                        <img src="@/assets/img-statistic-bl-13/1000.svg" alt="" id="article-statistic-img">
+                        <p id="title-article">Тренировок</p>
+                        <div class="article-stat-text">
+                            <p>Мы провели уже более тысячи тренировок, каждый раз выкладываясь полностью Выбирала школу
+                                по
+                                количеству практических занятий и отзывам курсантов, которые (3-5 строк)</p>
+                        </div>
+                    </article>
 
-                <article class="article-statistic">
-                    <img src="@/assets/img-statistic-bl-13/1000.svg" alt="" id="article-statistic-img">
-                    <p id="title-article">Тренировок</p>
-                    <div class="article-stat-text">
-                        <p>Мы провели уже более тысячи тренировок, каждый раз выкладываясь полностью Выбирала школу
-                            по
-                            количеству практических занятий и отзывам курсантов, которые (3-5 строк)</p>
-                    </div>
-                </article>
+                    <article class="article-statistic">
+                        <img src="@/assets/img-statistic-bl-13/137.svg" alt="" id="article-statistic-img">
+                        <p id="title-article_2">Выпускников</p>
+                        <div class="article-stat-text">
+                            <p>Каждый из них провели уже более тысячи тренировок, каждый раз выкладываясь полностью
+                                Выбирала школу по количеству практических занятий и от(3-5 строк)</p>
+                        </div>
+                    </article>
 
-                <article class="article-statistic">
-                    <img src="@/assets/img-statistic-bl-13/137.svg" alt="" id="article-statistic-img">
-                    <p id="title-article_2">Выпускников</p>
-                    <div class="article-stat-text">
-                        <p>Каждый из них провели уже более тысячи тренировок, каждый раз выкладываясь полностью
-                            Выбирала школу по количеству практических занятий и от(3-5 строк)</p>
-                    </div>
-                </article>
-
-                <article class="article-statistic">
-                    <img src="@/assets/img-statistic-bl-13/137 (1).svg" alt="" id="article-statistic-img">
-                    <p id="title-article">Мото-часов</p>
-                    <div class="article-stat-text">
-                        <p>Проведено на треке и пересеченной местности вместе с учениками провели уже более тысячи
-                            тренировок, каждый раз выкладываясь полностью занятий и отзывам курсантов, которые (3-5
-                            строк)</p>
-                    </div>
-                </article>
+                    <article class="article-statistic">
+                        <img src="@/assets/img-statistic-bl-13/137 (1).svg" alt="" id="article-statistic-img">
+                        <p id="title-article">Мото-часов</p>
+                        <div class="article-stat-text">
+                            <p>Проведено на треке и пересеченной местности вместе с учениками провели уже более тысячи
+                                тренировок, каждый раз выкладываясь полностью занятий и отзывам курсантов, которые (3-5
+                                строк)</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
 
 
         <!-- DOCUMENTS-14-БЛОК -->
 
+        <div class="documents">
 
-        <div class="title-documets">
-            <div class=" title-shadow-doc">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                <p>наши документы</p>
+            <div class="title-documets">
+                    <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
+                    <p>наши документы</p>
             </div>
-        </div>
 
-        <div class="documents-container">
 
             <div class="documents-block-grid">
 

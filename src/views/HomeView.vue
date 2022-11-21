@@ -1169,8 +1169,8 @@ const butVect2 = (() => {
         <div class="documents">
 
             <div class="title-documets">
-                    <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
-                    <p>наши документы</p>
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
+                <p>наши документы</p>
             </div>
 
 
@@ -1205,254 +1205,260 @@ const butVect2 = (() => {
 
         <div class="reviews" id="reviews">
             <div class="reviews-title">
-                <img src="@/assets/img-revievs-bl-15/Отзывы.svg" alt="" id="reviews-title_1">
-                <img src="@/assets/img-revievs-bl-15/Line 11.svg" alt="" id="reviews-title_3">
-                <img src="@/assets/img-revievs-bl-15/Отзывы (1).svg" alt="" id="reviews-title_2">
+
+                <img src="@/assets/img-revievs-bl-15/Line 11.svg" alt="">
+                <p>отзывы</p>
+
             </div>
-
-            <div class="reviews-photo-flex">
-                <div class="rev-photo-text-1">
-                    <img src="@/assets/img-revievs-bl-15/Photo.png" alt="">
-                </div>
-
-                <div class="rev-photo-text-2">
-                    <img src="@/assets/img-revievs-bl-15/Photo (1).png" alt="">
-                </div>
-                <div class="rev-photo-text-2">
-                    <img src="@/assets/img-revievs-bl-15/Photo (2).png" alt="">
-                </div>
-
-                <div class="rev-photo-text-4">
-                    <img src="@/assets/img-revievs-bl-15/Photo (3).png" alt="">
-                </div>
-
-
-
-                <img src="@/assets/img-revievs-bl-15/Photo (4).png" alt="">
-                <img src="@/assets/img-revievs-bl-15/Photo (5).png" alt="">
-                <img src="@/assets/img-revievs-bl-15/Photo (6).png" alt="">
-                <img src="@/assets/img-revievs-bl-15/Photo (7).png" alt="">
-            </div>
-
-            <div class="reviews-form" id="">
-
-                <form action="">
-
-                    <div class="reviews-btn-input">
-                        <button class="reviews-btn" type="button">Закрыть</button>
-                        <div class="yandex">
-                            <img src="@/assets/img-revievs-bl-15/202877_normal 2.svg" alt="">
-                            <p><a href="">Смотреть все отзывы</a></p>
-                        </div>
+            <div class="reviews-content">
+                <div class="reviews-photo-flex">
+                    <div class="rev-photo-text-1">
+                        <img src="@/assets/img-revievs-bl-15/Photo.png" alt="">
                     </div>
 
-                    <div class="row-row">
+                    <div class="rev-photo-text-2">
+                        <img src="@/assets/img-revievs-bl-15/Photo (1).png" alt="">
+                    </div>
+                    <div class="rev-photo-text-2">
+                        <img src="@/assets/img-revievs-bl-15/Photo (2).png" alt="">
+                    </div>
 
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="fname">Имя</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" id="fname" name="firstname" placeholder="Иван">
+                    <div class="rev-photo-text-4">
+                        <img src="@/assets/img-revievs-bl-15/Photo (3).png" alt="">
+                    </div>
+
+
+
+                    <img src="@/assets/img-revievs-bl-15/Photo (4).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (5).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (6).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo (7).png" alt="">
+                </div>
+
+                <div class="reviews-form" id="">
+
+                    <form action="">
+
+                        <div class="reviews-btn-input">
+                            <button class="reviews-btn" type="button">Закрыть</button>
+                            <div class="yandex">
+                                <img src="@/assets/img-revievs-bl-15/202877_normal 2.svg" alt="">
+                                <p><a href="">Смотреть все отзывы</a></p>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="lname">Фамилия</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="text" id="lname" name="lastname" placeholder="Иванов">
-                            </div>
-                        </div>
+                        <div class="row-row">
 
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="subject">Отзывы</label>
-                            </div>
-                            <div class="col-75">
-                                <textarea name="subject" placeholder="Ваш отзыв (максимум 400 символов)"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="">Загрузка фото или видео</label>
-                            </div>
-                            <div class="col-75">
-                                <input type="submit" id="" name="" placeholder="" value="Выбрать файл">
-                                <p>Файл не выбран</p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-75">
-                                <label id="rev-format"> Поддерживаемые форматы:*.jpg, *.jpeg, *.avi, *.mpeg<br>
-                                    Максимальный размер 50Mb.</label>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-25">
-                                <label for="">Миниатюра</label>
-                            </div>
-                            <div class="col-75">
-                                <div class="photo-form">
-                                    <img src="@/assets/img-revievs-bl-15/Rectangle 293.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-15/Rectangle 292.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-15/Rectangle 290.png" alt="">
-                                    <img src="@/assets/img-revievs-bl-15/Rectangle 291.png" alt="">
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="fname">Имя</label>
                                 </div>
-                                <input type="submit" value="Опубликовать отзыв" id="rev_btn">
+                                <div class="col-75">
+                                    <input type="text" id="fname" name="firstname" placeholder="Иван">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="lname">Фамилия</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="lname" name="lastname" placeholder="Иванов">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="subject">Отзывы</label>
+                                </div>
+                                <div class="col-75">
+                                    <textarea name="subject" placeholder="Ваш отзыв (максимум 400 символов)"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="">Загрузка фото или видео</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="submit" id="" name="" placeholder="" value="Выбрать файл">
+                                    <p>Файл не выбран</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-75">
+                                    <label id="rev-format"> Поддерживаемые форматы:*.jpg, *.jpeg, *.avi, *.mpeg<br>
+                                        Максимальный размер 50Mb.</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="">Миниатюра</label>
+                                </div>
+                                <div class="col-75">
+                                    <div class="photo-form">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle 293.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle 292.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle 290.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle 291.png" alt="">
+                                    </div>
+                                    <input type="submit" value="Опубликовать отзыв" id="rev_btn">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
 
 
         <!-- PARTNERS-16-BLOCK -->
 
+        <div class="parters">
 
-        <div class="title-partners">
-            <div class=" title-shadow-part">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+            <div class="title-partners">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
                 <p>партнеры</p>
             </div>
-        </div>
-        <div class="container-partners">
 
-            <img src="@/assets/img-partners-bl-16/logo_gray-2.png" alt="">
-            <img src="@/assets/img-partners-bl-16/Partner_Card02.png" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (1).svg" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (1).png" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (2).png" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (3).png" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (4).png" alt="">
-            <img src="@/assets/img-partners-bl-16/logo_gray (5).png" alt="">
+            <div class="container-partners">
 
+                <img src="@/assets/img-partners-bl-16/logo_gray-2.png" alt="">
+                <img src="@/assets/img-partners-bl-16/Partner_Card02.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (1).svg" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (1).png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (2).png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (3).png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (4).png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray (5).png" alt="">
+
+            </div>
         </div>
+
 
 
         <!-- question-17-блок -->
 
 
-        <div class="title-question">
-            <div class=" title-shadow-quest">
+        <div class="question">
+
+            <div class=" title-quest">
                 <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
                 <p>Часто задаваемые вопросы</p>
             </div>
-        </div>
 
-        <div class="container-question">
+            <div class="question-content">
 
-            <div class="quest-block">
-                <div class="quest-text">
-                    <ul>
-                        <li>Работает ли контрруление на низкой скорости?</li>
-                        <li>Предоставляете ли вы мотоцикл для сдачи экзамена в ГИБДД?</li>
-                        <li id="li-lh-3">Выдаете ли вы экипировку на время занятий на площадке?</li>
-                        <li id="li-lh">Нужна ли регистрация и гражданство,чтобы учиться и сдавать экзамены на категорию
-                            ”А”?</li>
-                        <li>Что делать, если не сдал экзамен?</li>
-                    </ul>
-                </div>
-                <div class="quest-box">
-                    <p>
-                        В обязательном порядке предоставляется защитная экипировка:
-                    </p>
-                    <ul>
-                        <li>шлем</li>
-                        <li>перчатки</li>
-                        <li>защита коленей и логктей</li>
-                    </ul><br>
-                    <p>
-                        Для обучения травмоопасным трюкам выдаётся комплект усиленной защиты:
-                    </p>
-                    <ul>
-                        <li>"черепаха"</li>
-                        <li>мотоботы</li>
-                        <li> мото шорты</li>
-                        <li>кроссовые шлема</li>
-                        <li>усиленная защита ног</li>
-                        <li>защита спины и шеи</li>
-                    </ul><br>
-                    <p>Вся экипировка, прилегающая к открытому телу, регулярно проходит гигиеническую обработку!</p>
+                <div class="quest-block">
+                    <div class="quest-text">
+                        <ul>
+                            <li>Работает ли контрруление на низкой скорости?</li>
+                            <li>Предоставляете ли вы мотоцикл для сдачи экзамена в ГИБДД?</li>
+                            <li id="li-lh-3">Выдаете ли вы экипировку на время занятий на площадке?</li>
+                            <li id="li-lh">Нужна ли регистрация и гражданство,чтобы учиться и сдавать экзамены на
+                                категорию
+                                ”А”?</li>
+                            <li>Что делать, если не сдал экзамен?</li>
+                        </ul>
+                    </div>
+                    <div class="quest-box">
+                        <p>
+                            В обязательном порядке предоставляется защитная экипировка:
+                        </p>
+                        <ul>
+                            <li>шлем</li>
+                            <li>перчатки</li>
+                            <li>защита коленей и логктей</li>
+                        </ul><br>
+                        <p>
+                            Для обучения травмоопасным трюкам выдаётся комплект усиленной защиты:
+                        </p>
+                        <ul>
+                            <li>"черепаха"</li>
+                            <li>мотоботы</li>
+                            <li> мото шорты</li>
+                            <li>кроссовые шлема</li>
+                            <li>усиленная защита ног</li>
+                            <li>защита спины и шеи</li>
+                        </ul><br>
+                        <p>Вся экипировка, прилегающая к открытому телу, регулярно проходит гигиеническую обработку!</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- CONTACT-18-BLOCK -->
 
-        <div class="title-contact">
-            <div class=" title-shadow-cont">
+        <div class="contact">
+            <div class=" title-contact">
                 <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
                 <p>контакты</p>
             </div>
-        </div>
 
+            <div class="container-contact">
+                <div class="contact-content">
+                    <div class="header-menu">
+                        <div class="logo">
+                            <img src="@/assets/img-header/logo.svg" alt="">
+                        </div>
 
-        <div class="container-contact" id="contact">
+                        <div class="nav">
+                            <ul>
+                                <li><a href="#course">Курсы</a></li>
+                                <li><a href="#news">Новости</a> </li>
+                                <li><a href="#about">О нас</a></li>
+                                <li><a href="/">Контакты</a></li>
+                                <li><a href="#reviews">Отзывы</a></li>
+                            </ul>
+                        </div>
 
-            <div class="contact-content">
-                <div class="header-menu">
-                    <div class="logo">
-                        <img src="@/assets/img-header/logo.svg" alt="">
+                        <div class="social">
+                            <a href="/"><img src="@/assets/img-header/whatsapp.svg"></a>
+                            <a href="/"><img src="@/assets/img-header/tg.svg"></a>
+                            <a href="/"><img src="@/assets/img-header/inst.svg"></a>
+                            <a href="/"><img src="@/assets/img-header/vk.svg"></a>
+                        </div>
+
+                        <div class="tel">
+                            <a href="tel:+79384567707">+7 938 456 77 07</a>
+                        </div>
                     </div>
 
-                    <div class="nav">
-                        <ul>
-                            <li><a href="#course">Курсы</a></li>
-                            <li><a href="#news">Новости</a> </li>
-                            <li><a href="#about">О нас</a></li>
-                            <li><a href="/">Контакты</a></li>
-                            <li><a href="#reviews">Отзывы</a></li>
-                        </ul>
-                    </div>
 
-                    <div class="social">
-                        <a href="/"><img src="@/assets/img-header/whatsapp.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/tg.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/inst.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/vk.svg"></a>
-                    </div>
+                    <div class="contact-course">
+                        <div class="nav-cont">
+                            <p><a href=""><span>Главная</span> </a><a href=".header-container"> / Курс “Категория
+                                    “А”</a>
+                            </p>
+                        </div>
+                        <div class="cont-content">
+                            <p id="cont-p-1">Курс “Категория “А”</p>
+                            <p id="cont-p-2">Курс для получения прав категории “А”</p>
+                            <p id="cont-p-3">Предназначен для людей, не умеющих управлять мотоциклом. Обучение
+                                проводится на
+                                площадке с
+                                удобной локацией. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно
+                                сдать
+                                практический экзамен в ГИБДД </p>
+                            <ul>
+                                <li>15 часов практики</li>
+                                <li>10 занятий</li>
+                                <li>100% готовность к экзамену</li>
+                            </ul>
+                            <p id="cont-p-4">В стоимость подготовки включены: топливные сборы, экипировка, мотоцикл,
+                                услуги
+                                инструктора,
+                                дистанционное обучение и внутренний экзамен по теории ПДД.</p>
 
-                    <div class="tel">
-                        <a href="tel:+79384567707">+7 938 456 77 07</a>
-                    </div>
-                </div>
-
-
-                <div class="contact-course">
-                    <div class="nav-cont">
-                        <p><a href=""><span>Главная</span> </a><a href=".header-container"> / Курс “Категория “А”</a>
-                        </p>
-                    </div>
-                    <div class="cont-content">
-                        <p id="cont-p-1">Курс “Категория “А”</p>
-                        <p id="cont-p-2">Курс для получения прав категории “А”</p>
-                        <p id="cont-p-3">Предназначен для людей, не умеющих управлять мотоциклом. Обучение проводится на
-                            площадке с
-                            удобной локацией. Вы научитесь уверенно обращаться с мотоциклом и сможете гарантированно
-                            сдать
-                            практический экзамен в ГИБДД </p>
-                        <ul>
-                            <li>15 часов практики</li>
-                            <li>10 занятий</li>
-                            <li>100% готовность к экзамену</li>
-                        </ul>
-                        <p id="cont-p-4">В стоимость подготовки включены: топливные сборы, экипировка, мотоцикл, услуги
-                            инструктора,
-                            дистанционное обучение и внутренний экзамен по теории ПДД.</p>
-
-                        <div class="contact-price">
-                            <p id="cont-p-5">25 000 рублей</p>
-                            <button type="submit">Записаться</button>
+                            <div class="contact-price">
+                                <p id="cont-p-5">25 000 рублей</p>
+                                <button type="submit">Записаться</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 

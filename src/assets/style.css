@@ -1957,7 +1957,7 @@ header {
 
 }
 
-.documets::before {
+.documents::before {
     content: "Наши документы";
     font-family: 'Metro', sans-serif;
     font-style: normal;
@@ -2086,14 +2086,49 @@ header {
     padding-top: 100px;
 }
 
+.reviews::before {
+    content: "отзывы";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
+}
+
+.reviews-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
+}
+
+.reviews-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
+}
+.reviews-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
+}
+
 .reviews-photo-flex {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     margin-top: 150px;
     overflow-x: scroll;
-    padding-bottom: 80px;
     align-items: flex-start;
+    padding-bottom: 80px;
 }
 
 .reviews-photo-flex::-webkit-scrollbar {
@@ -2262,14 +2297,16 @@ input[type=submit] {
 /* PARTNERS-16-BLOCK  */
 
 
-.title-partners {
+.parters{
+    width: 100%;
     background-color: #000000;
     margin: 0 auto;
-    text-align: center;
+    padding-top: 100px;
+    border-bottom: 1px solid #373737;
 
 }
-
-.title-shadow-part {
+.parters::before {
+    content: "партнеры";
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2277,13 +2314,17 @@ input[type=submit] {
     line-height: 144px;
     text-transform: uppercase;
     color: #191919;
+    padding-left: 50px;
 }
 
-.title-shadow-part::before {
-    content: "партнеры";
+.title-partners {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
 }
 
-.title-shadow-part p {
+.title-partners p {
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2291,34 +2332,38 @@ input[type=submit] {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
+
 }
 
 .container-partners {
     margin: 0 auto;
     max-width: 1400px;
+    margin-top: 101px;
     height: auto;
-    padding: 100px;
-    background-color: #000000;
+    padding: 0px 100px 100px 100px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 50px;
     column-gap: 9px;
     justify-content: center;
-    border-bottom: 1px solid #373737;
+    
 
 }
 
 
 /* question-17-блок  */
 
-.title-question {
+
+.question{
+    width: 100%;
     background-color: #000000;
     margin: 0 auto;
-    text-align: center;
+    padding-top: 100px;
+  
 
 }
-
-.title-shadow-quest {
+.question::before {
+    content: "Часто задаваемые вопросы";
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2326,13 +2371,17 @@ input[type=submit] {
     line-height: 144px;
     text-transform: uppercase;
     color: #191919;
+    padding-left: 50px;
 }
 
-.title-shadow-quest::before {
-    content: "Часто задаваемые вопросы";
+.title-quest {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
 }
 
-.title-shadow-quest p {
+.title-quest p {
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2340,13 +2389,14 @@ input[type=submit] {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
+
 }
 
-.container-question {
+.question-content {
     max-width: 1400px;
     margin: 0 auto;
-    background-color: #000000;
-    padding: 100px 100px 100px 100px;
+    margin-top: 101px;
+    padding: 0px 100px 100px 100px;
 }
 
 .quest-block {
@@ -2413,14 +2463,15 @@ input[type=submit] {
 /* CONTACT-18-BLOCK */
 
 
-.title-contact {
+.contact {
+    width: 100%;
     background-color: #000000;
     margin: 0 auto;
-    text-align: center;
+    padding-top: 100px;
 
 }
-
-.title-shadow-cont {
+.contact::before {
+    content: "контакты";
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2428,13 +2479,17 @@ input[type=submit] {
     line-height: 144px;
     text-transform: uppercase;
     color: #191919;
+    padding-left: 50px;
 }
 
-.title-shadow-cont::before {
-    content: "контакты";
+.title-contact {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+
 }
 
-.title-shadow-cont p {
+.title-contact p {
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -2442,14 +2497,13 @@ input[type=submit] {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
+
 }
 
 .container-contact {
     background-image: url(@/assets/img-cont-bl-18/Rectangle1.png);
     background-size: cover;
     background-size: 100%;
-    background-color: #000000;
-
     background-repeat: no-repeat;
     margin: 0 auto;
     /* background-attachment: fixed; */
@@ -2458,7 +2512,8 @@ input[type=submit] {
 .contact-content {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 100px 53px 100px;
+    margin-top: 105px;
+    padding: 0px 100px 53px 100px;
 }
 
 .nav-cont a {

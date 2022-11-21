@@ -18,6 +18,7 @@ body {
     padding: 0px;
     height: auto;
     width: auto;
+    overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
@@ -403,6 +404,7 @@ header {
     justify-content: flex-end;
     gap: 10px;
     margin-top: 71px;
+    padding: 0px 100px;
 
 }
 

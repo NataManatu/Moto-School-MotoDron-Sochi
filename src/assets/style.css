@@ -725,7 +725,8 @@ header {
     overflow-wrap: anywhere;
 
 }
-.be-moto-content{
+
+.be-moto-content {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 100px 100px 100px;
@@ -736,7 +737,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     gap: 112px;
-    margin-top: 160px;  
+    margin-top: 160px;
 }
 
 .t-text {
@@ -777,11 +778,13 @@ header {
     margin-top: 150px;
 
 }
+
 .t-text-2 {
     font-weight: 400;
     color: #8C8C8C;
     margin-left: 200px;
 }
+
 #t-2 {
     margin: -25px 0px 0px -33px;
     position: absolute;
@@ -933,41 +936,57 @@ header {
 
 
 .photo-gallery {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 100px 100px 100px;
+    padding-top: 100px;
+}
+
+.photo-gallery::before {
+    content: "Фотогаллерея";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
+}
+
+.photo-gallery-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.photo-gallery-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
 }
 
 .gallery-block-grid {
-    padding-bottom: 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
     overflow-x: scroll;
+
 }
 
 .gallery-block-grid::-webkit-scrollbar {
     height: 5px;
+
 }
 
 .gallery-block-grid::-webkit-scrollbar-thumb {
     background: #FCD702;
     border-radius: 20px;
-}
-
-#about-gallery_1 {
-    margin-left: -50px;
-    position: absolute;
-}
-
-#about-gallery_2 {
-    position: relative;
-    margin-left: 110px;
-    margin-top: 30px;
-}
-
-#about-gallery_3 {
-    position: absolute;
-    margin-left: -100px;
-    margin-top: 50px;
 }
 
 .gallery-block-grid {
@@ -1114,43 +1133,59 @@ header {
 /* 8-блок */
 
 .garage {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
     background-color: #000000;
-    padding: 100px 0px;
+    padding-top: 100px;
 }
 
-#about-garage_1 {
-    margin-left: 50px;
-    position: absolute;
+.garage::before {
+    content: "Наш гараж";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#about-garage_2 {
-    position: relative;
-    margin-left: 210px;
-    margin-top: 30px;
+.garage-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
 }
 
-#about-garage_3 {
-    position: absolute;
-    margin-top: 40px;
-}
+.garage-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
 
-
-.garage-text {
-    margin-left: 210px;
-    color: #8C8C8C;
-    margin-top: 91px;
-    margin-right: 371px;
-    overflow-wrap: anywhere;
 }
 
 .garage-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 0px 100px 0px;
+}
+
+.garage-text {
+    max-width: 619px;
+    margin-left: 210px;
+    color: #8C8C8C;
+    margin-top: 91px;
+    overflow-wrap: anywhere;
+}
+
+.garage-img {
     display: flex;
     align-items: center;
     width: 1400px;
-    height: 318px;
-    left: -226px;
     margin-top: 111px;
 }
 
@@ -1163,7 +1198,6 @@ header {
     font-weight: 600;
     font-size: 32px;
     line-height: 46px;
-    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #E3E3E3;
 }
@@ -1190,15 +1224,12 @@ header {
     color: #8C8C8C;
     font-weight: 400;
     font-size: 16px;
-    line-height: 140%;
-    /* identical to box height, or 22px */
     text-align: right;
 }
 
 .card_text_2 {
     font-weight: 400;
     font-size: 16px;
-    line-height: 140%;
     color: #E3E3E3;
 }
 
@@ -1226,7 +1257,6 @@ header {
     margin-top: 120px;
     margin-left: 285px;
 }
-
 
 /* КАК СДЕЛАТЬ ДРОБНОЕ???????????? */
 #sup-1 {
@@ -1288,33 +1318,48 @@ header {
 /* блок-9-команда  */
 
 .command {
-    margin-top: 200px;
+    width:100% ;
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+.command::before {
+    content: "команда";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
+}
+
+.command-title {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.command-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+
+}
+/* .command-content{
     max-width: 1400px;
     margin: 0 auto;
-    background-color: #000000;
-    padding: 100px 0px 100px 0px;
-}
+    padding: 0px 100px 100px 100px;
 
-#about-command_1 {
-    margin-left: 50px;
-    position: absolute;
-
-}
-
-#about-command_2 {
-    position: absolute;
-    margin-left: 210px;
-    margin-top: 30px;
-}
-
-#about-command_3 {
-    position: absolute;
-    margin-top: 40px;
-}
-
-
+} */
 .instructor-card-1 {
     background-image: url("@/assets/img-command-bl-9/BG.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 125px;
 
@@ -1322,39 +1367,39 @@ header {
 
 .instructor-card-2 {
     background-image: url("@/assets/img-command-bl-9/BG-2.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 200px;
 
 }
-
+.command-content{
+  padding-bottom: 100px; 
+}
 .content-card-1 {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 150px;
-    width: 1200px;
-    padding: 150px 100px 0px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 172px;
+   
 }
 
 .content-card-2 {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    width: 1200px;
-    padding: 150px 100px 0px 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 172px;
+   
 }
 
-#instructor-text-p-1 {
-    position: relative;
-}
 
 #instructor-text-p-2 {
-    position: absolute;
     margin-top: -45px;
     font-weight: 700;
     font-size: 32px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #E3E3E3;
 
@@ -1362,21 +1407,17 @@ header {
 }
 
 #instructor-text-p-3 {
-
     font-weight: 400;
     font-size: 18px;
-    line-height: 140%;
     margin-top: 30px;
-    /* or 25px */
     color: #8C8C8C;
-    overflow-wrap: anywhere;
-
-
+    /* overflow-wrap: anywhere; */
 }
 
 #instructor-photo-1 {
     width: 300px;
     height: 300px;
+    margin-top: -57px;
 }
 
 
@@ -1386,32 +1427,38 @@ header {
 /* блок-10-выбери свой байк */
 
 .bike {
-    width: 1400px;
-    margin: 0 auto;
+    width:100% ;
     background-color: #000000;
-    padding: 50px 100px;
-
+    
+    
 }
 
-#about-bike_1 {
-    position: absolute;
-    z-index: 1;
-    margin-left: -50px;
-
+.bike-bg::before {
+    content: "выбери свой байк";
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    text-transform: uppercase;
+    color: #191919;
+    padding-left: 50px;
 }
 
-#about-bike_2 {
-    position: absolute;
-    z-index: 2;
-    margin-top: 50px;
-    margin-left: 111px;
-}
-
-#about-bike_3 {
-    position: absolute;
-    z-index: 2;
-    margin-top: 75px;
+.bike-title {
+    display: flex;
+    margin-top: -100px;
     margin-left: -100px;
+}
+
+.bike-title p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
 
 }
 
@@ -1420,20 +1467,15 @@ header {
     background-repeat: no-repeat;
     margin: 0 auto;
     text-align: center;
-    width: 1200px;
-    height: 600px;
+    max-width: 1200px;
+    padding: 50px 100px;
 
-}
-
-.about-bike {
-    position: absolute;
 
 }
 
 .bike-content {
     display: flex;
     justify-content: center;
-    padding-top: 260px;
     gap: 48px;
     color: #E3E3E3;
 
@@ -1445,7 +1487,6 @@ header {
     line-height: 115%;
     text-align: left;
     overflow-wrap: anywhere;
-
 }
 
 
@@ -1456,7 +1497,6 @@ header {
     font-size: 18px;
     line-height: 140%;
     overflow-wrap: anywhere;
-
 }
 
 .bike-inp-btn {

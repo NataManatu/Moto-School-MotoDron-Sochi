@@ -531,10 +531,10 @@ const butVect2 = (() => {
 
         <div class="photo-gallery">
 
-            <div class="about-photo-gallery">
-                <img src="@/assets/img-photo-gal-bl-7/Фотогалерея.svg" alt="" id="about-gallery_1">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                <img src="@/assets/img-photo-gal-bl-7/Фотогалерея (1).svg" alt="" id="about-gallery_2">
+            <div class="photo-gallery-title">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
+                <p>Фотогаллерея</p>
+
             </div>
 
             <div class="gallery-block-grid">
@@ -567,70 +567,72 @@ const butVect2 = (() => {
         <!--GARAGE-- 8 блок -->
 
         <div class="garage">
-            <div class="about-garage">
-                <img src="@/assets/img-garage-bl-8/наш гараж.svg" alt="" id="about-garage_1">
-                <img src="@/assets/img-garage-bl-8/Line 11.svg" alt="" id="about-garage_3">
-                <img src="@/assets/img-garage-bl-8/Наш гараж (1).svg" alt="" id="about-garage_2">
-
-            </div>
-
-            <div class="garage-text">
-                <p id="garage-text">Вы можете ознакомиться с техникой, на которой проходит обучение.<br>Вся техника
-                    регулярно обслуживается во избежание аварий, травм и нештатных ситуаций.
-                </p>
-            </div>
-
-            <div class="box-card">
-                <div class="main_card_desc">
-                    <p>Yamaha YZF-R3</p>
-                </div>
-
-                <div class="main_card_desc_text">
-                    <div class="card_text_1">
-                        <p>Год выпуска:</p>
-                        <p>Страна производства:</p>
-                        <p>Рама:</p>
-                        <p>Тип двигателя:</p>
-                        <p>Рабочий объем:</p>
-                        <p>Максимальная мощность:</p>
-                        <p>Максимальная скорость:</p>
-                        <p>Коробка передач:</p>
-                        <p>Высота по седлу:</p>
-                        <p>Масса:</p>
-                        <p>Габариты (д х ш х в):</p>
-                    </div>
-
-                    <div class="card_text_2">
-                        <p>2018</p>
-                        <p>Индонезия</p>
-                        <p>стальная диагональная</p>
-                        <p>2-цилиндровый, 4-тактный, рядный</p>
-                        <p>321 см³</p>
-                        <p>42,0 л.с. (31,0 кВт) при 10750 об/мин</p>
-                        <p>175 км/ч</p>
-                        <p>механическая, 6 передач</p>
-                        <p>780 мм</p>
-                        <p>125 кг</p>
-                        <p>2090 мм х 720 мм х 11135 мм</p>
-                    </div>
-                </div>
+            <div class="garage-title">
+                <img src="@/assets/img-garage-bl-8/Line 11.svg" alt="">
+                <p>Наш гараж</p>
             </div>
 
             <div class="garage-content">
-                <img src="@/assets/img-garage-bl-8/prev_card.png" alt="" id="garage-img-1">
-                <img src="@/assets/img-garage-bl-8/Rectangle 36.png" alt="" id="garage-img-2">
-                <img src="@/assets/img-garage-bl-8/next_card1.png" alt="" id="garage-img-3">
-                <img src="@/assets/img-garage-bl-8/next_card2.png" alt="" id="garage-img-4">
-            </div>
 
-            <div class="vector-nav">
-                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
+                <div class="garage-text">
+                    <p id="garage-text">Ознакомьтесь с техникой, на которой проходит обучение. Мы следим, чтобы наш
+                        мотопарк получал своевременное качественное ТО во избежание аварий, травм и нештатных ситуаций.
+                        Ваша безопасность – наш приоритет.
+                    </p>
+                </div>
 
-                <sup id="sup-1">1</sup>
-                <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
-                <sub id="sub-2">4</sub>
+                <div class="box-card">
+                    <div class="main_card_desc">
+                        <p>Yamaha YZF-R3</p>
+                    </div>
 
-                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                    <div class="main_card_desc_text">
+                        <div class="card_text_1">
+                            <p>Год выпуска:</p>
+                            <p>Страна производства:</p>
+                            <p>Рама:</p>
+                            <p>Тип двигателя:</p>
+                            <p>Рабочий объем:</p>
+                            <p>Максимальная мощность:</p>
+                            <p>Максимальная скорость:</p>
+                            <p>Коробка передач:</p>
+                            <p>Высота по седлу:</p>
+                            <p>Масса:</p>
+                            <p>Габариты (д х ш х в):</p>
+                        </div>
+
+                        <div class="card_text_2">
+                            <p>2018</p>
+                            <p>Индонезия</p>
+                            <p>стальная диагональная</p>
+                            <p>2-цилиндровый, 4-тактный, рядный</p>
+                            <p>321 см³</p>
+                            <p>42,0 л.с. (31,0 кВт) при 10750 об/мин</p>
+                            <p>175 км/ч</p>
+                            <p>механическая, 6 передач</p>
+                            <p>780 мм</p>
+                            <p>125 кг</p>
+                            <p>2090 мм х 720 мм х 11135 мм</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="garage-img">
+                    <img src="@/assets/img-garage-bl-8/prev_card.png" alt="" id="garage-img-1">
+                    <img src="@/assets/img-garage-bl-8/Rectangle 36.png" alt="" id="garage-img-2">
+                    <img src="@/assets/img-garage-bl-8/next_card1.png" alt="" id="garage-img-3">
+                    <img src="@/assets/img-garage-bl-8/next_card2.png" alt="" id="garage-img-4">
+                </div>
+
+                <div class="vector-nav">
+                    <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
+
+                    <sup id="sup-1">1</sup>
+                    <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
+                    <sub id="sub-2">4</sub>
+
+                    <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                </div>
             </div>
         </div>
 
@@ -639,48 +641,51 @@ const butVect2 = (() => {
 
         <div class="command">
 
-            <div class="about-command">
-                <img src="@/assets/img-command-bl-9/Команда.svg" alt="" id="about-command_1">
-                <img src="@/assets/img-command-bl-9/Line 11.svg" alt="" id="about-command_3">
-                <img src="@/assets/img-command-bl-9/Команда (1).svg" alt="" id="about-command_2">
+            <div class="command-title">
+                <img src="@/assets/img-command-bl-9/Line 11.svg" alt="">
+                <p>команда</p>
+
             </div>
 
-
-            <div class="instructor-card-1">
-                <div class="content-card-1">
-                    <div class="text-card">
-                        <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
-                        <p id="instructor-text-p-2">Терентьев Андрей</p>
-                        <p id="instructor-text-p-3">Легкий индийский дорожный мотоцикл. Имеет классический дизайн с
-                            минимумом пластиковых
-                            деталей.Выносливый и эффективный, что делает его отличным мотоциклом для городских и
-                            длительных
-                            поездок по пересеченной местности.<br><br>
-                            Сочетание стильного дизайна и превосходных технических характеристик порадуют как новичка,
-                            так и
-                            опытного райдера. Boxer BM 150 - это идеальная комбинация мощности
-                            и топливной эффективности.</p>
+            <div class="command-content">
+                <div class="instructor-card-1">
+                    <div class="content-card-1">
+                        <div class="text-card">
+                            <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
+                            <p id="instructor-text-p-2">Терентьев Андрей</p>
+                            <p id="instructor-text-p-3">Легкий индийский дорожный мотоцикл. Имеет классический дизайн с
+                                минимумом пластиковых
+                                деталей.Выносливый и эффективный, что делает его отличным мотоциклом для городских и
+                                длительных
+                                поездок по пересеченной местности.<br><br>
+                                Сочетание стильного дизайна и превосходных технических характеристик порадуют как
+                                новичка,
+                                так и
+                                опытного райдера. Boxer BM 150 - это идеальная комбинация мощности
+                                и топливной эффективности.</p>
+                        </div>
+                        <img src="@/assets/img-command-bl-9/Photo.png" alt="" id="instructor-photo-1">
                     </div>
-                    <img src="@/assets/img-command-bl-9/Photo.png" alt="" id="instructor-photo-1">
                 </div>
-            </div>
 
 
-            <div class="instructor-card-2">
-                <div class="content-card-2">
-                    <img src="@/assets/img-command-bl-9/Photo-2.png" alt="" id="instructor-photo-1">
-                    <div class="text-card">
-                        <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
-                        <p id="instructor-text-p-2">Ефимов Андрей</p>
-                        <p id="instructor-text-p-3">Легкий индийский дорожный мотоцикл. Имеет классический дизайн с
-                            минимумом пластиковых
-                            деталей.Выносливый и эффективный, что делает его отличным мотоциклом для городских и
-                            длительных
-                            поездок по пересеченной местности.<br><br>
-                            Сочетание стильного дизайна и превосходных технических характеристик порадуют как новичка,
-                            так и
-                            опытного райдера. Boxer BM 150 - это идеальная комбинация мощности
-                            и топливной эффективности.</p>
+                <div class="instructor-card-2">
+                    <div class="content-card-2">
+                        <img src="@/assets/img-command-bl-9/Photo-2.png" alt="" id="instructor-photo-1">
+                        <div class="text-card">
+                            <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
+                            <p id="instructor-text-p-2">Ефимов Андрей</p>
+                            <p id="instructor-text-p-3">Легкий индийский дорожный мотоцикл. Имеет классический дизайн с
+                                минимумом пластиковых
+                                деталей.Выносливый и эффективный, что делает его отличным мотоциклом для городских и
+                                длительных
+                                поездок по пересеченной местности.<br><br>
+                                Сочетание стильного дизайна и превосходных технических характеристик порадуют как
+                                новичка,
+                                так и
+                                опытного райдера. Boxer BM 150 - это идеальная комбинация мощности
+                                и топливной эффективности.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -690,11 +695,7 @@ const butVect2 = (() => {
         <!-- BIKE--блок-10-->
 
         <div class="bike">
-            <div class="about-bike">
-                <img src="@/assets/img-bike-bl-10/Выбери свой байк.svg" alt="" id="about-bike_1">
-                <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="" id="about-bike_3">
-                <img src="@/assets/img-bike-bl-10/Выбери свой байк (1).svg" alt="" id="about-bike_2">
-            </div>
+
 
             <!-- если отдельные фрагменты,то бекграунд убрать -->
 
@@ -706,6 +707,10 @@ const butVect2 = (() => {
             </div> -->
 
             <div class="bike-bg">
+                <div class="bike-title">
+                    <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="">
+                    <p>выбери свой байк</p>
+                </div>
                 <div class="bike-content">
                     <div class="bike-block ">
                         <p id="bike-text">Пробное занятие в нашей школе абсолютно бесплатное, без скрытых платежей и

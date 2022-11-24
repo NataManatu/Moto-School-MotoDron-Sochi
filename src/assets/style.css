@@ -18,7 +18,7 @@ body {
     padding: 0px;
     height: auto;
     width: auto;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {

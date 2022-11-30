@@ -1438,6 +1438,7 @@ header {
 
 .bike::before {
     content: "выбери свой байк";
+    white-space: nowrap;
     font-family: 'Metro', sans-serif;
     font-style: normal;
     font-weight: 400;

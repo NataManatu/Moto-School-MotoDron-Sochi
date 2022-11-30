@@ -534,33 +534,41 @@ const butVect2 = (() => {
             <div class="photo-gallery-title">
                 <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
                 <p>Фотогаллерея</p>
-
             </div>
 
             <div class="gallery-block-grid">
+                <div class="grid-img" id="grid-41"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" alt=""></div>
+                <div class="grid-img" id="grid-42"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" alt=""></div>
+                <div class="grid-img" id="grid-60"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" alt=""></div>
+                <div class="grid-img" id="grid-62"><img src="@/assets/img-photo-gal-bl-7/Rectangle 62.png" alt=""></div>
+                <div class="grid-img" id="grid-63"><img src="@/assets/img-photo-gal-bl-7/Rectangle 63.png" alt=""></div>
+                <div class="grid-img" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" alt=""></div>
+                <div class="grid-img" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" alt="">
+                </div>
+                <div class="grid-img" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" alt="">
+                </div>
+                <div class="grid-img" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" alt="">
+                </div>
+                <div class="grid-img" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" alt="">
+                </div>
 
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" alt="" id="grid-41">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" alt="" id="grid-42">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" alt="" id="grid-60">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 62.png" alt="" id="grid-62">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 63.png" alt="" id="grid-63">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" alt="" id="grid-67">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" alt="" id="grid-41-b">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" alt="" id="grid-177">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" alt="" id="grid-178">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" alt="" id="grid-64-1">
+                <div class="grid-img" id="grid-61"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" alt=""></div>
+                <div class="grid-img" id="grid-64"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" alt=""></div>
+                <div class="grid-img" id="grid-42-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" alt="">
+                </div>
+                <div class="grid-img" id="grid-54"><img src="@/assets/img-photo-gal-bl-7/Rectangle 54.png" alt=""></div>
+                <div class="grid-img" id="grid-60-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" alt="">
+                </div>
 
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" alt="" id="grid-61">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" alt="" id="grid-64">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" alt="" id="grid-42-1">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 54.png" alt="" id="grid-54">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" alt="" id="grid-60-1">
 
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" alt="" id="grid-61-1">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" alt="" id="grid-179">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" alt="" id="grid-180">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" alt="" id="grid-65">
-                <img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" alt="" id="grid-66">
+                <div class="grid-img" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" alt="">
+                </div>
+                <div class="grid-img" id="grid-179"><img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" alt="">
+                </div>
+                <div class="grid-img" id="grid-180"><img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" alt="">
+                </div>
+                <div class="grid-img" id="grid-65"><img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" alt=""></div>
+                <div class="grid-img" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" alt=""></div>
             </div>
         </div>
 
@@ -700,14 +708,6 @@ const butVect2 = (() => {
                 <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="">
                 <p>выбери свой байк</p>
             </div>
-            <!-- если отдельные фрагменты,то бекграунд убрать -->
-
-            <!-- <div class="bike-img-grid">
-                <img src="@/assets/img-bl-10/CTA_img01/inactive.png" alt="">
-                <img src="@/assets/img-bl-10/inactive.png" alt="" id="bike-img">
-                <img src="@/assets/img-bl-10/CTA_img02/inactive.png" alt="" id="bike-img">
-                <img src="@/assets/img-bl-10/CTA_img04/inactive.png" alt="" id="bike-img">
-            </div> -->
 
             <div class="bike-bg">
                 <div class="bike-content">
@@ -992,8 +992,8 @@ const butVect2 = (() => {
                         </p>
                     </div>
                     <div class="news-text">
+                        <h1>Honda представила CB750 Hornet</h1>
                         <div class="overflow-text">
-                            <h1>Honda представила CB750 Hornet</h1>
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92
                                 л.с. и полный
@@ -1020,8 +1020,8 @@ const butVect2 = (() => {
                         </p>
                     </div>
                     <div class="news-text">
+                        <h1>Honda представила CB750 Hornet</h1>
                         <div class="overflow-text">
-                            <h1>Honda представила CB750 Hornet</h1>
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92
                                 л.с. и полный

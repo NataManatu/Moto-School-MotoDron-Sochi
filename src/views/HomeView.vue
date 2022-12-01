@@ -1419,6 +1419,54 @@ const butVect2 = (() => {
                 <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
                 <p>контакты</p>
             </div>
+            <div class="contact-mess">
+                <div class="mess-block">
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon.svg" alt="">
+
+
+                    </div>
+
+
+
+
+                    <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
+                    <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
+                    <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="contact">
+            <div class=" title-contact">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <p>контакты</p>
+            </div>
 
             <div class="container-contact">
                 <div class="contact-content">
@@ -1483,7 +1531,7 @@ const butVect2 = (() => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 

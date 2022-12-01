@@ -441,7 +441,7 @@ header {
     padding: 0px 100px 100px 100px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-top: 52px;
     gap: 75px;
     overflow-x: scroll;
@@ -1007,7 +1007,7 @@ header {
 
 .grid-item {
     object-fit: cover;
-    width: 100%;
+    
 }
 
 .grid-item img {
@@ -2021,9 +2021,6 @@ header {
 
 }
 
-.grid-item img {
-    width: 100%;
-}
 
 #doc-41 {
     grid-column: 5/span 2;
@@ -2540,6 +2537,26 @@ input[type=submit] {
 
 }
 
+.contact-mess{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 105px;
+    padding: 0px 100px 72px 100px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* БЛОК-19 */
 .container-contact {
     background-image: url(@/assets/img-cont-bl-18/Rectangle1.png);
     background-size: cover;

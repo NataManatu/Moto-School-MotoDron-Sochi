@@ -987,7 +987,6 @@ header {
 
 .gallery-block-grid::-webkit-scrollbar {
     height: 5px;
-    
 
 }
 
@@ -999,17 +998,20 @@ header {
 .gallery-block-grid {
     display: grid;
     margin-top: 100px;
-    height: auto;
-    grid-template-columns: repeat(14, auto);
+    grid-template-columns: repeat(13, auto);
     grid-template-rows: repeat(3, auto);
+    object-fit: cover;
     gap: 20px;
-    
-    
+
 }
 
-.grid-img img{
-    border-radius: 2px;
+.grid-item {
     object-fit: cover;
+    width: 100%;
+}
+
+.grid-item img {
+    border-radius: 2px;
 }
 
 #grid-41 {
@@ -1020,12 +1022,16 @@ header {
 #grid-62 {
     grid-column: 5;
     grid-row: 1/span 2;
+
 }
 
 #grid-63 {
-    grid-column: 6/span 2;
+    grid-column: 6;
     grid-row: 1/span 2;
-
+    /* background-image:url(@/assets/img-photo-gal-bl-7/Rectangle63.png); 
+    background-size: cover;
+    background-position: center;
+    align-content: center; */
 }
 
 #grid-41-b {
@@ -1046,22 +1052,19 @@ header {
 #grid-64 {
     grid-column: 3/span 2;
     grid-row: 2/span 2;
-    object-fit: cover;
+
 }
 
 #grid-65 {
     grid-column: 5;
     grid-row: 3;
-   
 }
 
 /* ????????? */
 
 #grid-66 {
     grid-column: 6;
-    grid-row:3;
-    object-fit: cover;
-    
+    grid-row: 3;
     /* margin-left: -104px; */
 }
 
@@ -1095,13 +1098,13 @@ header {
 
 
 #grid-178 {
-    grid-column: 11/span 2;
+    grid-column: 11;
     grid-row: 1;
     /* margin-left: -100px; */
 }
 
 #grid-64-1 {
-    grid-column: 13/span 2;
+    grid-column: 12/span 2;
     grid-row: 1/span 2;
 }
 
@@ -1113,22 +1116,21 @@ header {
 #grid-180 {
     grid-column: 11;
     grid-row: 2/span 2;
-    /* width: 386px;
-    height: 460px; */
+
 }
 
 #grid-64-1 {
-    grid-column: 13/span 2;
+    grid-column: 12/span 2;
     grid-row: 1/span 2;
 }
 
 #grid-42-1 {
-    grid-column: 13;
+    grid-column: 12;
     grid-row: 3;
 }
 
 #grid-60-1 {
-    grid-column: 14;
+    grid-column: 13;
     grid-row: 3;
 }
 
@@ -1437,9 +1439,7 @@ header {
 }
 
 
-
 /* блок-10-выбери свой байк */
-
 
 
 .bike {
@@ -2021,6 +2021,10 @@ header {
 
 }
 
+.grid-item img {
+    width: 100%;
+}
+
 #doc-41 {
     grid-column: 5/span 2;
     grid-row: 2/span 2;
@@ -2035,6 +2039,11 @@ header {
 #doc-60-1 {
     grid-column: 9;
     grid-row: 3;
+}
+
+#doc-64 {
+    grid-column: 5/span 2;
+    grid-row: 1;
 }
 
 #doc-64 {
@@ -2059,8 +2068,15 @@ header {
     grid-row: 2/span 2;
 }
 
+#doc-177 {
+    grid-column: 6;
+    grid-row: 1;
+}
+
 #doc-178 {
-    margin-left: -100px;
+    grid-column: 7;
+    grid-row: 1;
+    /* margin-left: -100px; */
 }
 
 #doc-180 {
@@ -2134,7 +2150,8 @@ header {
     color: #E3E3E3;
 
 }
-.reviews-content{
+
+.reviews-content {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 100px 100px 100px;
@@ -2316,7 +2333,7 @@ input[type=submit] {
 /* PARTNERS-16-BLOCK  */
 
 
-.parters{
+.parters {
     width: 100%;
     background-color: #000000;
     margin: 0 auto;
@@ -2324,6 +2341,7 @@ input[type=submit] {
     border-bottom: 1px solid #373737;
 
 }
+
 .parters::before {
     content: "партнеры";
     font-family: 'Metro', sans-serif;
@@ -2365,7 +2383,7 @@ input[type=submit] {
     row-gap: 50px;
     column-gap: 9px;
     justify-content: center;
-    
+
 
 }
 
@@ -2373,14 +2391,15 @@ input[type=submit] {
 /* question-17-блок  */
 
 
-.question{
+.question {
     width: 100%;
     background-color: #000000;
     margin: 0 auto;
     padding-top: 100px;
-  
+
 
 }
+
 .question::before {
     content: "Часто задаваемые вопросы";
     white-space: nowrap;
@@ -2490,6 +2509,7 @@ input[type=submit] {
     padding-top: 100px;
 
 }
+
 .contact::before {
     content: "контакты";
     font-family: 'Metro', sans-serif;

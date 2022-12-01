@@ -1423,24 +1423,58 @@ const butVect2 = (() => {
                 <div class="mess-block">
                     <div class="mess-col">
                         <img src="@/assets/img-cont-bl-18/icon.svg" alt="">
+                        <p>E-mail</p>
+                        <p class="mess-cont"><a href="#">dronmotoshkola@yandex.ru</a></p>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
+                        <p>Мессенджеры</p>
+                        <div class="mess-cont-p">
+                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
+                                <a href="#">Начать чат в Telegram</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
+                        <p>Телефон</p>
+                        <p class="mess-cont"><a href="#">+7 938 456 77 07</a></p>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
+                        <p>Офис</p>
+                        <p class="mess-cont"><a href="#">Сочи, переулок Бригадный 1</a></p>
+                    </div>
+                </div>
+                <hr>
 
-
+                <div class="header-menu" id="header-menu">
+                    <div class="logo">
+                        <img src="@/assets/img-header/logo.svg" alt="">
                     </div>
 
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#course">Курсы</a></li>
+                            <li><a href="#news">Новости</a> </li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="/">Контакты</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                        </ul>
+                    </div>
 
+                    <div class="social">
+                        <a href="/"><img src="@/assets/img-header/whatsapp.svg"></a>
+                        <a href="/"><img src="@/assets/img-header/tg.svg"></a>
+                        <a href="/"><img src="@/assets/img-header/inst.svg"></a>
+                        <a href="/"><img src="@/assets/img-header/vk.svg"></a>
+                    </div>
 
-
-                    <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
-                    <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
-                    <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
-
-
-
+                    <div class="tel">
+                        <a href="tel:+79384567707">+7 938 456 77 07</a>
+                    </div>
                 </div>
-
             </div>
-
-
         </div>
 
 

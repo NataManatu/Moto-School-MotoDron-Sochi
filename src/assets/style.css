@@ -1007,7 +1007,7 @@ header {
 
 .grid-item {
     object-fit: cover;
-    
+
 }
 
 .grid-item img {
@@ -2537,26 +2537,68 @@ input[type=submit] {
 
 }
 
-.contact-mess{
+.contact-mess {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 105px;
-    padding: 0px 100px 72px 100px;  
+    padding: 0px 100px 72px 100px;
+}
+
+.mess-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 177px;
+    gap: 30px;
+    align-items: stretch
+}
+
+.mess-block p {
+    font-weight: 600;
+    font-size: 32px;
+    color: #8C8C8C;
+    margin-top: 24px;
+}
+
+.mess-cont a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FCD702;
+    margin-top: 56px;
+
+
+}
+
+.mess-cont-p a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FCD702;
+    margin-top: 56px;
+
+}
+
+.mess-cont-p {
+    line-height: 24px;
+}
+
+.contact-mess hr {
+    margin-top: 100px;
+    opacity: 0.5;
+    border: 1px solid #8C8C8C;
+}
+#header-menu{
+    margin-top: 65px;
+
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* БЛОК-19 */
+
+
+
+
 .container-contact {
     background-image: url(@/assets/img-cont-bl-18/Rectangle1.png);
     background-size: cover;

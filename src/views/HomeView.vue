@@ -1448,12 +1448,12 @@ const butVect2 = (() => {
                 </div>
                 <hr>
 
-                <div class="header-menu" id="header-menu">
+                <div class="header-menu" id="contact-futer">
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
                     </div>
 
-                    <div class="nav">
+                    <div class="nav" id="nav-futer">
                         <ul>
                             <li><a href="#course">Курсы</a></li>
                             <li><a href="#news">Новости</a> </li>
@@ -1463,16 +1463,21 @@ const butVect2 = (() => {
                         </ul>
                     </div>
 
-                    <div class="social">
-                        <a href="/"><img src="@/assets/img-header/whatsapp.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/tg.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/inst.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/vk.svg"></a>
+                    <div class="social" id="social-futer">
+                        <a href="/"><img src="@/assets/img-cont-bl-18/WA.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/TG.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/IN.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/VK.svg"></a>
                     </div>
 
-                    <div class="tel">
+                    <div class="tel" id="futer-tel">
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
+                </div>
+
+                <div class="contact-futer">
+                    <p><a href="#">Политика Конфиденциальности</a></p>
+                    <p>designed by <span>dixa </span>2022</p>
                 </div>
             </div>
         </div>

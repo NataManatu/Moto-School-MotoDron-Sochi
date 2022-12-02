@@ -2587,9 +2587,42 @@ input[type=submit] {
     opacity: 0.5;
     border: 1px solid #8C8C8C;
 }
-#header-menu{
+
+#contact-futer {
     margin-top: 65px;
 
+}
+
+#nav-futer a {
+    color: #8C8C8C;
+}
+
+.contact-futer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 34px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8C8C8C;
+    margin-top: 45px;
+}
+
+.contact-futer a {
+    text-decoration: none;
+    color: #8C8C8C;
+}
+
+.contact-futer span {
+    color:
+        #FCD702;
+}
+#futer-tel a{
+    color: #8C8C8C;
+}
+#social-futer a {
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
 }
 
 

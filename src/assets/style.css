@@ -464,8 +464,6 @@ header {
     mask-image: url(@/assets/img-course-bl-4/Image-1.png);
 }
 
-
-
 #price {
     text-align: center;
     width: 225px;
@@ -479,7 +477,6 @@ header {
     clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
     color: #000000;
     background-color: #FCD702;
-
 }
 
 #price-b {
@@ -512,15 +509,19 @@ header {
     color: #E3E3E3;
     text-transform: uppercase;
 }
-
-.course-text p {
+/* что-то придумать с заголовком */
+#course-text-h1{
+    white-space: nowrap;
+}
+.course-text-p {
     font-weight: 400;
     margin-top: 15px;
     font-size: 16px;
     color: #8C8C8C;
+    height: 176px;
+    overflow: hidden;
 }
 
-/* кнопка скачет когда текст больше,сделать!!! */
 
 #why-btn {
     width: 146px;
@@ -538,7 +539,6 @@ header {
     cursor: pointer;
     font-size: inherit;
 }
-
 
 
 

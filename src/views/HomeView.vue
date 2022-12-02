@@ -807,7 +807,7 @@ const butVect2 = (() => {
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet....</h1>
+                        <h1>Honda представила CB750 Hornet</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92

@@ -2588,6 +2588,16 @@ input[type=submit] {
     border: 1px solid #8C8C8C;
 }
 
+#futer-tel a {
+    color: #8C8C8C;
+}
+
+#social-futer a {
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
 #contact-futer {
     margin-top: 65px;
 
@@ -2616,14 +2626,7 @@ input[type=submit] {
     color:
         #FCD702;
 }
-#futer-tel a{
-    color: #8C8C8C;
-}
-#social-futer a {
-    margin-left: 10px;
-    align-items: center;
-    cursor: pointer;
-}
+
 
 
 

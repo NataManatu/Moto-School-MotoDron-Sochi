@@ -176,6 +176,7 @@
                         </div>
                     </div>
                 </div>
+                <img src="@/assets/img-courseA/course-a.png" alt="">
             </div>
         </div>
 

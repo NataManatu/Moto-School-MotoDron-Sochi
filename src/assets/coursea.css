@@ -233,7 +233,7 @@ html::-webkit-scrollbar-thumb {
 .this-course-content {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 100px 39px 100px;
 }
 
 .course-a-block {
@@ -393,5 +393,79 @@ PROGRAMM-COURSE-БЛОК-4  */
     font-size: 20px;
     line-height: 29px;
     color: #8C8C8C;
+}
 
+
+/* INSTRUCTOR COURSE-БЛОК-5  */
+
+.instuctor-course-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.instuctor-course-container::before {
+    content: "Инструкторы курса";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_instuctor-course {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_instuctor-course p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.instuctor-course-contant {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px;
+}
+
+.instrucors {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.instructor-2 {
+    margin-top: 100px;
+}
+.in-1,
+.in-2{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    padding: 0px 150px;
+    margin-top: -180px;
+}
+.in-1 p{
+    margin-left: 200px;
+}
+.in-2 p{
+    margin-right: 200px;
 }

@@ -62,16 +62,16 @@ html::-webkit-scrollbar-thumb {
     margin-left: 156px;
 }
 
-.nav-course-a  ul {
+.nav-course-a ul {
     display: flex;
     list-style: none;
     gap: 40px;
 }
 
-.nav-course-a  ul li a {
+.nav-course-a ul li a {
     color: #E3E3E3;
     text-decoration: none;
-    
+
 }
 
 .social {
@@ -80,12 +80,14 @@ html::-webkit-scrollbar-thumb {
     margin-left: 156px;
     gap: 10px;
 }
-.tel{
+
+.tel {
     margin-left: 40px;
 }
+
 .tel a {
     color: #E3E3E3;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 .nav-cont a {
@@ -109,16 +111,19 @@ html::-webkit-scrollbar-thumb {
     line-height: 26px;
     letter-spacing: 0.025em;
 }
-.nav-course a{
+
+.nav-course a {
     color: #E3E3E3;
     text-decoration: none;
 }
-.course-card{
+
+.course-card {
     margin-top: 86px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .about-course {
     text-align: left;
     padding: 50px;
@@ -231,15 +236,16 @@ html::-webkit-scrollbar-thumb {
     padding: 0px 100px 100px 100px;
 }
 
-.course-a-block{
+.course-a-block {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-   gap: 50px;
-    
+    gap: 50px;
+
 }
-.this-course-photo-block{
+
+.this-course-photo-block {
     margin-top: 60px;
     text-align: center;
 }
@@ -287,5 +293,26 @@ html::-webkit-scrollbar-thumb {
 .mototeh-course-content {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 100px 120px 100px;
+}
+
+.mototeh-block {
+    display: flex;
+    gap:225px ;
+    justify-content: center;
+    margin-top: 146px;
+    gap: 225px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.mototeh-block p {
+    margin-top: 40px;
 }

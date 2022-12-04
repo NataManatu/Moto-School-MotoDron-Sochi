@@ -46,6 +46,7 @@ html::-webkit-scrollbar-thumb {
 .course-a-content {
     max-width: 1400px;
     margin: 0 auto;
+
     padding: 7px 100px 0px 100px;
     color: #E3E3E3;
 }
@@ -180,5 +181,58 @@ html::-webkit-scrollbar-thumb {
     color: #FFFFFF;
     font-size: inherit;
     cursor: pointer;
+
+}
+
+
+/* THIS-COURSE-БЛОК-2 */
+
+
+.this-course-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.this-course-container::before {
+    content: "Часто задаваемые вопросы";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_this-course {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_this-course p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.this-course-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
 
 }

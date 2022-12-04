@@ -62,7 +62,7 @@ header {
 }
 
 .nav {
-    margin-left: 156px;
+    margin-left: 136px;
 }
 
 .nav ul {
@@ -2587,7 +2587,7 @@ input[type=submit] {
 }
 
 #social-futer a {
-    margin-left: 10px;
+    margin-left: 5px;
     align-items: center;
     cursor: pointer;
 }

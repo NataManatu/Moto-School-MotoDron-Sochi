@@ -115,8 +115,40 @@
         </div>
 
 
+        <!-- PROGRAMM-COURSE-БЛОК-4 -->
 
-
+        <div class="program-course-container">
+            <div class="about_program-course">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Программа курса</p>
+            </div>
+            <div class="program-course-content">
+                <div>
+                    <p class="pr-bl">1</p>
+                    <p class="pr-p">Знакомство <br>с органами управления</p>
+                </div>
+                <div>
+                    <p class="pr-bl">2</p>
+                    <p class="pr-p">Парковка<br>в гараж</p>
+                </div>
+                <div>
+                    <p class="pr-bl">3</p>
+                    <p class="pr-p">“Габаритный <br>коридор”</p>
+                </div>
+                <div>
+                    <p class="pr-bl">4</p>
+                    <p class="pr-p">“Змейка”, <br>“Восьмерка”</p>
+                </div>
+                <div>
+                    <p class="pr-bl">5</p>
+                    <p class="pr-p">Скоростное<br>маневрирование</p>
+                </div>
+                <div>
+                    <p class="pr-bl">6</p>
+                    <p class="pr-p">Теоретический блок<br>(дистанционно)</p>
+                </div>
+            </div>
+        </div>
 
 
 

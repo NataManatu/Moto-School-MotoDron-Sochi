@@ -298,7 +298,7 @@ html::-webkit-scrollbar-thumb {
 
 .mototeh-block {
     display: flex;
-    gap:225px ;
+    gap: 225px;
     justify-content: center;
     margin-top: 146px;
     gap: 225px;
@@ -315,4 +315,83 @@ html::-webkit-scrollbar-thumb {
 
 .mototeh-block p {
     margin-top: 40px;
+}
+
+/* 
+PROGRAMM-COURSE-БЛОК-4  */
+
+
+.program-course-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.program-course-container::before {
+    content: "Программа курса";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_program-course {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_program-course p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.program-course-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 150px 100px 150px;
+}
+
+.program-course-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 62px;
+    column-gap: 348px;
+    margin-top: 177px;
+}
+
+.pr-bl {
+    position: relative;
+    font-family: Jost;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 101px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #FCD702;
+
+}
+
+.pr-p {
+    position: absolute;
+    margin-left: 57px;
+    margin-top: -60px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8C8C8C;
+
 }

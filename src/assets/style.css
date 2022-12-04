@@ -58,21 +58,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    color: #E3E3E3;
+
 }
 
 .nav {
-    margin-left: 40px;
+    margin-left: 156px;
 }
 
 .nav ul {
     display: flex;
     list-style: none;
+    gap: 40px;
 }
 
 .nav li a {
-    margin-left: 40px;
     text-decoration: none;
     color: #E3E3E3;
     font-weight: 400;
@@ -83,22 +82,18 @@ header {
 
 .social {
     display: flex;
-    list-style: none;
     align-items: center;
-    margin-left: 139px;
+    margin-left: 156px;
+    gap: 10px;
 
 }
 
-.social a {
-
-    margin-left: 5px;
-    align-items: center;
-    cursor: pointer;
+.tel {
+    margin-left: 40px;
 }
 
 .tel a {
     margin-top: 20px;
-    margin-left: 40px;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
@@ -2625,7 +2620,3 @@ input[type=submit] {
     color:
         #FCD702;
 }
-
-
-
-

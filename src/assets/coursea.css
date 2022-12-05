@@ -523,7 +523,7 @@ PROGRAMM-COURSE-БЛОК-4  */
     display: flex;
     justify-content: space-between;
     margin-top: 37px;
-      
+
 }
 
 .result-box {
@@ -531,18 +531,125 @@ PROGRAMM-COURSE-БЛОК-4  */
     gap: 20px;
     align-items: center;
     margin-top: 50px;
-    
+
 }
-.result-text-content ul li{
+
+.result-text-content ul li {
     list-style: none;
     margin-left: 45px;
-    
+
 }
+
 .result-text-content ul li::before {
     content: "\2022";
     padding-right: 10px;
     display: inline-block;
 }
-.res-p{
+
+.res-p {
     margin-top: 103px;
+}
+
+/* COURSE-A-DOCUMENTS-БЛОК-7  */
+
+.course_a-documents-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.course_a-documents-container::before {
+    content: "необходимые документы";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_course_a-documents {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_course_a-documents p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.course_a-documents-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 100px 100px 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #888888;
+}
+
+.course_a-documents-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.course_a-documents-box ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.course_a-documents-box ul li::before {
+    content: "\2022";
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.dos-p {
+    margin-top: 40px;
+}
+
+.doc-btn-ipt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.doc-btn-ipt button {
+    width: 210px;
+    height: 50px;
+    background: #FCD702;
+    color: #000000;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 8px;
+}
+
+.doc-btn-ipt input {
+    display: flex;
+    align-items: center;
+    width: 241px;
+    height: 48px;
+    background: #E3E3E3;
+    border-radius: 3px;
+    border-style: none;
 }

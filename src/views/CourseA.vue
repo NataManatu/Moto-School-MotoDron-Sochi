@@ -208,7 +208,7 @@
                             <p>Узнаете, как устроен мотоцикл, какие у него принципы работы и движения</p>
                         </div>
                     </div>
-                    
+
                     <div>
                         <div class="result-box">
                             <img src="@/assets/img-courseA/Vector.svg" alt="">
@@ -229,13 +229,50 @@
 
                 </div>
                 <div>
-                    <p class="res-p">*Если вам исполнилось 18, то вы получите права категории “А” сразу после сдачи<br>экзамена в
+                    <p class="res-p">*Если вам исполнилось 18, то вы получите права категории “А” сразу после
+                        сдачи<br>экзамена в
                         ГИБДД. В ином случае, получите их сразу после наступления 18 лет.</p>
                 </div>
             </div>
         </div>
 
+        <!-- COURSE-A-DOCUMENTS-БЛОК-7 -->
 
+        <div class="course_a-documents-container">
+            <div class="about_course_a-documents">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>необходимые документы</p>
+            </div>
+            <div class="course_a-documents-content">
+                <div class="course_a-documents-box">
+                    <div>
+                        <img src="@/assets/img-courseA/Rectangle 165.png" alt="">
+                    </div>
+                    <div>
+                        <p>Чтобы записаться на этот курс вам должно быть не менее 16 лет.
+                            Также Вам необходимо будет предоставить нам следующие документы:
+                        </p>
+                        <ul>
+                            <li>
+                                Медсправка с допуском на категорию А, А1, М, В1 с отметками диспансеров
+                                (наркологического и
+                                психоневрологического по месту регистрации)
+                            </li>
+                            <li> Паспорт и его ксерокопия (главная страница + прописка)</li>
+                            <li> СНИЛС</li>
+                            <li> Фотография 3x4 на матовой основе - 2 шт</li>
+                        </ul>
+                        <p class="dos-p">Отправить список документов на WhatsApp</p>
+                        <div class="doc-btn-ipt">
+                            <input type="text">
+                            <button type="submit">Отправить список</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
 
 
 

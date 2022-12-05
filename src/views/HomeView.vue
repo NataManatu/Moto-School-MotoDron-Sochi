@@ -62,7 +62,7 @@ const butVect2 = (() => {
                     <div class="button">
                         <div class="wrapper">
                             <a href="/" type="button"> Курс “Pro”</a>
-                            <a href="/" type="button"> Категория “А”</a>
+                            <router-link to="/coursea" type="button"> Категория “А”</router-link>
                         </div>
                         <button type="button" id="btn3">Записаться</button>
                     </div>

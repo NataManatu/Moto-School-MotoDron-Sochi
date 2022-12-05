@@ -37,7 +37,7 @@
 
                 <div class="course-card">
                     <div class="nav-course">
-                        <p><a href=""><span>Главная</span> </a><a href="/"> / Курс “Категория
+                        <p><router-link to="/"><span>Главная</span></router-link><a href="/"> / Курс “Категория
                                 “А”</a>
                         </p>
                     </div>
@@ -228,6 +228,6 @@ export default {
 }
 </script>
 
-<style scroped>
-
+<style scroped="scoped">
+@import url(../assets/coursea.css);
 </style>

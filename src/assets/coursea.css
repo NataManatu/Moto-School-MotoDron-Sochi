@@ -455,17 +455,94 @@ PROGRAMM-COURSE-БЛОК-4  */
 .instructor-2 {
     margin-top: 170px;
 }
+
 .in-1,
-.in-2{
+.in-2 {
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
     padding: 0px 150px;
     margin-top: -180px;
 }
-.in-1 p{
-    margin-left: 200px;
+
+.instuctor-course-img {
+    text-align: center;
+    margin-top: 50px;
 }
-.in-2 p{
-    margin-right: 200px;
+
+/* REZULT-БЛОК-6  */
+
+.result-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.result-container::before {
+    content: "Результаты обучения";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_result {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_result p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.result-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 100px 75px 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #888888;
+}
+
+.result-text-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+      
+}
+
+.result-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.result-text-content ul li{
+    list-style: none;
+    margin-left: 45px;
+    
+}
+.result-text-content ul li::before {
+    content: "\2022";
+    padding-right: 10px;
+    display: inline-block;
+}
+.res-p{
+    margin-top: 103px;
 }

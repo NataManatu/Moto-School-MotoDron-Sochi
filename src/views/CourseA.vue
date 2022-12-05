@@ -176,7 +176,62 @@
                         </div>
                     </div>
                 </div>
-                <img src="@/assets/img-courseA/course-a.png" alt="">
+                <div class="instuctor-course-img">
+                    <img src="@/assets/img-courseA/course-a.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- RESULT-БЛОК-6 -->
+
+        <div class="result-container">
+            <div class="about_result">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Результаты обучения</p>
+            </div>
+            <div class="result-content">
+                <div class="result-text-content">
+
+                    <div>
+                        <div class="result-box">
+                            <img src="@/assets/img-courseA/Vector.svg" alt="">
+                            <p>Вы научитесь уверенно управлять мотоциклом с нуля</p>
+                        </div>
+                        <div class="result-box">
+                            <img src="@/assets/img-courseA/Vector.svg" alt="">
+                            <p>Освоите базовые навыки: управление,
+                                парковка, маневрирование</p>
+                        </div>
+                        <div class="result-box">
+                            <img src="@/assets/img-courseA/Vector.svg" alt="">
+                            <p>Узнаете, как устроен мотоцикл, какие у него принципы работы и движения</p>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="result-box">
+                            <img src="@/assets/img-courseA/Vector.svg" alt="">
+                            <p>Сможете успешно сдать экзамен в ГИБДД*</p>
+                        </div>
+                        <div class="result-box">
+                            <img src="@/assets/img-courseA/Vector.svg" alt="">
+                            <p>Освоите управление любым видом мотоцикла до 400 кг. в снаряженном состоянии:
+                            </p>
+
+                        </div>
+                        <ul>
+                            <li>2-х колесным</li>
+                            <li>3-х колесным, с коляской</li>
+                            <li>4-х колесным</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div>
+                    <p class="res-p">*Если вам исполнилось 18, то вы получите права категории “А” сразу после сдачи<br>экзамена в
+                        ГИБДД. В ином случае, получите их сразу после наступления 18 лет.</p>
+                </div>
             </div>
         </div>
 

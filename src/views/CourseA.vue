@@ -264,7 +264,7 @@
                         </ul>
                         <p class="dos-p">Отправить список документов на WhatsApp</p>
                         <div class="doc-btn-ipt">
-                            <input type="text">
+                            <input type="text" placeholder="номер телефона">
                             <button type="submit">Отправить список</button>
                         </div>
                     </div>

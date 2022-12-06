@@ -222,6 +222,7 @@ html::-webkit-scrollbar-thumb {
 
 .about_this-course p {
     font-family: 'Metro', sans-serif;
+    white-space: nowrap;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -501,6 +502,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 .about_result p {
     font-family: 'Metro', sans-serif;
+    white-space: nowrap;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -593,7 +595,8 @@ PROGRAMM-COURSE-БЛОК-4  */
 .course_a-documents-content {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 100px 100px 100px 100px;
+    padding: 0px 50px 100px 50px;
+    margin-top: 126px;
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
@@ -602,9 +605,12 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 .course_a-documents-box {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-end;
     gap: 50px;
+    width: 1200px;
+    height: 362px;
+
 }
 
 .course_a-documents-box ul {
@@ -614,7 +620,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 .course_a-documents-box ul li::before {
     content: "\2022";
-    padding-right: 10px;
+    padding-right: 20px;
     display: inline-block;
 }
 
@@ -628,7 +634,7 @@ PROGRAMM-COURSE-БЛОК-4  */
     align-items: center;
     gap: 15px;
     margin-top: 12px;
-  
+
 }
 
 .doc-btn-ipt button {
@@ -644,7 +650,8 @@ PROGRAMM-COURSE-БЛОК-4  */
     padding: 12px 32px;
     gap: 8px;
     font-size: inherit;
-    
+    border-style: none;
+
 }
 
 .doc-btn-ipt input {
@@ -657,5 +664,7 @@ PROGRAMM-COURSE-БЛОК-4  */
     border-radius: 3px;
     border-style: none;
     font-size: inherit;
-    
+
 }
+
+/* ЗАПИСЬ-БЛОК-8 */

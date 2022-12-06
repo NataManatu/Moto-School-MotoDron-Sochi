@@ -293,7 +293,24 @@
                 </div>
             </div>
         </div>
+
+
             <!-- ДРУГИЕ КУРСЫ-БЛОК-9 -->
+
+            <div class="other-course-container">
+                <div class="about_other-course">
+                    <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                    <p>Другие курсы</p>
+                </div>
+                <div class="other-course-contant">
+
+
+                    
+                </div>
+
+
+
+            </div>
 
 
 

@@ -763,4 +763,48 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 /* ДРУГИЕ КУРСЫ-БЛОК-9 */
 
+.other-course-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
 
+}
+
+.other-course-container::before {
+    content: "Другие курсы";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_other-course {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_other-course p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.other-course-contant {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 50px 100px 50px;
+    margin-top: 126px;
+   
+}

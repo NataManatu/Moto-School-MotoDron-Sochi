@@ -183,6 +183,7 @@ const butVect2 = (() => {
                             </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
+                       
                     </div>
                 </article>
 

@@ -295,24 +295,145 @@
         </div>
 
 
-            <!-- ДРУГИЕ КУРСЫ-БЛОК-9 -->
+        <!-- ДРУГИЕ КУРСЫ-БЛОК-9 -->
 
-            <div class="other-course-container">
-                <div class="about_other-course">
-                    <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                    <p>Другие курсы</p>
-                </div>
-                <div class="other-course-contant">
-
-
-                    
-                </div>
-
-
-
+        <div class="other-course-container">
+            <div class="about_other-course">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Другие курсы</p>
             </div>
+            <div class="other-course-contant">
 
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image.png" alt="" id="cours_img">
+                        <div id="price">35 000 ₽</div>
+                    </div>
 
+                    <div class="course-text">
+                        <h1>“PRO”</h1>
+                        <div class="course-text-p">
+                            <p>Профессиональная программа для тех, кому важно максимально полно изучить устройство
+                                мотоцикла
+                                и освоить основные навыки вождения. Вы научитесь уверенно безопасно управлять мотоциклом
+                                на
+                                малых и средних скоростях, отработаете правильный алгоритм торможения.
+                            </p>
+                        </div>
+                        <button type="button" id="why-btn">Подробнее</button>
+                    </div>
+
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
+                        <div id="price">50 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>Категория “А” + “PRO”</h1>
+                        <div class="course-text-p">
+                            <p>Курс для вас, если ваша цель – обрести уверенность на дорогах. Вы отточите и углубите
+                                свои
+                                навыки вождения, отработаете поведение на дороге в типичных городских ситуациях, вместе
+                                с
+                                тренером исправите ошибки, мешающие свободно управлять мотоциклом.
+                            </p>
+                        </div>
+                        <button type="button" id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+
+                <article class="course-program-card">
+                    <div class="course-img">
+                        <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
+                        <div id="price">60 000 ₽</div>
+                    </div>
+
+                    <div class="course-text">
+                        <h1>“КонтрАварийный”</h1>
+                        <div class="course-text-p">
+                            <p>Подготовьтесь к любым неожиданностям на дороге, научитесь справляться с нестандартными
+                                дорожными ситуациями. На курсе вы отработаете реакцию на внезапные препятствия, освоите
+                                технику скоростных поворотов и навык экстренного торможения.
+                            </p>
+                        </div>
+                        <button type="button" id="why-btn">Подробнее</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+ <!-- CONTACT-COURSE-A-10-BLOCK -->
+
+        <div class="contact">
+            <div class=" title-contact">
+                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <p>контакты</p>
+            </div>
+            <div class="contact-mess">
+                <div class="mess-block">
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon.svg" alt="">
+                        <p>E-mail</p>
+                        <p class="mess-cont"><a href="#">dronmotoshkola@yandex.ru</a></p>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
+                        <p>Мессенджеры</p>
+                        <div class="mess-cont-p">
+                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
+                                <a href="#">Начать чат в Telegram</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
+                        <p>Телефон</p>
+                        <p class="mess-cont"><a href="#">+7 938 456 77 07</a></p>
+                    </div>
+                    <div class="mess-col">
+                        <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
+                        <p>Офис</p>
+                        <p class="mess-cont"><a href="#">Сочи, переулок Бригадный 1</a></p>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="header-menu" id="contact-futer">
+                    <div class="logo">
+                        <img src="@/assets/img-header/logo.svg" alt="">
+                    </div>
+
+                    <div class="nav" id="nav-futer">
+                        <ul>
+                            <li><a href="#course">Курсы</a></li>
+                            <li><a href="#news">Новости</a> </li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="/">Контакты</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="social" id="social-futer">
+                        <a href="/"><img src="@/assets/img-cont-bl-18/WA.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/TG.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/IN.svg"></a>
+                        <a href="/"><img src="@/assets/img-cont-bl-18/VK.svg"></a>
+                    </div>
+
+                    <div class="tel" id="futer-tel">
+                        <a href="tel:+79384567707">+7 938 456 77 07</a>
+                    </div>
+                </div>
+
+                <div class="contact-futer">
+                    <p><a href="#">Политика Конфиденциальности</a></p>
+                    <p>designed by <span>dixa </span>2022</p>
+                </div>
+            </div>
+        </div>
 
 
 

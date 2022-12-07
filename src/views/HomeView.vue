@@ -182,10 +182,8 @@ const butVect2 = (() => {
                                 но по-настоящему научитесь управлять мотоциклом.
                             </p>
                         </div>
-
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
-
                 </article>
 
                 <article class="course-program-card">

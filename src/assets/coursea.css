@@ -239,7 +239,9 @@ html::-webkit-scrollbar-thumb {
 
 .course-a-block {
     margin-top: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 50px;
@@ -802,9 +804,15 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .other-course-contant {
+    display: flex;
+    justify-content: center;
+    gap: 47px;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 50px 100px 50px;
     margin-top: 126px;
    
 }
+
+/* сделать точку и выровнять мессенджеры */
+

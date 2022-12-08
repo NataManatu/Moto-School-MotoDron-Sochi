@@ -463,19 +463,20 @@ PROGRAMM-COURSE-БЛОК-4  */
 .instructor-1 {
     background-image: url(@/assets/img-courseA/Rectangle231.png);
     background-repeat: no-repeat;
-    width: 100%;   
+    width: 100%;
+    align-items: center;
 }
 
 .instructor-2 {
     background-image: url(@/assets/img-courseA/Rectangle232.png);
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 170px;   
+    margin-top: 170px;
 }
 
 .in-1,
 .in-2 {
-    width:100% ;
+    width: 100%;
     display: flex;
     gap: 350px;
     align-items: center;
@@ -483,10 +484,23 @@ PROGRAMM-COURSE-БЛОК-4  */
     text-align: center;
 }
 
-.in-1{
+.in-1 {
     margin-left: 150px;
 }
-.in-2{margin-left: 350px;}
+
+.in-2 {
+    margin-left: 350px;
+}
+
+.in-1 img,
+.in-2 img {
+    margin-top: -40px;
+}
+
+.in-1 p,
+.in-2 p {
+    margin-top: -40px;
+}
 
 .instuctor-course-img {
     text-align: center;

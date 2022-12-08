@@ -9,7 +9,9 @@
                 <div class="instructor-1">
                     <!-- <img src="@/assets/img-courseA/Rectangle231.png" alt=""> -->
                     <div class="in-1">
-                        <img src="@/assets/img-courseA/Rectangle 259.png" alt="">
+                        <div>
+                            <img src="@/assets/img-courseA/Rectangle 259.png" alt="">
+                        </div>
                         <p>Терентьев Андрей</p>
                     </div>
                 </div>
@@ -17,7 +19,9 @@
                     <!-- <img src="@/assets/img-courseA/Rectangle 231 (1).png" alt=""> -->
                     <div class="in-2">
                         <p>Ефимов Андрей</p>
-                        <img src="@/assets/img-courseA/Rectangle 259 (1).png" alt="">
+                        <div>
+                            <img src="@/assets/img-courseA/Rectangle 259 (1).png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>

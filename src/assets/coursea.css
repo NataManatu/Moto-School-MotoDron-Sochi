@@ -202,7 +202,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .this-course-container::before {
-    content: "Часто задаваемые вопросы";
+    content: "Этот курс для вас если";
     white-space: nowrap;
     font-family: 'Metro', sans-serif;
     font-style: normal;

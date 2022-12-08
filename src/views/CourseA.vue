@@ -1,3 +1,11 @@
+<script setup>
+import CourseForYou from '@/components/CourseForYou.vue'
+import CourseMototehn from '@/components/CourseMototehn.vue'
+import CourseInstructor from '@/components/CourseInstructor.vue'
+import CourseEntry from '@/components/CourseEntry.vue'
+import CourseOther from '@/components/CourseOther.vue'
+import CourseContact from '@/components/CourseContact.vue'
+</script>
 <template>
 
 
@@ -72,47 +80,11 @@
 
         <!-- THIS YOU CORSE-БЛОК-2 -->
 
-        <div class="this-course-container">
-            <div class="about_this-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>Часто задаваемые вопросы</p>
-            </div>
-            <div class="this-course-content">
-
-                <div class="course-a-block">
-                    <img src="@/assets/img-courseA/WhoCard01.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard02.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard03.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard04.png" alt="">
-                </div>
-
-                <div class="this-course-photo-block">
-                    <img src="@/assets/img-courseA/Group 260.png" alt="">
-                </div>
-            </div>
-        </div>
+        <CourseForYou></CourseForYou>
 
         <!-- MOTOTEHN-COURSE-БЛОК-3 -->
 
-        <div class="mototeh-course-container">
-            <div class="about_mototeh-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>мотоТехника курса</p>
-            </div>
-            <div class="mototeh-course-content">
-
-                <div class="mototeh-block">
-                    <div class="moto-1">
-                        <img src="@/assets/img-courseA/Image.png" alt="">
-                        <p>BAJAJ Boxer BM 150</p>
-                    </div>
-                    <div class="moto-2">
-                        <img src="@/assets/img-courseA/Image (1).png" alt="">
-                        <p>Yamaha YZF-R3</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <CourseMototehn></CourseMototehn>
 
 
         <!-- PROGRAMM-COURSE-БЛОК-4 -->
@@ -154,33 +126,7 @@
         <!-- INSTRUCTOR COURSE-БЛОК-5 -->
 
 
-        <div class="instuctor-course-container">
-            <div class="about_instuctor-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>Инструкторы курса</p>
-            </div>
-            <div class="instuctor-course-contant">
-                <div class="instrucors">
-                    <div class="instructor-1">
-                        <img src="@/assets/img-courseA/Rectangle 231.png" alt="">
-                        <div class="in-1">
-                            <img src="@/assets/img-courseA/Rectangle 259.png" alt="">
-                            <p>Терентьев Андрей</p>
-                        </div>
-                    </div>
-                    <div class="instructor-2">
-                        <img src="@/assets/img-courseA/Rectangle 231 (1).png" alt="">
-                        <div class="in-2">
-                            <p>Ефимов Андрей</p>
-                            <img src="@/assets/img-courseA/Rectangle 259 (1).png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="instuctor-course-img">
-                    <img src="@/assets/img-courseA/course-a.png" alt="">
-                </div>
-            </div>
-        </div>
+        <CourseInstructor></CourseInstructor>
 
 
         <!-- RESULT-БЛОК-6 -->
@@ -274,166 +220,16 @@
 
         <!-- ЗАПИСЬ-БЛОК-8 -->
 
-        <div class="course-a-entry-container">
-            <div class="course_a-entry-content">
-                <div class="course_a-entry-box">
-                    <h1>ЗАПИШИТЕСЬ<br> НА БЕСПЛАТНОЕ <br>ПРОБНОЕ ЗАНЯТИЕ</h1>
-
-                    <div class="course_a-entry-block ">
-                        <div class="course_a-entry-inp-btn">
-                            <div class="course_a-entry-input">
-                                <input type="tel" placeholder="Номер телефона ">
-                                <button type="submit">Записаться</button>
-                            </div>
-                            <p class="course_a-entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с
-                                <a href="/">Политикой Конфиденциальности.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <CourseEntry></CourseEntry>
 
 
         <!-- ДРУГИЕ КУРСЫ-БЛОК-9 -->
 
-        <div class="other-course-container">
-            <div class="about_other-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>Другие курсы</p>
-            </div>
-            <div class="other-course-contant">
-
-                <article class="course-program-card">
-                    <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image.png" alt="" id="cours_img">
-                        <div id="price">35 000 ₽</div>
-                    </div>
-
-                    <div class="course-text">
-                        <h1>“PRO”</h1>
-                        <div class="course-text-p">
-                            <p>Профессиональная программа для тех, кому важно максимально полно изучить устройство
-                                мотоцикла
-                                и освоить основные навыки вождения. Вы научитесь уверенно безопасно управлять мотоциклом
-                                на
-                                малых и средних скоростях, отработаете правильный алгоритм торможения.
-                            </p>
-                        </div>
-                        <button type="button" id="why-btn">Подробнее</button>
-                    </div>
-
-                </article>
-
-                <article class="course-program-card">
-                    <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
-                        <div id="price">50 000 ₽</div>
-                    </div>
-
-                    <div class="course-text">
-                        <h1>Категория “А” + “PRO”</h1>
-                        <div class="course-text-p">
-                            <p>Курс для вас, если ваша цель – обрести уверенность на дорогах. Вы отточите и углубите
-                                свои
-                                навыки вождения, отработаете поведение на дороге в типичных городских ситуациях, вместе
-                                с
-                                тренером исправите ошибки, мешающие свободно управлять мотоциклом.
-                            </p>
-                        </div>
-                        <button type="button" id="why-btn">Подробнее</button>
-                    </div>
-                </article>
-
-                <article class="course-program-card">
-                    <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
-                        <div id="price">60 000 ₽</div>
-                    </div>
-
-                    <div class="course-text">
-                        <h1>“КонтрАварийный”</h1>
-                        <div class="course-text-p">
-                            <p>Подготовьтесь к любым неожиданностям на дороге, научитесь справляться с нестандартными
-                                дорожными ситуациями. На курсе вы отработаете реакцию на внезапные препятствия, освоите
-                                технику скоростных поворотов и навык экстренного торможения.
-                            </p>
-                        </div>
-                        <button type="button" id="why-btn">Подробнее</button>
-                    </div>
-                </article>
-            </div>
-        </div>
+        <CourseOther></CourseOther>
 
  <!-- CONTACT-COURSE-A-10-BLOCK -->
 
-        <div class="contact">
-            <div class=" title-contact">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
-                <p>контакты</p>
-            </div>
-            <div class="contact-mess">
-                <div class="mess-block">
-                    <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon.svg" alt="">
-                        <p>E-mail</p>
-                        <p class="mess-cont"><a href="#">dronmotoshkola@yandex.ru</a></p>
-                    </div>
-                    <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
-                        <p>Мессенджеры</p>
-                        <div class="mess-cont-p">
-                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
-                                <a href="#">Начать чат в Telegram</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
-                        <p>Телефон</p>
-                        <p class="mess-cont"><a href="#">+7 938 456 77 07</a></p>
-                    </div>
-                    <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
-                        <p>Офис</p>
-                        <p class="mess-cont"><a href="#">Сочи, переулок Бригадный 1</a></p>
-                    </div>
-                </div>
-                <hr>
-
-                <div class="header-menu" id="contact-futer">
-                    <div class="logo">
-                        <img src="@/assets/img-header/logo.svg" alt="">
-                    </div>
-
-                    <div class="nav" id="nav-futer">
-                        <ul>
-                            <li><a href="#course">Курсы</a></li>
-                            <li><a href="#news">Новости</a> </li>
-                            <li><a href="#about">О нас</a></li>
-                            <li><a href="/">Контакты</a></li>
-                            <li><a href="#reviews">Отзывы</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="social" id="social-futer">
-                        <a href="/"><img src="@/assets/img-cont-bl-18/WA.svg"></a>
-                        <a href="/"><img src="@/assets/img-cont-bl-18/TG.svg"></a>
-                        <a href="/"><img src="@/assets/img-cont-bl-18/IN.svg"></a>
-                        <a href="/"><img src="@/assets/img-cont-bl-18/VK.svg"></a>
-                    </div>
-
-                    <div class="tel" id="futer-tel">
-                        <a href="tel:+79384567707">+7 938 456 77 07</a>
-                    </div>
-                </div>
-
-                <div class="contact-futer">
-                    <p><a href="#">Политика Конфиденциальности</a></p>
-                    <p>designed by <span>dixa </span>2022</p>
-                </div>
-            </div>
-        </div>
+        <CourseContact></CourseContact>
 
 
 

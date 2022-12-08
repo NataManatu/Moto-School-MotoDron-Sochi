@@ -202,7 +202,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .this-course-container::before {
-    content: "Этот курс для вас если";
+    content: "Этот курс для вас если...";
     white-space: nowrap;
     font-family: 'Metro', sans-serif;
     font-style: normal;
@@ -220,6 +220,7 @@ html::-webkit-scrollbar-thumb {
     margin-left: -100px;
 }
 
+
 .about_this-course p {
     font-family: 'Metro', sans-serif;
     white-space: nowrap;
@@ -236,6 +237,7 @@ html::-webkit-scrollbar-thumb {
     margin: 0 auto;
     padding: 0px 100px 39px 100px;
 }
+
 
 .course-a-block {
     margin-top: 100px;
@@ -443,10 +445,12 @@ PROGRAMM-COURSE-БЛОК-4  */
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px 0px 40px 0px;
+    margin-top: 186px;
+
 }
 
 .instrucors {
-    margin-top: 100px;
+
     font-weight: 700;
     font-size: 32px;
     line-height: 46px;
@@ -456,22 +460,39 @@ PROGRAMM-COURSE-БЛОК-4  */
     color: #E3E3E3;
 }
 
+.instructor-1 {
+    background-image: url(@/assets/img-courseA/Rectangle231.png);
+    background-repeat: no-repeat;
+    width: 100%;   
+}
+
 .instructor-2 {
-    margin-top: 170px;
+    background-image: url(@/assets/img-courseA/Rectangle232.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 170px;   
 }
 
 .in-1,
 .in-2 {
+    width:100% ;
     display: flex;
-    justify-content: space-between;
+    gap: 350px;
     align-items: center;
-    padding: 0px 150px;
-    margin-top: -180px;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.in-1{
+    margin-left: 150px;
+}
+.in-2{margin-left: 350px;}
 
 .instuctor-course-img {
     text-align: center;
+    width: 100%;
     margin-top: 50px;
+
 }
 
 /* REZULT-БЛОК-6  */

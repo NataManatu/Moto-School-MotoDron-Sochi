@@ -2,7 +2,7 @@
     <div class="this-course-container">
             <div class="about_this-course">
                 <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>Этот курс для вас если</p>
+                <p>Этот курс для вас если...</p>
             </div>
             <div class="this-course-content">
 

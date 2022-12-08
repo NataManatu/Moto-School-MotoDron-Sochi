@@ -97,7 +97,7 @@ import CourseContact from '@/components/CourseContact.vue'
             <div class="program-course-content">
                 <div>
                     <p class="pr-bl">1</p>
-                    <p class="pr-p">Знакомство <br>с органами управления</p>
+                    <p class="pr-p">Знакомство с органами&#160;управления</p>
                 </div>
                 <div>
                     <p class="pr-bl">2</p>
@@ -117,7 +117,7 @@ import CourseContact from '@/components/CourseContact.vue'
                 </div>
                 <div>
                     <p class="pr-bl">6</p>
-                    <p class="pr-p">Теоретический блок<br>(дистанционно)</p>
+                    <p class="pr-p">Теоретический&#160;блок<br>(дистанционно)</p>
                 </div>
             </div>
         </div>

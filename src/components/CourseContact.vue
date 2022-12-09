@@ -15,7 +15,7 @@
                         <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
                         <p>Мессенджеры</p>
                         <div class="mess-cont-p">
-                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
+                            <p class="mess-cont" id="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
                                 <a href="#">Начать чат в Telegram</a>
                             </p>
                         </div>
@@ -33,7 +33,7 @@
                 </div>
                 <hr>
 
-                <div class="header-menu" id="contact-futer">
+                <!-- <div class="header-menu" id="contact-futer">
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
                     </div>
@@ -58,7 +58,7 @@
                     <div class="tel" id="futer-tel">
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="contact-futer">
                     <p><a href="#">Политика Конфиденциальности</a></p>

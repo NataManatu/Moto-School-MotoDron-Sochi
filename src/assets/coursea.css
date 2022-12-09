@@ -46,14 +46,12 @@ html::-webkit-scrollbar-thumb {
 .course-a-content {
     max-width: 1400px;
     margin: 0 auto;
-
-    padding: 7px 100px 0px 100px;
+    padding: 7px 50px 0px 100px;
     color: #E3E3E3;
 }
 
 .course-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
 }
@@ -77,7 +75,7 @@ html::-webkit-scrollbar-thumb {
 .social {
     display: flex;
     align-items: center;
-    margin-left: 156px;
+    margin-left: 150px;
     gap: 10px;
 }
 
@@ -177,7 +175,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .course-price button {
-    width: 156px;
+    width: 150px;
     height: 55px;
     background: #000000;
     text-align: center;
@@ -851,5 +849,10 @@ PROGRAMM-COURSE-БЛОК-4  */
     margin-top: 126px;
 
 }
+#mess-cont{
+    margin-top: 35px;
+}
+
+
 
 /* сделать точку и выровнять мессенджеры */

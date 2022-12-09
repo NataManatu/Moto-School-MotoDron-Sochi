@@ -521,7 +521,7 @@ header {
 #why-btn {
     width: 146px;
     height: 48px;
-    margin-top:33px;
+    margin-top: 33px;
     border-style: none;
     justify-content: center;
     align-items: flex-end;
@@ -2534,7 +2534,7 @@ input[type=submit] {
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 105px;
-    padding: 0px 100px 72px 100px;
+    padding: 0px 100px 11px 100px;
 }
 
 .mess-block {
@@ -2575,20 +2575,62 @@ input[type=submit] {
     line-height: 24px;
 }
 
+.mess-cont-chat {
+    margin-top: 35px;
+}
+
 .contact-mess hr {
     margin-top: 100px;
     opacity: 0.5;
     border: 1px solid #8C8C8C;
 }
 
-#futer-tel a {
+.contact-container {
+    font-style: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+}
+
+.contact-nav {
+    margin-left: 139px;
+}
+
+.contact-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-nav li {
+    list-style: none;
+
+}
+
+.contact-nav a {
+    text-decoration: none;
     color: #8C8C8C;
 }
 
-#social-futer a {
-    margin-left: 5px;
+
+
+.social-contact-futer {
+    margin-left: 139px;
+}
+
+.social-contact-futer a {
+    margin-left: 8px;
     align-items: center;
     cursor: pointer;
+}
+
+.contact-tel {
+    margin-left: 38px;
+}
+
+.contact-tel a {
+    color: #8C8C8C;
+    text-decoration: none;
 }
 
 #contact-futer {

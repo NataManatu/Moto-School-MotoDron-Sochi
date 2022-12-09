@@ -38,7 +38,7 @@ import CourseContact from '@/components/CourseContact.vue'
                     </div>
 
                     <div class="tel">
-                        <a href="tel:+79384567707">+7 938 456 77 07</a>
+                        <a href="tel:+79184025896">+7 918 402 58 96</a>
                     </div>
                 </div>
 

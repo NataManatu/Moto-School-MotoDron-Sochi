@@ -1460,7 +1460,7 @@ const butVect2 = (() => {
                         <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
                         <p>Мессенджеры</p>
                         <div class="mess-cont-p">
-                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
+                            <p class="mess-cont-chat"><a href="#">Начать чат в WhatsApp</a><br>
                                 <a href="#">Начать чат в Telegram</a>
                             </p>
                         </div>
@@ -1478,12 +1478,12 @@ const butVect2 = (() => {
                 </div>
                 <hr>
 
-                <div class="header-menu" id="contact-futer">
-                    <div class="logo">
+                <div class="contact-container" id="">
+                    <div class="contact-logo">
                         <img src="@/assets/img-header/logo.svg" alt="">
                     </div>
 
-                    <div class="nav" id="nav-futer">
+                    <div class="contact-nav">
                         <ul>
                             <li><a href="#course">Курсы</a></li>
                             <li><a href="#news">Новости</a> </li>
@@ -1493,14 +1493,14 @@ const butVect2 = (() => {
                         </ul>
                     </div>
 
-                    <div class="social" id="social-futer">
+                    <div class="social-contact-futer" >
                         <a href="/"><img src="@/assets/img-cont-bl-18/WA.svg"></a>
                         <a href="/"><img src="@/assets/img-cont-bl-18/TG.svg"></a>
                         <a href="/"><img src="@/assets/img-cont-bl-18/IN.svg"></a>
                         <a href="/"><img src="@/assets/img-cont-bl-18/VK.svg"></a>
                     </div>
 
-                    <div class="tel" id="futer-tel">
+                    <div class="contact-tel">
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
                 </div>

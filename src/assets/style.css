@@ -2011,13 +2011,13 @@ header {
     gap: 20px;
     object-fit: cover;
     overflow-x: scroll;
-
 }
 
 
 #doc-41 {
     grid-column: 5/span 2;
     grid-row: 2/span 2;
+   
 
 }
 
@@ -2612,8 +2612,6 @@ input[type=submit] {
     color: #8C8C8C;
 }
 
-
-
 .social-contact-futer {
     margin-left: 139px;
 }
@@ -2633,15 +2631,6 @@ input[type=submit] {
     text-decoration: none;
 }
 
-#contact-futer {
-    margin-top: 65px;
-
-}
-
-#nav-futer a {
-    color: #8C8C8C;
-}
-
 .contact-futer {
     display: flex;
     justify-content: flex-end;
@@ -2658,6 +2647,5 @@ input[type=submit] {
 }
 
 .contact-futer span {
-    color:
-        #FCD702;
+    color:#FCD702;
 }

@@ -567,54 +567,54 @@ const butVect2 = (() => {
             </div>
 
             <div class="gallery-block-grid">
-                <div class="grid-item" id="grid-41"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" alt="">
+                <div class="grid-item" id="grid-41"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-42"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" alt="">
+                <div class="grid-item" id="grid-42"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-60"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" alt="">
+                <div class="grid-item" id="grid-60"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-62"><img src="@/assets/img-photo-gal-bl-7/Rectangle-62.png" alt="">
+                <div class="grid-item" id="grid-62"><img src="@/assets/img-photo-gal-bl-7/Rectangle-62.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-63"><img src="@/assets/img-photo-gal-bl-7/Rectangle-63.png" alt=""></div>
+                <div class="grid-item" id="grid-63"><img src="@/assets/img-photo-gal-bl-7/Rectangle-63.png" class="gallery__img" alt=""></div>
 
 
-                <div class="grid-item" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" alt="">
+                <div class="grid-item" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png"
+                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" class="gallery__img"
                         alt="">
                 </div>
-                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" alt="">
+                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" alt="">
+                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png"
-                        alt="">
-                </div>
-
-                <div class="grid-item" id="grid-61"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" alt="">
-                </div>
-                <div class="grid-item" id="grid-64"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" alt="">
-                </div>
-                <div class="grid-item" id="grid-42-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png"
-                        alt="">
-                </div>
-                <div class="grid-item" id="grid-54"><img src="@/assets/img-photo-gal-bl-7/Rectangle-54.png" alt="">
-                </div>
-                <div class="grid-item" id="grid-60-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png"
+                <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" class="gallery__img"
                         alt="">
                 </div>
 
-
-                <div class="grid-item" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png"
+                <div class="grid-item" id="grid-61"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-64"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-42-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" class="gallery__img"
                         alt="">
                 </div>
-                <div class="grid-item" id="grid-179"><img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" alt="">
+                <div class="grid-item" id="grid-54"><img src="@/assets/img-photo-gal-bl-7/Rectangle-54.png" class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-180"><img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" alt="">
+                <div class="grid-item" id="grid-60-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" class="gallery__img"
+                        alt="">
                 </div>
-                <div class="grid-item" id="grid-65"><img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" alt="">
+
+
+                <div class="grid-item" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" class="gallery__img"
+                        alt="">
                 </div>
-                <div class="grid-item" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" alt="">
+                <div class="grid-item" id="grid-179"><img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-180"><img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-65"><img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" class="gallery__img" alt="">
                 </div>
             </div>
         </div>

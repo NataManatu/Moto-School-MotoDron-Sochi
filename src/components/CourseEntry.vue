@@ -28,7 +28,7 @@ export default {
 
             //TelegBot config
             token: '',
-            chatId: 297339103
+            chatId:  1286247519
         }
     },
     methods: {

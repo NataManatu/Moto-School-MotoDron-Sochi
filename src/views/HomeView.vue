@@ -1460,7 +1460,7 @@ const butVect2 = (() => {
                         <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
                         <p>Мессенджеры</p>
                         <div class="mess-cont-p">
-                            <p class="mess-cont-chat"><a href="#">Начать чат в WhatsApp</a><br>
+                            <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
                                 <a href="#">Начать чат в Telegram</a>
                             </p>
                         </div>

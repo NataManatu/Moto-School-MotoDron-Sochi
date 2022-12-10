@@ -232,30 +232,6 @@ import CourseContact from '@/components/CourseContact.vue'
         <CourseContact></CourseContact>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </body>
 
 </template>

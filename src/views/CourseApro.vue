@@ -11,11 +11,14 @@ import CourseContact from '@/components/CourseContact.vue'
 <template>
 
     <body>
-        <div class="red">
+        <div class="red"></div>
 
-        </div>
-
-
+        <CourseForYou></CourseForYou>
+        <CourseMototehn></CourseMototehn>
+        <CourseInstructor></CourseInstructor>
+        <CourseEntry></CourseEntry>
+        <CourseOther></CourseOther>
+        <CourseContact></CourseContact>
 
     </body>
 

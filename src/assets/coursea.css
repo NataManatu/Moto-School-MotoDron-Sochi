@@ -40,7 +40,7 @@ html::-webkit-scrollbar-thumb {
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-   
+
 }
 
 .course-a-content {
@@ -125,6 +125,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about-course {
+    max-width: 645px;
+    max-height: 733px;
     text-align: left;
     padding: 50px;
     color: #191919;
@@ -132,10 +134,7 @@ html::-webkit-scrollbar-thumb {
     font-size: 18px;
     line-height: 140%;
     background-color: #FCD702;
-    width: 645px;
-    height: 733px;
     border-radius: 3px;
-
 }
 
 .about-course #cont-p-1 {
@@ -163,12 +162,15 @@ html::-webkit-scrollbar-thumb {
     font-size: 24px;
 
 }
-
+.about-course ul li::before {
+    content: "\2022";
+    padding-right: 10px;
+    display: inline-block;
+}
 .about-course ul {
     list-style: none;
     margin-top: 60px;
 }
-
 .course-price {
     display: flex;
     justify-content: space-between;
@@ -389,11 +391,11 @@ PROGRAMM-COURSE-БЛОК-4  */
     text-align: center;
     color: transparent;
     -webkit-text-stroke: 1px #FCD702;
-   
+
 }
 
 .pr-p {
-   
+
     margin-top: -60px;
     font-size: 20px;
     line-height: 29px;
@@ -446,7 +448,7 @@ PROGRAMM-COURSE-БЛОК-4  */
     width: 100%;
     margin: 0 auto;
     text-align: center;
- 
+
     margin-top: 186px;
 
 }
@@ -852,7 +854,8 @@ PROGRAMM-COURSE-БЛОК-4  */
     margin-top: 126px;
 
 }
-#mess-cont{
+
+#mess-cont {
     margin-top: 35px;
 }
 

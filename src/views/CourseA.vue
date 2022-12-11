@@ -45,7 +45,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
                 <div class="course-card">
                     <div class="nav-course">
-                        <p><router-link to="/"><span>Главная</span></router-link><a href="/"> / Курс “Категория
+                        <p><router-link to="/"><span>Главная</span></router-link><a href="#"> / Курс “Категория
                                 “А”</a>
                         </p>
                     </div>

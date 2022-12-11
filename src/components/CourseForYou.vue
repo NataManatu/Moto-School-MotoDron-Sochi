@@ -6,11 +6,11 @@
             </div>
             <div class="this-course-content">
 
-                <div class="course-a-block">
-                    <img src="@/assets/img-courseA/WhoCard01.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard02.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard03.png" alt="">
-                    <img src="@/assets/img-courseA/WhoCard04.png" alt="">
+                <div class="course-a-grid">
+                    <div class="course-a-item"><img src="@/assets/img-courseA/WhoCard01.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-courseA/WhoCard02.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-courseA/WhoCard03.png" alt=""></div>
+                    <div class="course-a-item"> <img src="@/assets/img-courseA/WhoCard04.png" alt=""></div> 
                 </div>
 
                 <div class="this-course-photo-block">

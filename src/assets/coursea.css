@@ -235,19 +235,22 @@ html::-webkit-scrollbar-thumb {
 }
 
 .this-course-content {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px 100px 39px 100px;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 
-.course-a-block {
+.course-a-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
     margin-top: 100px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 50px;
 
 }

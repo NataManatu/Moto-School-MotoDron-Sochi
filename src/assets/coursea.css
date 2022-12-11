@@ -327,7 +327,7 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 0px 120px ;
+    padding: 0px 120px;
 }
 
 .mototeh-block {
@@ -390,18 +390,21 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .program-course-content {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px 150px 100px 150px;
+    padding: 0px 0px 100px 0px;
     text-align: center;
 }
 
 .program-course-content {
-    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    /* display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     row-gap: 62px;
-    column-gap: 292px;
+    column-gap: 292px; */
     margin-top: 177px;
 }
 
@@ -472,7 +475,6 @@ PROGRAMM-COURSE-БЛОК-4  */
     width: 100%;
     margin: 0 auto;
     text-align: center;
-
     margin-top: 186px;
 
 }
@@ -491,33 +493,35 @@ PROGRAMM-COURSE-БЛОК-4  */
 .instructor-1 {
     background-image: url(@/assets/img-courseA/Rectangle231.png);
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: 100%;
     align-items: center;
 }
 
 .instructor-2 {
     background-image: url(@/assets/img-courseA/Rectangle232.png);
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: 100%;
     margin-top: 170px;
 }
 
 .in-1,
 .in-2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+   
+   
 }
 
 .in-1 {
-    margin-left: 150px;
+   
     gap: 310px;
 }
 
 .in-2 {
-    margin-left: 350px;
+   
     gap: 350px;
 }
 

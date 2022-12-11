@@ -19,3 +19,7 @@
             </div>
         </div>
 </template>
+
+<style scroped="scoped">
+@import url(../assets/coursea.css);
+</style>

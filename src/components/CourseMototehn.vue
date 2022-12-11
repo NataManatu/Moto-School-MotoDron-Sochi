@@ -8,11 +8,17 @@
 
                 <div class="mototeh-block">
                     <div class="moto-1">
-                        <img src="@/assets/img-courseA/Image.png" alt="">
+                        <div class="moto-1-img">
+                            <img src="@/assets/img-courseA/Image.png" alt="">
+                        </div>
+                       
                         <p>BAJAJ Boxer BM 150</p>
                     </div>
                     <div class="moto-2">
-                        <img src="@/assets/img-courseA/Image (1).png" alt="">
+                        <div class="moto-2-img">
+                            <img src="@/assets/img-courseA/Image (1).png" alt="">
+                        </div>
+                       
                         <p>Yamaha YZF-R3</p>
                     </div>
                 </div>

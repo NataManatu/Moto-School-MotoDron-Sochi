@@ -273,7 +273,7 @@ html::-webkit-scrollbar-thumb {
     margin: 0 auto;
     max-width: 900px;
     max-height: 720px;
-    margin-top: 60px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -397,21 +397,26 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .program-course-content {
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-    /* display: grid;
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    row-gap: 62px;
-    column-gap: 292px; */
+    gap: 150px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
     margin-top: 177px;
 }
 
+.programm-item-box {
+    max-width: 271px;
+    max-height: 103px;
+}
+
 .pr-bl {
+    position: relative;
+    float: left;
     font-family: Jost;
     font-size: 72px;
-    margin-left: -170px;
     font-weight: 900;
     line-height: 101px;
     letter-spacing: 0.025em;
@@ -422,12 +427,13 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .pr-p {
-
-    margin-top: -60px;
+    position: absolute;
     font-size: 20px;
     line-height: 29px;
     color: #8C8C8C;
     text-align: left;
+    margin-top: 40px;
+    margin-left: 18px;
 }
 
 
@@ -529,12 +535,12 @@ PROGRAMM-COURSE-БЛОК-4  */
     text-align: center;
     max-width: 1200px;
     margin-top: 100px;
-    
+
 
 }
 
 .instuctor-course-img img {
-   
+
     width: 100%;
     mask-image: url(@/assets/img-courseA/course-a.png);
     -webkit-mask-image: url(@/assets/img-courseA/Frame318.png);

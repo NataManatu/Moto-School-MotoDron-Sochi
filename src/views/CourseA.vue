@@ -95,29 +95,29 @@ import CourseContact from '@/components/CourseContact.vue'
                 <p>Программа курса</p>
             </div>
             <div class="program-course-content">
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">1</p>
-                    <p class="pr-p">Знакомство с органами&#160;управления</p>
+                    <p class="pr-p">Знакомство с органами<br>управления</p>
                 </div>
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">2</p>
                     <p class="pr-p">Парковка<br>в гараж</p>
                 </div>
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">3</p>
                     <p class="pr-p">“Габаритный <br>коридор”</p>
                 </div>
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">4</p>
                     <p class="pr-p">“Змейка”, <br>“Восьмерка”</p>
                 </div>
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">5</p>
                     <p class="pr-p">Скоростное<br>маневрирование</p>
                 </div>
-                <div>
+                <div class="programm-item-box">
                     <p class="pr-bl">6</p>
-                    <p class="pr-p">Теоретический&#160;блок<br>(дистанционно)</p>
+                    <p class="pr-p">Теоретический<br>блок (дистанционно)</p>
                 </div>
             </div>
         </div>

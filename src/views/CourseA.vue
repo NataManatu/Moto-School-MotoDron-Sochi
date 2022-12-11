@@ -84,7 +84,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <!-- MOTOTEHN-COURSE-БЛОК-3 -->
 
-       <CourseMototehn></CourseMototehn>
+        <CourseMototehn></CourseMototehn>
 
 
         <!-- PROGRAMM-COURSE-БЛОК-4 -->
@@ -172,10 +172,9 @@ import CourseContact from '@/components/CourseContact.vue'
                             <li>4-х колесным</li>
                         </ul>
                     </div>
-
                 </div>
-                <div>
-                    <p class="res-p">*Если вам исполнилось 18, то вы получите права категории “А” сразу после
+                <div class="result-p">
+                    <p>*Если вам исполнилось 18, то вы получите права категории “А” сразу после
                         сдачи<br>экзамена в
                         ГИБДД. В ином случае, получите их сразу после наступления 18 лет.</p>
                 </div>
@@ -191,7 +190,7 @@ import CourseContact from '@/components/CourseContact.vue'
             </div>
             <div class="course_a-documents-content">
                 <div class="course_a-documents-box">
-                    <div>
+                    <div class="documents-wrapper-img">
                         <img src="@/assets/img-courseA/Rectangle 165.png" alt="">
                     </div>
                     <div class="course_a-text-block">
@@ -200,9 +199,9 @@ import CourseContact from '@/components/CourseContact.vue'
                         </p>
                         <ul>
                             <li>
-                                Медсправка с допуском на категорию А, А1, М, В1 с отметками диспансеров
+                                Медсправка с допуском на категорию А, А1, М, В1 с отметками <span>диспансеров
                                 (наркологического и
-                                психоневрологического по месту регистрации)
+                                    психоневрологического по месту регистрации)</span>
                             </li>
                             <li> Паспорт и его ксерокопия (главная страница + прописка)</li>
                             <li> СНИЛС</li>
@@ -227,7 +226,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <CourseOther></CourseOther>
 
- <!-- CONTACT-COURSE-A-10-BLOCK -->
+        <!-- CONTACT-COURSE-A-10-BLOCK -->
 
         <CourseContact></CourseContact>
 

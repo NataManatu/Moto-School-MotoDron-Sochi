@@ -536,14 +536,17 @@ PROGRAMM-COURSE-БЛОК-4  */
     max-width: 1200px;
     margin-top: 100px;
 
-
 }
 
 .instuctor-course-img img {
-
-    width: 100%;
-    mask-image: url(@/assets/img-courseA/course-a.png);
+    -webkit-mask-size: 90%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    width: 110%;
     -webkit-mask-image: url(@/assets/img-courseA/Frame318.png);
+    mask-repeat: no-repeat;
+    mask-image: url(@/assets/img-courseA/course-a.png);
 
 }
 
@@ -588,9 +591,11 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .result-content {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 100px 100px 75px 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px 75px 0px;
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
@@ -598,13 +603,17 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .result-text-content {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    gap: 125px;
     margin-top: 37px;
 
 }
 
 .result-box {
+    text-align: left;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -615,6 +624,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 .result-text-content ul li {
     list-style: none;
     margin-left: 45px;
+    text-align: left;
 
 }
 
@@ -624,8 +634,11 @@ PROGRAMM-COURSE-БЛОК-4  */
     display: inline-block;
 }
 
-.res-p {
+.result-p {
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 103px;
+    text-align: left;
 }
 
 /* COURSE-A-DOCUMENTS-БЛОК-7  */
@@ -669,9 +682,9 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .course_a-documents-content {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px 50px 100px 50px;
+    padding-bottom: 100px;
     margin-top: 126px;
     font-weight: 400;
     font-size: 18px;
@@ -680,13 +693,29 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .course_a-documents-box {
+    max-width: 1250px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 50px;
-    width: 1200px;
-    height: 362px;
+   
 
+}
+
+.documents-wrapper-img {
+    max-width: 575px;
+    object-fit: cover;
+}
+
+.documents-wrapper-img img {
+    object-fit: cover;
+    
+    
+}
+
+.course_a-text-block {
+    width: 100%;
 }
 
 .course_a-documents-box ul {
@@ -714,8 +743,8 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .doc-btn-ipt button {
-    width: 210px;
-    height: 50px;
+    max-width: 210px;
+    max-height: 50px;
     background: #FCD702;
     color: #000000;
     border-radius: 3px;
@@ -735,8 +764,8 @@ PROGRAMM-COURSE-БЛОК-4  */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 241px;
-    height: 48px;
+    max-width: 241px;
+    max-height: 48px;
     background: #E3E3E3;
     border-radius: 3px;
     border-style: none;
@@ -791,8 +820,8 @@ PROGRAMM-COURSE-БЛОК-4  */
     flex-direction: row;
     align-items: center;
     padding: 12px 75px 12px 12px;
-    width: 241px;
-    height: 48px;
+    max-width: 241px;
+    max-height: 48px;
     background: #E3E3E3;
     color: #191919;
     border-radius: 3px;

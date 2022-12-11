@@ -162,15 +162,18 @@ html::-webkit-scrollbar-thumb {
     font-size: 24px;
 
 }
+
 .about-course ul li::before {
     content: "\2022";
     padding-right: 10px;
     display: inline-block;
 }
+
 .about-course ul {
     list-style: none;
     margin-top: 60px;
 }
+
 .course-price {
     display: flex;
     justify-content: space-between;
@@ -253,6 +256,12 @@ html::-webkit-scrollbar-thumb {
     justify-content: space-between;
     gap: 50px;
 
+}
+
+.course-a-item>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .this-course-photo-block {

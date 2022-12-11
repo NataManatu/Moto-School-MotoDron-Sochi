@@ -40,17 +40,19 @@ html::-webkit-scrollbar-thumb {
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-    margin: 0 auto;
+   
 }
 
 .course-a-content {
     max-width: 1400px;
     margin: 0 auto;
+    text-align: center;
     padding: 7px 50px 0px 100px;
     color: #E3E3E3;
 }
 
 .course-header {
+    width: 100%;
     display: flex;
     align-items: center;
 
@@ -441,9 +443,10 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .instuctor-course-contant {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px 0px 40px 0px;
+    text-align: center;
+ 
     margin-top: 186px;
 
 }
@@ -709,7 +712,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 /* ЗАПИСЬ-БЛОК-8 */
 
 .course-a-entry-container {
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding: 75px 32px;
     background-color: #000000;

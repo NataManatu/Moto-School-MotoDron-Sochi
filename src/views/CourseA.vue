@@ -18,7 +18,7 @@ import CourseContact from '@/components/CourseContact.vue'
             <div class="course-a-content">
                 <div class="course-header">
                     <div class="logo">
-                        <img src="@/assets/img-courseA/logo.svg" alt="">
+                        <router-link to="/"><img src="@/assets/img-courseA/logo.svg" alt=""></router-link>
                     </div>
 
                     <div class="nav-course-a">

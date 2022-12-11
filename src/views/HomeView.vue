@@ -15,7 +15,7 @@ const butVect2 = (() => {
         <!-- HEADER -->
 
         <header>
-            <div class="header-container">
+            <div class="header-container" id="home">
                 <div class="header-menu">
                     <div class="logo">
                         <img src="@/assets/img-header/logo.svg" alt="">

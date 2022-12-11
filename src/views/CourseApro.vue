@@ -1,4 +1,3 @@
-<
 <script setup>
 import CourseForYou from '@/components/CourseForYou.vue'
 import CourseMototehn from '@/components/CourseMototehn.vue'
@@ -11,7 +10,7 @@ import CourseContact from '@/components/CourseContact.vue'
 <template>
 
     <body>
-        <div class="red"></div>
+       
 
         <CourseForYou></CourseForYou>
         <CourseMototehn></CourseMototehn>
@@ -42,4 +41,6 @@ export default {
 
 <style  scoped>
 @import url(../assets/courseaPro.css);
+@import url(../assets/coursea.css);
 </style>
+

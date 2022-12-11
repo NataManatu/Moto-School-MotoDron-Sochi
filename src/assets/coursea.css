@@ -271,8 +271,8 @@ html::-webkit-scrollbar-thumb {
 
 .this-course-photo-block {
     margin: 0 auto;
-    max-width: 896.93px;
-    max-height: 672.7px;
+    max-width: 900px;
+    max-height: 720px;
     margin-top: 60px;
     text-align: center;
 }
@@ -527,12 +527,14 @@ PROGRAMM-COURSE-БЛОК-4  */
 .instuctor-course-img {
     margin: 0 auto;
     text-align: center;
-    max-width: 1170px;
-    margin-top: 50px;
+    max-width: 1200px;
+    margin-top: 100px;
+    
 
 }
 
 .instuctor-course-img img {
+   
     width: 100%;
     mask-image: url(@/assets/img-courseA/course-a.png);
     -webkit-mask-image: url(@/assets/img-courseA/Frame318.png);

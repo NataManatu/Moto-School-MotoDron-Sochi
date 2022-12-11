@@ -265,8 +265,16 @@ html::-webkit-scrollbar-thumb {
 }
 
 .this-course-photo-block {
+    margin: 0 auto;
+    max-width: 896.93px;
+    max-height: 672.7px;
     margin-top: 60px;
     text-align: center;
+}
+.this-course-photo-block>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
 }
 
 

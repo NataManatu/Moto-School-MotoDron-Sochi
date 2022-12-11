@@ -392,7 +392,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 .program-course-content {
     width: 100%;
     margin: 0 auto;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 40px 0px;
     text-align: center;
 }
 
@@ -400,11 +400,12 @@ PROGRAMM-COURSE-БЛОК-4  */
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-    gap: 150px;
+    column-gap: 150px;
+    row-gap: 62px;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 177px;
+    margin-top: 81px;
 }
 
 .programm-item-box {
@@ -690,28 +691,22 @@ PROGRAMM-COURSE-БЛОК-4  */
     font-size: 18px;
     line-height: 140%;
     color: #888888;
+
 }
 
 .course_a-documents-box {
-    max-width: 1250px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
     gap: 50px;
-   
 
 }
 
 .documents-wrapper-img {
     max-width: 575px;
-    object-fit: cover;
-}
-
-.documents-wrapper-img img {
-    object-fit: cover;
-    
-    
+    max-height: 362px;
 }
 
 .course_a-text-block {
@@ -744,7 +739,7 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 .doc-btn-ipt button {
     max-width: 210px;
-    max-height: 50px;
+    max-height: 48px;
     background: #FCD702;
     color: #000000;
     border-radius: 3px;
@@ -777,28 +772,35 @@ PROGRAMM-COURSE-БЛОК-4  */
 
 .course-a-entry-container {
     width: 100%;
+    height: 351px;
     margin: 0 auto;
     padding: 75px 32px;
     background-color: #000000;
-
-}
-
-.course_a-entry-content {
     background-image: url(@/assets/img-courseA/Rectangle245.png);
     background-color: #000000;
     background-size: cover;
     background-size: 100%;
-    height: 351px;
     background-repeat: no-repeat;
 
 }
 
+.course_a-entry-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
 .course_a-entry-box {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 48px;
     color: #191919;
-    padding-top: 119px;
+
 }
 
 .course_a-entry-box h1 {
@@ -833,15 +835,14 @@ PROGRAMM-COURSE-БЛОК-4  */
     outline: 0;
 }
 
-
 .course_a-entry-inp-btn button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    width: 140px;
-    height: 50px;
+    max-width: 140px;
+    max-height: 50px;
     background: #FCD702;
     color: #191919;
     border-radius: 3px;
@@ -850,6 +851,9 @@ PROGRAMM-COURSE-БЛОК-4  */
     font-size: inherit;
 }
 
+.course_a-entry-p {
+    margin-top: 25px;
+}
 
 .course_a-entry-p a {
     font-weight: 400;
@@ -859,10 +863,10 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 #p {
-    width: 257px;
-    height: 34px;
+    text-align: left;
+    max-width: 257px;
+    max-height: 34px;
     font-size: 12px;
-    margin-top: 8px;
     color: #000;
 }
 
@@ -907,20 +911,33 @@ PROGRAMM-COURSE-БЛОК-4  */
 }
 
 .other-course-contant {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0px 100px 0px;
+    margin-top: 126px;
+
+}
+
+.other-course-box {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 47px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px 50px 100px 50px;
-    margin-top: 126px;
+}
 
+.course-program-card {
+    width: 100%;
+}
+
+.course-img img {
+    width: 100%;
+}
+
+.course-text {
+    width: 100%;
 }
 
 #mess-cont {
     margin-top: 35px;
 }
-
-
-
-/* сделать точку и выровнять мессенджеры */

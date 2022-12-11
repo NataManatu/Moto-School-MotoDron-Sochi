@@ -190,17 +190,19 @@ import CourseContact from '@/components/CourseContact.vue'
             </div>
             <div class="course_a-documents-content">
                 <div class="course_a-documents-box">
+
                     <div class="documents-wrapper-img">
                         <img src="@/assets/img-courseA/Rectangle 165.png" alt="">
                     </div>
+
                     <div class="course_a-text-block">
                         <p>Чтобы записаться на этот курс вам должно быть не менее 16 лет.<br>
                             Также Вам необходимо будет предоставить нам следующие документы:
                         </p>
                         <ul>
                             <li>
-                                Медсправка с допуском на категорию А, А1, М, В1 с отметками <span>диспансеров
-                                (наркологического и
+                                Медсправка с допуском на категорию А, А1, М, В1 с отметками диспансеров
+                                <span>(наркологического и
                                     психоневрологического по месту регистрации)</span>
                             </li>
                             <li> Паспорт и его ксерокопия (главная страница + прописка)</li>

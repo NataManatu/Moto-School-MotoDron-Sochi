@@ -59,7 +59,7 @@ const butVect2 = (() => {
                         </div>
                     </div>
 
-                    <div class="button">
+                    <div class="button-gpoup">
                         <div class="wrapper">
                             <a href="/" type="button"> Курс “Pro”</a>
                             <router-link to="/coursea" type="button"> Категория “А”</router-link>
@@ -113,8 +113,9 @@ const butVect2 = (() => {
             </div>
 
             <div class="why-content">
-                <img src="@/assets/img-why-bl-3/Image.png" alt="" id="why-img-content">
-
+                <div class="why-content-wrapper-img">
+                    <img src="@/assets/img-why-bl-3/Image.png" alt="" id="why-img-content">
+                </div>
                 <div class="why-text-block">
                     <div class="block-1">
                         <img src="@/assets/img-why-bl-3/01.svg" alt="" id="why-svg">
@@ -183,7 +184,7 @@ const butVect2 = (() => {
                             </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
-                       
+
                     </div>
                 </article>
 
@@ -238,10 +239,10 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>“КонтрАварийный”</h1>
                         <div class="course-text-p">
-                        <p>Подготовьтесь к любым неожиданностям на дороге, научитесь справляться с нестандартными
-                            дорожными ситуациями. На курсе вы отработаете реакцию на внезапные препятствия, освоите
-                            технику скоростных поворотов и навык экстренного торможения.
-                        </p>
+                            <p>Подготовьтесь к любым неожиданностям на дороге, научитесь справляться с нестандартными
+                                дорожными ситуациями. На курсе вы отработаете реакцию на внезапные препятствия, освоите
+                                технику скоростных поворотов и навык экстренного торможения.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -257,11 +258,13 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1 id="course-text-h1">Категория “А”+“КонтрАварийный”</h1>
                         <div class="course-text-p">
-                        <p>Профессиональный курс вождения + категория А. Комплекс авторских упражнений, разработанный на
-                            базе профессиональных курсов вождения для специальных служб. На курсе вы освоите навыки
-                            вождения, необходимые не только в привычных стабильных условиях тренировочной площадки, но и
-                            при вождении в городе.
-                        </p>
+                            <p>Профессиональный курс вождения + категория А. Комплекс авторских упражнений,
+                                разработанный на
+                                базе профессиональных курсов вождения для специальных служб. На курсе вы освоите навыки
+                                вождения, необходимые не только в привычных стабильных условиях тренировочной площадки,
+                                но и
+                                при вождении в городе.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -276,11 +279,11 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>“Городской”</h1>
                         <div class="course-text-p">
-                        <p>Полноценное обучение в реальных городских условиях. Выезд в тандеме с инструктором. После
-                            обучения вы точно будет знать, где держаться в полосе, какие слепые зоны есть у
-                            автомобилистов и мотоциклистов, научитесь проезжать разметку, лужи, неровности,
-                            разворачиваться, ездить между рядами и взаимодействовать с другими ТС.
-                        </p>
+                            <p>Полноценное обучение в реальных городских условиях. Выезд в тандеме с инструктором. После
+                                обучения вы точно будет знать, где держаться в полосе, какие слепые зоны есть у
+                                автомобилистов и мотоциклистов, научитесь проезжать разметку, лужи, неровности,
+                                разворачиваться, ездить между рядами и взаимодействовать с другими ТС.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -295,10 +298,12 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Индивидуальный курс</h1>
                         <div class="course-text-p">
-                        <p>Выстраиваем программу в соответствии с вашими задачами и пожеланиями с учетом ваших навыков.
-                            Безопасно грамотно быстро приведем вас к цели, поможем исправить ошибки, научим чувствовать
-                            себя уверенно за рулем в любых условиях.
-                        </p>
+                            <p>Выстраиваем программу в соответствии с вашими задачами и пожеланиями с учетом ваших
+                                навыков.
+                                Безопасно грамотно быстро приведем вас к цели, поможем исправить ошибки, научим
+                                чувствовать
+                                себя уверенно за рулем в любых условиях.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -313,9 +318,10 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Разовое занятие</h1>
                         <div class="course-text-p">
-                        <p>Не получается "Восьмерка", поворот, маневрирование, экстренное торможение? Не нужно покупать
-                            повторный курс – берем разовый урок, разбираем ошибки, достигаем успеха!
-                        </p>
+                            <p>Не получается "Восьмерка", поворот, маневрирование, экстренное торможение? Не нужно
+                                покупать
+                                повторный курс – берем разовый урок, разбираем ошибки, достигаем успеха!
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -330,10 +336,11 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Бесплатное пробное</h1>
                         <div class="course-text-p">
-                        <p>Инструктаж + практика для тех, кто пока не определился, какой курс выбрать и хочется ли
-                            вообще становиться учеником нашей мотошколы. Курс – также тест-драйв для новичков, которые
-                            впервые садятся за руль и хотят понять, как это – управлять мотоциклом.
-                        </p>
+                            <p>Инструктаж + практика для тех, кто пока не определился, какой курс выбрать и хочется ли
+                                вообще становиться учеником нашей мотошколы. Курс – также тест-драйв для новичков,
+                                которые
+                                впервые садятся за руль и хотят понять, как это – управлять мотоциклом.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -348,11 +355,13 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Мопед</h1>
                         <div class="course-text-p">
-                        <p>Научитесь управлять скутером в реальных условиях. Большое внимание уделяем навыкам
-                            безопасного торможения и умению “чувствовать” поведение техники. Собираетесь и планируете
-                            арендовать там мотороллер? Работаете в доставке или купили мопед для себя? Обучим базовым
-                            навыкам вождения.
-                        </p>
+                            <p>Научитесь управлять скутером в реальных условиях. Большое внимание уделяем навыкам
+                                безопасного торможения и умению “чувствовать” поведение техники. Собираетесь и
+                                планируете
+                                арендовать там мотороллер? Работаете в доставке или купили мопед для себя? Обучим
+                                базовым
+                                навыкам вождения.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -367,9 +376,10 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Детский</h1>
                         <div class="course-text-p">
-                        <p>Мотоспорт отлично развивает силу, реакцию, выносливость. Обучаем детей с 7 лет, для ребят у
-                            нас специальная мототехника. А инструкторы умеют находить подход как каждому ученику.
-                        </p>
+                            <p>Мотоспорт отлично развивает силу, реакцию, выносливость. Обучаем детей с 7 лет, для ребят
+                                у
+                                нас специальная мототехника. А инструкторы умеют находить подход как каждому ученику.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -384,10 +394,10 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1>Тренажер “Вилли-паук”</h1>
                         <div class="course-text-p">
-                        <p>Вилли машина и Вилли Паук – безопасные тренажеры для отработки базовых навыков исполнения
-                            “вилли” (езде на заднем колесе) на мотоцикле любого класса. Установка помогает развить
-                            чувство баланса.
-                        </p>
+                            <p>Вилли машина и Вилли Паук – безопасные тренажеры для отработки базовых навыков исполнения
+                                “вилли” (езде на заднем колесе) на мотоцикле любого класса. Установка помогает развить
+                                чувство баланса.
+                            </p>
                         </div>
                         <button type="button" id="why-btn">Подробнее</button>
                     </div>
@@ -567,54 +577,69 @@ const butVect2 = (() => {
             </div>
 
             <div class="gallery-block-grid">
-                <div class="grid-item" id="grid-41"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-41"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-42"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-42"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-60"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-60"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-62"><img src="@/assets/img-photo-gal-bl-7/Rectangle-62.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-62"><img src="@/assets/img-photo-gal-bl-7/Rectangle-62.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-63"><img src="@/assets/img-photo-gal-bl-7/Rectangle-63.png" class="gallery__img" alt=""></div>
+                <div class="grid-item" id="grid-63"><img src="@/assets/img-photo-gal-bl-7/Rectangle-63.png"
+                        class="gallery__img" alt=""></div>
 
 
-                <div class="grid-item" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle 67.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png" class="gallery__img"
-                        alt="">
+                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle 41 (1).png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle 177.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle 178.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png" class="gallery__img"
-                        alt="">
-                </div>
-
-                <div class="grid-item" id="grid-61"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png" class="gallery__img" alt="">
-                </div>
-                <div class="grid-item" id="grid-64"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png" class="gallery__img" alt="">
-                </div>
-                <div class="grid-item" id="grid-42-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png" class="gallery__img"
-                        alt="">
-                </div>
-                <div class="grid-item" id="grid-54"><img src="@/assets/img-photo-gal-bl-7/Rectangle-54.png" class="gallery__img" alt="">
-                </div>
-                <div class="grid-item" id="grid-60-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png" class="gallery__img"
-                        alt="">
+                <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64 (1).png"
+                        class="gallery__img" alt="">
                 </div>
 
+                <div class="grid-item" id="grid-61"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61.png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-64"><img src="@/assets/img-photo-gal-bl-7/Rectangle 64.png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-42-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 42 (1).png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-54"><img src="@/assets/img-photo-gal-bl-7/Rectangle-54.png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-60-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 60 (1).png"
+                        class="gallery__img" alt="">
+                </div>
 
-                <div class="grid-item" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png" class="gallery__img"
-                        alt="">
+
+                <div class="grid-item" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle 61 (1).png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-179"><img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-179"><img src="@/assets/img-photo-gal-bl-7/Rectangle 179.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-180"><img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-180"><img src="@/assets/img-photo-gal-bl-7/Rectangle 180.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-65"><img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-65"><img src="@/assets/img-photo-gal-bl-7/Rectangle 65.png"
+                        class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png" class="gallery__img" alt="">
+                <div class="grid-item" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle 66.png"
+                        class="gallery__img" alt="">
                 </div>
             </div>
         </div>
@@ -1493,7 +1518,7 @@ const butVect2 = (() => {
                         </ul>
                     </div>
 
-                    <div class="social-contact-futer" >
+                    <div class="social-contact-futer">
                         <a href="/"><img src="@/assets/img-cont-bl-18/WA.svg"></a>
                         <a href="/"><img src="@/assets/img-cont-bl-18/TG.svg"></a>
                         <a href="/"><img src="@/assets/img-cont-bl-18/IN.svg"></a>

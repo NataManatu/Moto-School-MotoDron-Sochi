@@ -49,22 +49,23 @@ header {
 
 .header-container {
     margin: 0 auto;
-    max-width: 1400px;
-    min-width: 430px;
-    padding: 7px 100px 250px 100px;
+    max-width: 1200px;
+    padding: 7px 0px 250px 0px;
 
 }
 
 .header-menu {
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
+/* уменьшила на 3 px */
 .nav {
-    margin-left: 136px;
+    margin-left: 153px;
 }
 
 .nav ul {
@@ -82,11 +83,12 @@ header {
     cursor: pointer;
 }
 
+/* уменьшила на 3 px */
 .social {
     display: flex;
     align-items: center;
-    margin-left: 16px;
-    gap: 10px;
+    gap: 5px;
+    margin-left: 153px;
 
 }
 
@@ -108,13 +110,11 @@ header {
 
 .header-box {
     max-width: 553px;
-    margin-top: 250px;
+    margin-top: 190px;
     margin-left: 575px;
+
 }
 
-.slogan {
-    width: 100%;
-}
 
 .slogan p {
     margin-top: 41px;
@@ -130,11 +130,12 @@ header {
     margin-top: 19px;
 }
 
-.button {
-    width: 100%;
+.button-gpoup {
+    /* width: 100%; */
     display: flex;
     align-items: center;
     margin-top: 114px;
+    gap: 20px;
     font-size: inherit;
 
 }
@@ -143,7 +144,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 377px;
     height: 50px;
     gap: 40px;
     line-height: 50px;
@@ -162,14 +163,13 @@ header {
 }
 
 #btn3 {
-    width: 183px;
+    width: 156px;
     height: 50px;
     padding: 12px 32px 12px 32px;
     background-color: #FCD702;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
-    margin-left: 20px;
     border-style: none;
     border-radius: 3px;
     cursor: pointer;
@@ -179,6 +179,7 @@ header {
     text-decoration: none;
     color: #000000;
 }
+
 
 /* ABOUT--2 блок*/
 
@@ -219,9 +220,9 @@ header {
 }
 
 .about-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,13 +235,12 @@ header {
     font-size: 18px;
     font-weight: 400;
     color: #8C8C8C;
-    overflow-wrap: anywhere;
-    overflow: hidden;
 }
 
 .about-img-modul {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    max-width: 560px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 560px;
     height: 400px;
@@ -265,10 +265,7 @@ header {
 }
 
 
-
-
-/* WHY ARE WE--(3 блок)*/
-
+/* WHY ARE WE--3 блок*/
 
 .why {
     width: 100%;
@@ -304,17 +301,17 @@ header {
     line-height: 52px;
     text-transform: uppercase;
     color: #E3E3E3;
-
 }
 
+/* контейнер на макете не ро центру,поставила как надо */
 .why-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    column-gap: 125px;
+    column-gap: 124px;
     margin-top: 111px;
 
 }
@@ -331,9 +328,11 @@ header {
 
 }
 
-/* svg если приблизить,то желтый контур не как на макете,видны линии пересечения */
-#why-img-content {
+.why-content-wrapper-img {
     max-width: 450px;
+}
+
+#why-img-content {
     border-radius: 3px;
 }
 
@@ -1037,7 +1036,7 @@ header {
 }
 
 #grid-63 img {
-   height: 100%;
+    height: 100%;
 }
 
 #grid-41-b {
@@ -2631,12 +2630,12 @@ input[type=submit] {
 }
 
 .contact-nav {
-    margin-left: 139px;
+    margin-left: 119px;
 }
 
 .contact-nav ul {
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 .contact-nav li {
@@ -2650,7 +2649,7 @@ input[type=submit] {
 }
 
 .social-contact-futer {
-    margin-left: 139px;
+    margin-left: 119px;
 }
 
 .social-contact-futer a {

@@ -539,7 +539,7 @@ const butVect2 = (() => {
                     <img src="@/assets/img-bee-moto-bl-6/image-259.png" alt="" id="be-moto-img-5">
                 </div>
 
-
+                
                 <div class="bee-moto-border-text">
 
                     <div class="cav-up">
@@ -556,9 +556,11 @@ const butVect2 = (() => {
                             знает ни о
                             своем возрасте, ни о своей жене, детях, заботах и, следовательно, ничего не боится, ибо
                             источник
-                            страха — в будущем, а он освобожден от будущего и ему нечего бояться.<br><br><span
-                                id="autor-name"> Милан Кундера, из книги «Неспешность»</span></p>
+                            страха — в будущем, а он освобожден от будущего и ему нечего бояться.</p>
+
+                           <p id="autor-name">Милан Кундера, из книги «Неспешность»</p>
                     </div>
+                    
                     <div class="cav-down">
                         <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
                         <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">

@@ -880,14 +880,15 @@ header {
 
 
 .bee-moto-border-text {
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
+    margin-top: 161px;
     border: 10px solid #373737;
 
 }
 
 .t-text-author {
- 
+    padding: 70px 80px 20px 80px;
     color: #8C8C8C;
     font-style: italic;
     font-weight: 400;
@@ -898,11 +899,9 @@ header {
 
 }
 
-#autor {
-    padding: 75px 88px 40px 88px;
-}
 
 #autor-name {
+    margin-top: 40px;
     float: right;
 }
 
@@ -910,29 +909,30 @@ header {
 .cav-up {
     position: absolute;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 18px;
-    margin-top: -60px;
-    margin-left: 80px;
+    margin-left: -62px;
+    margin-top: -68px;
     gap: 11px;
-    width: 120px;
+    width: 140px;
     height: 120px;
     background-color: #000000;
-    z-index: 2;
+
 }
 
 .cav-down {
-    position: absolute;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 18px;
-    margin-top: -64px;
-    margin-left: 1020px;
+    float: right;
+    margin-top: -52px;
+    margin-right: -62px;
     gap: 11px;
-    width: 120px;
+    width: 140px;
     height: 120px;
     background-color: #000000;
-    z-index: 2;
+    float: right;
+
 
 }
 

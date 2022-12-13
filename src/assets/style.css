@@ -312,7 +312,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     column-gap: 124px;
-    margin-top: 111px;
+    margin-top: 109px;
 
 }
 
@@ -400,13 +400,13 @@ header {
 }
 
 .content-vector {
-    width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
     margin-top: 71px;
-    padding: 0px 100px;
+
 
 }
 
@@ -436,13 +436,13 @@ header {
 }
 
 .course-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 52px;
+    margin-top: 51px;
     gap: 75px;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -480,8 +480,8 @@ header {
 }
 
 #price-b {
-    width: 225px;
-    height: 48px;
+    width: 226px;
+    height: 49px;
     margin-top: -50px;
     margin-left: 225px;
     /* transform: skew(-15deg); */
@@ -497,7 +497,7 @@ header {
 }
 
 .course-text {
-    margin-top: 41px;
+    margin-top: 25px;
     padding: 0px 30px;
     overflow-wrap: anywhere;
     overflow: hidden;
@@ -515,13 +515,12 @@ header {
 
 .course-text-p {
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: -15px;
     font-size: 16px;
     color: #8C8C8C;
     height: 176px;
     overflow: hidden;
 }
-
 
 #why-btn {
     width: 146px;
@@ -591,13 +590,16 @@ header {
 }
 
 .entry-content {
+    margin: 0 auto;
+    max-width: 777px;
     display: flex;
-    justify-content: center;
-    padding: 0px 100px 100px 100px;
-    margin-top: 192px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom:116px;
+    margin-top: 119px;
     gap: 48px;
     color: #E3E3E3;
-    margin-left: 150px;
+
 }
 
 .entry-content h1 {
@@ -620,6 +622,7 @@ header {
 .entry-inp-btn {
     display: flex;
     gap: 16px;
+    justify-content: flex-start;
     margin-top: 42px;
 }
 
@@ -629,7 +632,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     align-items: center;
-    padding: 12px 12px 12px 12px;
+    padding: 12px 75px 12px 12px;
     line-height: 150%;
     background: #E3E3E3;
     color: #8C8C8C;

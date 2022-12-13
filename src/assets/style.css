@@ -595,7 +595,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding-bottom:116px;
+    padding-bottom: 116px;
     margin-top: 119px;
     gap: 48px;
     color: #E3E3E3;
@@ -722,10 +722,7 @@ header {
 }
 
 .bee-moto-slogan {
-    margin-top: 51px;
-    padding: 0px 100px;
     font-weight: 400;
-    margin-left: 50px;
     font-size: 40px;
     line-height: 140%;
     color: #8C8C8C;
@@ -735,12 +732,14 @@ header {
 }
 
 .be-moto-content {
-    max-width: 1400px;
+    padding-top: 51px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom: 100px;
 }
 
 .bee-moto-content-1 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -779,10 +778,11 @@ header {
 }
 
 .bee-moto-content-2 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 100px;
+    gap: 254px;
     margin-top: 150px;
 
 }
@@ -790,7 +790,7 @@ header {
 .t-text-2 {
     font-weight: 400;
     color: #8C8C8C;
-    margin-left: 200px;
+
 }
 
 #t-2 {
@@ -801,10 +801,11 @@ header {
 
 #be-img-2 {
     position: absolute;
-    padding: 60px 533px 58px 433px;
+    padding: 60px 533px 60px 433px;
 }
 
 .bee-moto-content-3 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -838,11 +839,10 @@ header {
     width: 288px;
     height: 133px;
     margin-top: 40px;
-    /* overflow-wrap: anywhere;
-    overflow: hidden; */
 }
 
 .bee-moto-content-4 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -858,10 +858,11 @@ header {
 }
 
 .bee-moto-content-5 {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 150px;
+    gap: 153px;
     margin-top: 150px;
     color: #8C8C8C;
 }
@@ -879,23 +880,19 @@ header {
 
 
 .bee-moto-border-text {
+    max-width: 900px;
     margin: 0 auto;
-    justify-content: center;
+    border: 10px solid #373737;
 
 }
 
 .t-text-author {
-    position: relative;
-    margin: 0 auto;
-    border: 10px solid #373737;
+ 
     color: #8C8C8C;
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    width: 950px;
-    height: auto;
-    margin-top: 161px;
     overflow-wrap: anywhere;
     overflow: hidden;
 

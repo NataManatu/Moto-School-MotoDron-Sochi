@@ -62,7 +62,7 @@ const butVect2 = (() => {
                     <div class="button-gpoup">
                         <div class="wrapper">
                             <a href="/" type="button"> Курс “Pro”</a>
-                            <router-link to="/coursea" type="button"> Категория “А”</router-link>
+                            <router-link to="/courseaPro" type="button"> Курс “Pro”</router-link>
                         </div>
                         <button type="button" id="btn3">Записаться</button>
                     </div>
@@ -446,14 +446,14 @@ const butVect2 = (() => {
                 <p>быть мотоциклистом</p>
             </div>
 
-            <div class="bee-moto-slogan">
-                <p> “БЫТЬ МОТОЦИКЛИСТОМ...” Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, velit
-                    perspiciatis molestias quas earum id dolorum voluptatum delectus labore qui, porro autem fugit
-                    ipsam
-                    repellendus magni reprehenderit optio est
-                    quos!</p>
-            </div>
             <div class="be-moto-content">
+                <div class="bee-moto-slogan">
+                    <p> Значит открывать для себя новые грани свободы. Кайфовать от скорости, но всегда помнить 
+                        о безопасности. Узнавать, на что ты способен 
+                        по-настоящему и чувствовать себя уверенно 
+                        не только на дороге, но и в жизни.</p>
+                </div>
+
                 <div class="bee-moto-content-1">
                     <div class="t-text">
                         <img src="@/assets/img-bee-moto-bl-6/01.svg" alt="" id="t-1">
@@ -527,7 +527,7 @@ const butVect2 = (() => {
                     <div class="t-text">
                         <div class="title-05">
                             <img src="@/assets/img-bee-moto-bl-6/05.svg" alt="" id="t-05">
-                            <p id="t-text">Победить страх</p>
+                            <p id="t-text">ПобедА над страхом</p>
                         </div>
                         <p id="p-text">Вы способны на большее, чем думаете
                             о себе. Сделайте шаг к знаниям и опыту, чтобы развеять сомнения. После обучения

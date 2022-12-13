@@ -977,9 +977,9 @@ header {
 }
 
 .gallery-block-grid {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom:100px;
     overflow-x: scroll;
 
 }
@@ -1029,6 +1029,12 @@ header {
 
 }
 
+#grid-62 img {
+    height: 100%;
+    width: 100%;
+    object-fit: inherit;
+}
+
 #grid-63 {
     grid-column: 6;
     grid-row: 1/span 2;
@@ -1037,7 +1043,10 @@ header {
 
 #grid-63 img {
     height: 100%;
+    width: 100%;
+    object-fit: inherit;
 }
+
 
 #grid-41-b {
     grid-column: 8/span 2;
@@ -1088,8 +1097,11 @@ header {
 #grid-66 {
     grid-column: 6;
     grid-row: 3;
-    margin-left: -104px;
+
 }
+
+
+
 
 #grid-54 {
     grid-column: 7;

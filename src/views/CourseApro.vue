@@ -148,17 +148,19 @@ import CourseContact from '@/components/CourseContact.vue'
                 </div>
             </div>
         </div>
-       
 
-
-
+        <!-- ЗАПИСЬ-COURSE-PRO-БЛОК-7-->
         <CourseEntry></CourseEntry>
+
+
+         <!-- ДРУГИЕ КУРСЫ-COURSE-PRO-БЛОК-8-->
         <CourseOther></CourseOther>
+
+
+        <!-- CONTACT-COURSE-PRO-9-BLOCK -->
         <CourseContact></CourseContact>
 
     </body>
-
-
 </template>
 
 <script>

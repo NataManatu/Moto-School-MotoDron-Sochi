@@ -200,5 +200,68 @@ html::-webkit-scrollbar-thumb {
     color: #FFFFFF;
     font-size: inherit;
     cursor: pointer;
+}
 
+/* RESULT-COURSE-PRO-БЛОК-6  */
+
+.result-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.result-container::before {
+    content: "Результаты обучения";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_result {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_result p {
+    font-family: 'Metro', sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.result-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px 75px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #888888;
+}
+
+.result-text-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 125px;
+    row-gap: 41px;
+    margin-top: 37px;
+    padding-bottom: 100px;
 }

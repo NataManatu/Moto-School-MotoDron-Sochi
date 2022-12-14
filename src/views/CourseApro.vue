@@ -100,7 +100,7 @@ import CourseContact from '@/components/CourseContact.vue'
                 </div>
                 <div class="programm-item-box">
                     <p class="pr-bl">4</p>
-                    <p class="pr-p">Принципы руления  <br>на разных передачах</p>
+                    <p class="pr-p">Принципы руления <br>на разных передачах</p>
                 </div>
                 <div class="programm-item-box">
                     <p class="pr-bl">5</p>
@@ -117,7 +117,41 @@ import CourseContact from '@/components/CourseContact.vue'
             </div>
         </div>
 
+        <!-- INSTRUCTOR COURSE-БЛОК-5 -->
         <CourseInstructor></CourseInstructor>
+
+        <!-- RESULT-COURSE-PRO-БЛОК-6 -->
+
+        <div class="result-container">
+            <div class="about_result">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Результаты обучения</p>
+            </div>
+            <div class="result-content">
+                <div class="result-text-content">
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Вы усилите свои навыки управления мотоциклом, маневрирования, торможения</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Сможете заранее распознавать препятствия и избегать опасности на дороге</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Научитесь справляться с проблемами, связанными с плохим дорожным покрытием</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Научитесь правильно вести себя на мокром и скользком асфальте</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+
+
         <CourseEntry></CourseEntry>
         <CourseOther></CourseOther>
         <CourseContact></CourseContact>

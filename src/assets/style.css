@@ -979,7 +979,7 @@ header {
 .gallery-block-grid {
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     overflow-x: scroll;
 
 }
@@ -1228,26 +1228,28 @@ header {
 .garage-content {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 0px 100px 0px;
+    padding-bottom: 100px;
+    margin-top: 91px;
 }
 
 .garage-text {
     max-width: 619px;
     margin-left: 210px;
     color: #8C8C8C;
-    margin-top: 91px;
-    overflow-wrap: anywhere;
 }
 
 .garage-img {
     display: flex;
+    justify-content: space-between;
+    padding-right: 153px;
     align-items: center;
-    width: 1400px;
+    width: 100%;
+    margin: 0 auto;
     margin-top: 111px;
 }
 
 .main_card_desc {
-    margin-top: 111px;
+    margin-top: 153px;
     text-align: center;
 }
 
@@ -1260,21 +1262,21 @@ header {
 }
 
 #garage-img-2 {
-    width: 464px;
-    height: 425px;
-    margin-left: 50px;
+    max-width: 464px;
+    max-height: 425px;
+  
 }
 
 #garage-img-3 {
     width: 342px;
     height: 313px;
-    margin-left: 50px;
+   
 }
 
 #garage-img-4 {
     width: 166px;
     height: 151px;
-    margin-left: 50px;
+   
 }
 
 .card_text_1 {
@@ -1295,12 +1297,12 @@ header {
     justify-content: center;
     gap: 40px;
     margin-top: 31px;
+    
 }
 
 .box-card {
     position: absolute;
-    width: 500px;
-    height: 380px;
+    max-width: 500px;
     margin-left: 761px;
 }
 

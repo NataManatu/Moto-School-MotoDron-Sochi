@@ -179,6 +179,6 @@ export default {
 
 
 <style scoped>
-@import url(../assets/courseaPro.css);
+@import url(../assets/coursePro.css);
 </style>
 

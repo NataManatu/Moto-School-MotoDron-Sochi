@@ -15,9 +15,9 @@ const router = createRouter({
       component: () => import('../views/CourseA.vue')
     },
     {
-      path: '/courseaPro',
-      name: 'courseaPro',
-      component: () => import('../views/CourseApro.vue')
+      path: '/coursePro',
+      name: 'coursePro',
+      component: () => import('../views/CoursePro.vue')
     }
 
 

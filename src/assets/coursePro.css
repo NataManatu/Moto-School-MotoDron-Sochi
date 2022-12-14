@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb {
 /* COURSE-A-PRO-БЛОК-1 */
 
 .course-a {
-    background-image: url(@/assets/img-courseaPro/BGpro.png);
+    background-image: url(@/assets/img-coursePro/BGpro.png);
     background-color: #000000;
     background-size: cover;
     background-size: 100%;

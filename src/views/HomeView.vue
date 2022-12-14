@@ -746,14 +746,14 @@ const butVect2 = (() => {
                                 опытного райдера. Boxer BM 150 - это идеальная комбинация мощности
                                 и топливной эффективности.</p>
                         </div>
-                        <img src="@/assets/img-command-bl-9/Photo.png" alt="" id="instructor-photo-1">
+                        <img src="@/assets/img-command-bl-9/Photo-1.png" alt="" id="photo-instr">
                     </div>
                 </div>
 
 
                 <div class="instructor-card-2">
                     <div class="content-card-2">
-                        <img src="@/assets/img-command-bl-9/Photo-2.png" alt="" id="instructor-photo-1">
+                        <img src="@/assets/img-command-bl-9/Photo2.png" alt="" id="photo-instr">
                         <div class="text-card">
                             <img src="@/assets/img-command-bl-9/Инструктор.png" alt="" id="instructor-text-p-1">
                             <p id="instructor-text-p-2">Ефимов Андрей</p>

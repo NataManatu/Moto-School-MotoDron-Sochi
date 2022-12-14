@@ -1264,19 +1264,19 @@ header {
 #garage-img-2 {
     max-width: 464px;
     max-height: 425px;
-  
+
 }
 
 #garage-img-3 {
     width: 342px;
     height: 313px;
-   
+
 }
 
 #garage-img-4 {
     width: 166px;
     height: 151px;
-   
+
 }
 
 .card_text_1 {
@@ -1297,7 +1297,7 @@ header {
     justify-content: center;
     gap: 40px;
     margin-top: 31px;
-    
+
 }
 
 .box-card {
@@ -1410,12 +1410,6 @@ header {
 
 }
 
-/* .command-content{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px 100px 100px 100px;
-
-} */
 .instructor-card-1 {
     background-image: url("@/assets/img-command-bl-9/BG.png");
     background-size: 100%;
@@ -1434,6 +1428,11 @@ header {
 
 .command-content {
     padding-bottom: 114px;
+}
+
+#photo-instr {
+    width: 300px;
+    height: 300px;
 }
 
 .content-card-1 {
@@ -1471,7 +1470,7 @@ header {
     font-size: 18px;
     margin-top: 30px;
     color: #8C8C8C;
-    /* overflow-wrap: anywhere; */
+
 }
 
 #instructor-photo-1 {

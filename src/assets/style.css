@@ -1581,7 +1581,6 @@ header {
     font-size: inherit;
 }
 
-/* ?????? */
 .bike-input input:focus {
     outline: none;
     background-color: rgb(27, 27, 83);
@@ -1669,9 +1668,9 @@ header {
 }
 
 .news-content {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 100px 100px 100px;
+    padding-bottom:100px;
     display: flex;
     gap: 45px;
     margin-top: 101px;
@@ -1853,7 +1852,7 @@ header {
 }
 
 .video-block {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -1862,7 +1861,7 @@ header {
     align-items: end;
     gap: 50px;
     margin-top: 125px;
-    padding: 0px 100px;
+  
 
 }
 
@@ -1873,8 +1872,8 @@ header {
 #video-block-vector {
     margin: 0 auto;
     text-align: center;
-    margin-top: 42px;
-    padding-bottom: 100px;
+  
+   
 }
 
 /* STATISTIC-13-блок  */

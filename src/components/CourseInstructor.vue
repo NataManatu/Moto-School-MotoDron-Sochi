@@ -8,8 +8,8 @@
             <div class="instrucors">
                 <div class="instructor-1">
                     <div class="in-1">
-                        <div>
-                            <img src="@/assets/img-courseA/Rectangle 259.png" alt="" id="photo-instructor">
+                        <div  class="photo-instructor">
+                            <img src="@/assets/img-courseA/Rectangle 259.png" alt="" >
                         </div>
                         <p>Терентьев Андрей</p>
                     </div>
@@ -17,8 +17,8 @@
                 <div class="instructor-2">
                     <div class="in-2">
                         <p>Ефимов Андрей</p>
-                        <div>
-                            <img src="@/assets/img-courseA/Photo2.png" alt="" id="photo-instructor">
+                        <div  class="photo-instructor">
+                            <img src="@/assets/img-courseA/Photo2.png" alt="">
                         </div>
                     </div>
                 </div>

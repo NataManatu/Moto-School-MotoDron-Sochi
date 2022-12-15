@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metro');
+
+
 * {
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
@@ -26,10 +32,11 @@ html::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
-/* COURSE-A-PRO-БЛОК-1 */
+
+/* COURSE-PRO-БЛОК-1 */
 
 .course-a {
-    background-image: url(@/assets/img-CourseA_Pro/BG_courseA_Pro.png);
+    background-image: url(@/assets/img-CourseContr/BG_contr.png);
     background-color: #000000;
     background-size: cover;
     background-size: 100%;
@@ -193,7 +200,7 @@ html::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-/* REZULT-БЛОК-6  */
+/* RESULT-COURSE-PRO-БЛОК-6  */
 
 .result-container {
     width: 100%;
@@ -248,165 +255,11 @@ html::-webkit-scrollbar-thumb {
 .result-text-content {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 125px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 125px;
+    row-gap: 41px;
     margin-top: 37px;
-
-}
-
-.result-box {
-    text-align: left;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin-top: 50px;
-
-}
-
-.result-text-content ul li {
-    list-style: none;
-    margin-left: 45px;
-    text-align: left;
-
-}
-
-.result-text-content ul li::before {
-    content: "\2022";
-    padding-right: 10px;
-    display: inline-block;
-}
-
-.result-p {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 103px;
-    text-align: left;
-}
-
-
-/* COURSE-A-PR0-DOCUMENTS-БЛОК-7  */
-
-.course_a-documents-container {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #000000;
-    padding-top: 100px;
-
-}
-
-.course_a-documents-container::before {
-    content: "необходимые документы";
-    white-space: nowrap;
-    font-family: 'Metro', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 110px;
-    line-height: 144px;
-    padding-left: 50px;
-    text-transform: uppercase;
-    color: #191919;
-}
-
-.about_course_a-documents {
-    display: flex;
-    margin-top: -100px;
-    margin-left: -100px;
-}
-
-.about_course_a-documents p {
-    font-family: 'Metro', sans-serif;
-    font-style: normal;
-    white-space: nowrap;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    text-transform: uppercase;
-    color: #E3E3E3;
-}
-
-.course_a-documents-content {
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 175px;
-    margin-top: 126px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 140%;
-    color: #888888;
-
-}
-
-.course_a-documents-box {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 50px;
-
-}
-
-.documents-wrapper-img {
-    max-width: 575px;
-    max-height: 362px;
-}
-
-.course_a-text-block {
-    width: 100%;
-}
-
-.course_a-documents-box ul {
-    list-style: none;
-    margin-top: 30px;
-}
-
-.course_a-documents-box ul li::before {
-    content: "\2022";
-    padding-right: 20px;
-    display: inline-block;
-}
-
-.dos-p {
-    margin-top: 40px;
-}
-
-.doc-btn-ipt {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 15px;
-    margin-top: 12px;
-
-}
-
-.doc-btn-ipt button {
-    max-width: 210px;
-    max-height: 48px;
-    background: #FCD702;
-    color: #000000;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 32px;
-    gap: 8px;
-    font-size: inherit;
-    border-style: none;
-    cursor: pointer;
-
-}
-
-.doc-btn-ipt input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 241px;
-    max-height: 48px;
-    background: #E3E3E3;
-    border-radius: 3px;
-    border-style: none;
-    font-size: inherit;
-
+    padding-bottom: 100px;
 }

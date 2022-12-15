@@ -71,8 +71,26 @@ import CourseContact from '@/components/CourseContact.vue'
 
 
         <!-- THIS YOU CORSE-PRO-БЛОК-2 -->
-        <CourseForYou></CourseForYou>
+      
+        <div class="this-course-container">
+            <div class="about_this-course">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Этот курс для вас если...</p>
+            </div>
+            <div class="this-course-content">
 
+                <div class="course-a-grid">
+                    <div class="course-a-item"><img src="@/assets/img-coursePro/WhoCard1.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-coursePro/WhoCard2.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-coursePro/WhoCard3.png" alt=""></div>
+                    <div class="course-a-item"> <img src="@/assets/img-coursePro/WhoCard4.png" alt=""></div> 
+                </div>
+
+                <div class="this-course-photo-block">
+                    <img src="@/assets/img-courseA/Group 260.png" alt="">
+                </div>
+            </div>
+        </div>
 
         <!-- MOTOTEHN-COURSE-PRO-БЛОК-3 -->
         <CourseMototehn></CourseMototehn>

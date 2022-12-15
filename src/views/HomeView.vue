@@ -61,7 +61,7 @@ const butVect2 = (() => {
 
                     <div class="button-gpoup">
                         <div class="wrapper">
-                            <router-link to="/courseaPro" type="button"> Курс “Pro”</router-link>
+                            <router-link to="/coursePro" type="button"> Курс “Pro”</router-link>
                             <router-link to="/coursea" type="button"> Категория “А”</router-link>
                         </div>
                         <button type="button" id="btn3">Записаться</button>

@@ -153,7 +153,7 @@ const butVect2 = (() => {
 
         <!--COURSE-- 4 блок -->
 
-        <div class="course">
+        <div class="course" id="course">
             <div class="course-title">
                 <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="">
                 <p>наши курсы</p>
@@ -1471,7 +1471,7 @@ const butVect2 = (() => {
 
         <!-- CONTACT-18-BLOCK -->
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class=" title-contact">
                 <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
                 <p>контакты</p>

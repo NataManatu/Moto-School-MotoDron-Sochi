@@ -47,19 +47,20 @@ import CourseContact from '@/components/CourseContact.vue'
                         </p>
                     </div>
                     <div class="about-course">
-                        <p id="cont-p-1">Курс “Индивидуальный”</p>
-                        <p id="cont-p-2">Выстраиваем программу в соответствии с вашими задачами и пожеланиями с учетом
-                            ваших навыков.</p>
+                        <p id="cont-p-1">Разовое занятие</p>
 
-                        <p id="cont-p-3"> Безопасно грамотно быстро приведем вас к цели, поможем исправить ошибки,
-                            научим чувствовать себя уверенно за рулем в любых условиях.</p>
-
-                        <p id="cont-p-4">Количество часов и продолжительность курса зависят от ваших навыков и задач.
-                        </p>
-                        <p id="cont-p-5">В стоимость подготовки включены: топливные сборы, экипировка, мотоцикл, услуги инструктора.</p>
+                        <p id="cont-p-2">Не получается "Восьмерка", поворот, маневрирование, экстренное торможение? Не
+                            нужно покупать повторный курс – берем разовый урок, разбираем ошибки, достигаем успеха!</p>
+                        <ul>
+                            <li>1 индивидуальная тренировка
+                            </li>
+                            <li>90 минут</li>
+                        </ul>
+                        <p id="cont-p-3">В стоимость подготовки включены: топливные сборы, экипировка, мотоцикл, услуги
+                            инструктора.</p>
 
                         <div class="course-price">
-                           
+                            <p id="cont-p-5">4 000 рублей</p>
                             <button type="submit">Записаться</button>
                         </div>
                     </div>
@@ -94,11 +95,33 @@ import CourseContact from '@/components/CourseContact.vue'
         <CourseMototehn></CourseMototehn>
 
 
+        <!-- PROGRAMM-COURSE-PRO-БЛОК-4 -->
 
-        <!-- INSTRUCTOR COURSE-БЛОК-4 -->
+        <div class="program-course-container">
+            <div class="about_program-course">
+                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <p>Программа курса</p>
+            </div>
+            <div class="program-course-content">
+                <div class="programm-item-box">
+                    <p class="pr-bl">1</p>
+                    <p class="pr-p">Всё занятие будет посвящено<br> решению вашей задачи</p>
+                </div>
+                <div class="programm-item-box">
+                    <p class="pr-bl">2</p>
+                    <p class="pr-p">Состав занятия вы сможете предва-<br>рительно обсудить с инструктором</p>
+                </div>
+                <div class="programm-item-box">
+                    <p class="pr-bl">3</p>
+                    <p class="pr-p">Занимаетесь индивидуально</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- INSTRUCTOR COURSE-БЛОК-5 -->
         <CourseInstructor></CourseInstructor>
 
-        <!-- RESULT-COURSE-PRO-БЛОК-5 -->
+        <!-- RESULT-COURSE-PRO-БЛОК-6 -->
 
         <div class="result-container">
             <div class="about_result">
@@ -109,25 +132,30 @@ import CourseContact from '@/components/CourseContact.vue'
                 <div class="result-text-content">
                     <div class="result-box">
                         <img src="@/assets/img-courseA/Vector.svg" alt="">
-                        <p>Получите программу, составленную лично для вас,<br>включающую только те элементы обучения,которые<br>вам по-настоящему нужны</p>
+                        <p>Вы повысите своё<br>мастерство водителя</p>
                     </div>
                     <div class="result-box">
                         <img src="@/assets/img-courseA/Vector.svg" alt="">
-                        <p>Вы сможете отточить своё мастерство вождения, в<br>соответствии со своими задачами</p>
+                        <p>Сможете,наконец,отточить до совершенства выполнение<br>элементов,которые раньше вызывали сложности</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Получите квалифицированные рекомендации <br>
+                            и поддержку опытного инструктора</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- ЗАПИСЬ-COURSE-PRO-БЛОК-6-->
+        <!-- ЗАПИСЬ-COURSE-PRO-БЛОК-7-->
         <CourseEntry></CourseEntry>
 
 
-        <!-- ДРУГИЕ КУРСЫ-COURSE-PRO-БЛОК-7-->
+        <!-- ДРУГИЕ КУРСЫ-COURSE-PRO-БЛОК-8-->
         <CourseOther></CourseOther>
 
 
-        <!-- CONTACT-COURSE-PRO-8-BLOCK -->
+        <!-- CONTACT-COURSE-PRO-9-BLOCK -->
         <CourseContact></CourseContact>
 
     </body>
@@ -149,5 +177,5 @@ export default {
 
 
 <style scoped>
-@import url(../assets/CourseIndivid.css);
+@import url(../assets/CourseOneVisit.css);
 </style>

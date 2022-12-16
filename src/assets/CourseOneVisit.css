@@ -36,7 +36,7 @@ html::-webkit-scrollbar-thumb {
 /* COURSE-PRO-БЛОК-1 */
 
 .course-a {
-    background-image: url(@/assets/img-CourseIndivid/BG_Course_Individ.png);
+    background-image: url(@/assets/img-CourseOneVisit/BG_CourseOneVisit.png);
     background-color: #000000;
     background-size: cover;
     background-size: 100%;
@@ -126,6 +126,9 @@ html::-webkit-scrollbar-thumb {
 
 .course-card {
     margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .about-course {
@@ -149,22 +152,22 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about-course #cont-p-2 {
-    margin-top: 56px;
+    margin-top: 36px;
 }
 
 .about-course #cont-p-3 {
-    margin-top: 51px;
+    margin-top: 113px;
 }
 
 .about-course #cont-p-4 {
-    margin-top: 51px;
+    margin-top: 113px;
 
 }
 
 .about-course #cont-p-5 {
-    margin-top: 61px;
-    font-size: 18px;
-    font-weight: normal;
+    font-weight: 600;
+    font-size: 24px;
+
 }
 
 .about-course ul li::before {
@@ -180,7 +183,7 @@ html::-webkit-scrollbar-thumb {
 
 .course-price {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin-top: 84px;
 }
@@ -251,10 +254,10 @@ PROGRAMM-COURSE-БЛОК-4  */
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    gap: 150px;
+    gap: 200px;
     row-gap: 62px;
     text-align: center;
-    margin-top: 81px;
+    margin-top: 158px;
 }
 
 .programm-item-box {
@@ -346,7 +349,7 @@ PROGRAMM-COURSE-БЛОК-4  */
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: center;
-    column-gap: 270px;
+    column-gap: 260px;
     row-gap: 41px;
     margin-top: 37px;
     padding-bottom: 100px;

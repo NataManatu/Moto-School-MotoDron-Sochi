@@ -32,7 +32,12 @@ const router = createRouter({
     {
       path: '/courseA_Contr',
       name: 'courseA_Contr',
-      component: () => import('../views/courseA_Contr.vue')
+      component: () => import('../views/CourseA_Contr.vue')
+    },
+    {
+      path: '/CourseGorod',
+      name: 'CourseGorod',
+      component: () => import('../views/CourseGorod.vue')
     }
 
 

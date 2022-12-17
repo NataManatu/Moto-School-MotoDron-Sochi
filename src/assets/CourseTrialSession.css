@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metro');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+
+html::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+
+}
+
+html::-webkit-scrollbar-thumb {
+    height: 200px;
+    background: #FCD702;
+    border-radius: 20px;
+}
+
+
+/* COURSE-PRO-БЛОК-1 */
+
+.course-a {
+    background-image: url(@/assets/img-CourseTrialSession/BG_CourseTrialSession.png);
+    background-color: #000000;
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 785px;
+
+}
+
+.course-a-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7px;
+    color: #E3E3E3;
+}
+
+.course-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-course-a {
+    margin-left: 153px;
+}
+
+.nav-course-a ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-course-a ul li a {
+    color: #E3E3E3;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    gap: 10px;
+    margin-left: 153px;
+}
+
+.tel {
+    margin-left: 40px;
+}
+
+.tel a {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+.nav-cont a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #E3E3E3;
+}
+
+.nav-cont {
+    margin-top: 87px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+}
+
+.nav-course span {
+    color: #FCD702;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.025em;
+}
+
+.nav-course a {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+.course-card {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-course {
+    max-width: 645px;
+    max-height: 733px;
+    text-align: left;
+    padding: 50px;
+    color: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    background-color: #FCD702;
+    border-radius: 3px;
+}
+
+.about-course #cont-p-1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #191919;
+}
+
+.about-course #cont-p-2 {
+    margin-top: 36px;
+}
+
+.about-course #cont-p-3 {
+    margin-top: 113px;
+}
+
+.about-course #cont-p-4 {
+    margin-top: 113px;
+
+}
+
+.about-course #cont-p-5 {
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.about-course ul li::before {
+    content: "\2022";
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.about-course ul {
+    list-style: none;
+    margin-top: 60px;
+}
+
+.course-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 84px;
+}
+
+.course-price button {
+    width: 150px;
+    height: 55px;
+    background: #000000;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px 32px;
+    color: #FFFFFF;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+/* 
+PROGRAMM-COURSE-БЛОК-4  */
+
+
+.program-course-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.program-course-container::before {
+    content: "Программа курса";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_program-course {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_program-course p {
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.program-course-content {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.program-course-content {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 200px;
+    row-gap: 62px;
+    text-align: center;
+    margin-top: 158px;
+}
+
+.programm-item-box {
+    max-width: 271px;
+    max-height: 103px;
+}
+
+.pr-bl {
+    position: relative;
+    float: left;
+    font-family: Jost;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 101px;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #FCD702;
+
+}
+
+.pr-p {
+    position: absolute;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8C8C8C;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 18px;
+}
+
+
+/* RESULT-COURSE-PRO-БЛОК-6  */
+
+.result-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+.result-container::before {
+    content: "Результаты обучения";
+    white-space: nowrap;
+    font-family: 'Metro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 144px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: #191919;
+}
+
+.about_result {
+    display: flex;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.about_result p {
+    font-family: 'Metro', sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #E3E3E3;
+}
+
+.result-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0px 75px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #888888;
+}
+
+.result-text-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 260px;
+    row-gap: 41px;
+    margin-top: 37px;
+    padding-bottom: 100px;
+}

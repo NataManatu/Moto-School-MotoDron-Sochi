@@ -48,8 +48,12 @@ const router = createRouter({
       path: '/CourseOneVisit',
       name: 'CourseOneVisit',
       component: () => import('../views/CourseOneVisit.vue')
-    } 
-
+    },
+    {
+      path: '/CourseTrialSession',
+      name: 'CourseTrialSession',
+      component: () => import('../views/CourseTrialSession.vue')
+    }
 
 
   ]

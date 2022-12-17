@@ -183,7 +183,11 @@ const butVect2 = (() => {
                                 но по-настоящему научитесь управлять мотоциклом.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <!-- <router-link to="/coursea" type="button" id="why-btn"> Категория “А”</router-link> -->
+                        <router-link to="/coursea">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
+
 
                     </div>
                 </article>
@@ -204,7 +208,9 @@ const butVect2 = (() => {
                                 малых и средних скоростях, отработаете правильный алгоритм торможения.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/coursePro">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
 
                 </article>
@@ -225,7 +231,9 @@ const butVect2 = (() => {
                                 тренером исправите ошибки, мешающие свободно управлять мотоциклом.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/courseA_Pro">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
 
                 </article>
@@ -244,7 +252,9 @@ const butVect2 = (() => {
                                 технику скоростных поворотов и навык экстренного торможения.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/courseContr">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
 
                 </article>
@@ -256,7 +266,7 @@ const butVect2 = (() => {
                     </div>
 
                     <div class="course-text">
-                        <h1 id="course-text-h1">Категория “А”+“КонтрАварийный”</h1>
+                        <h1 id="course-text-h1">Категория “А”+<br>“КонтрАварийный”</h1>
                         <div class="course-text-p">
                             <p>Профессиональный курс вождения + категория А. Комплекс авторских упражнений,
                                 разработанный на
@@ -266,7 +276,9 @@ const butVect2 = (() => {
                                 при вождении в городе.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/courseA_Contr">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -285,7 +297,9 @@ const butVect2 = (() => {
                                 разворачиваться, ездить между рядами и взаимодействовать с другими ТС.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseGorod">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -305,7 +319,9 @@ const butVect2 = (() => {
                                 себя уверенно за рулем в любых условиях.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseIndivid">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -323,7 +339,9 @@ const butVect2 = (() => {
                                 повторный курс – берем разовый урок, разбираем ошибки, достигаем успеха!
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseOneVisit">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -342,7 +360,9 @@ const butVect2 = (() => {
                                 впервые садятся за руль и хотят понять, как это – управлять мотоциклом.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseTrialSession">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -363,7 +383,9 @@ const butVect2 = (() => {
                                 навыкам вождения.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseMoped">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -381,7 +403,9 @@ const butVect2 = (() => {
                                 нас специальная мототехника. А инструкторы умеют находить подход как каждому ученику.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseChild">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -399,7 +423,9 @@ const butVect2 = (() => {
                                 чувство баланса.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/CourseSpider">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
             </div>
@@ -448,9 +474,9 @@ const butVect2 = (() => {
 
             <div class="be-moto-content">
                 <div class="bee-moto-slogan">
-                    <p> Значит открывать для себя новые грани свободы. Кайфовать от скорости, но всегда помнить 
-                        о безопасности. Узнавать, на что ты способен 
-                        по-настоящему и чувствовать себя уверенно 
+                    <p> Значит открывать для себя новые грани свободы. Кайфовать от скорости, но всегда помнить
+                        о безопасности. Узнавать, на что ты способен
+                        по-настоящему и чувствовать себя уверенно
                         не только на дороге, но и в жизни.</p>
                 </div>
 
@@ -539,7 +565,7 @@ const butVect2 = (() => {
                     <img src="@/assets/img-bee-moto-bl-6/image-259.png" alt="" id="be-moto-img-5">
                 </div>
 
-                
+
                 <div class="bee-moto-border-text">
 
                     <div class="cav-up">
@@ -558,9 +584,9 @@ const butVect2 = (() => {
                             источник
                             страха — в будущем, а он освобожден от будущего и ему нечего бояться.</p>
 
-                           <p id="autor-name">Милан Кундера, из книги «Неспешность»</p>
+                        <p id="autor-name">Милан Кундера, из книги «Неспешность»</p>
                     </div>
-                    
+
                     <div class="cav-down">
                         <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">
                         <img src="@/assets/img-bee-moto-bl-6/quotes-2.svg" alt="">

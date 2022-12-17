@@ -63,7 +63,13 @@ const router = createRouter({
       path: '/CourseChild',
       name: 'CourseChild',
       component: () => import('../views/CourseChild.vue')
+    },
+    {
+      path: '/CourseSpider',
+      name: 'CourseSpider',
+      component: () => import('../views/CourseSpider.vue')
     }
+    
 
 
   ]

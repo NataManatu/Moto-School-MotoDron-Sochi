@@ -47,22 +47,20 @@ import CourseContact from '@/components/CourseContact.vue'
                         </p>
                     </div>
                     <div class="about-course">
-                        <p id="cont-p-1">Курс “Детский”</p>
+                        <p id="cont-p-1">Тренажер “Вилли-паук”</p>
 
-                        <p id="cont-p-2">Мотоспорт отлично развивает силу, реакцию,<br>выносливость.</p>
-
-                        <p id="cont-p-3">Большое внимание уделяем навыкам безопасного торможения и умению “чувствовать”
-                            поведение Обучаем детей с 7 лет, для ребят у нас специальная мототехника. А инструкторы
-                            умеют находить подход как каждому ученику.</p>
+                        <p id="cont-p-2">Вилли машина и Вилли Паук – безопасные тренажеры для отработки базовых навыков
+                            исполнения “вилли” (езде на заднем колесе) на мотоцикле любого класса. Установка помогает
+                            развить чувство баланса.</p>
                         <ul>
-                            <li>8 тренировок</li>
-                            <li> по 1.5 часа</li>
+                            <li>3 занятия</li>
+                            <li>по 1.5 часа каждое</li>
                         </ul>
                         <p id="cont-p-4">В стоимость подготовки включены: топливные сборы, экипировка, мотоцикл, услуги
-                            инструктора.</p>
+                            инструктора..</p>
 
                         <div class="course-price">
-                            <p id="cont-p-5">7 500 рублей</p>
+                            <p id="cont-p-5">3 500 рублей</p>
                             <button type="submit">Записаться</button>
                         </div>
                     </div>
@@ -81,10 +79,10 @@ import CourseContact from '@/components/CourseContact.vue'
             <div class="this-course-content">
 
                 <div class="course-a-grid">
-                    <div class="course-a-item"><img src="@/assets/img-CourseChild/WhoCard01.png" alt=""></div>
-                    <div class="course-a-item"><img src="@/assets/img-CourseChild/WhoCard02.png" alt=""></div>
-                    <div class="course-a-item"><img src="@/assets/img-CourseChild/WhoCard03.png" alt=""></div>
-                    <div class="course-a-item"> <img src="@/assets/img-CourseChild/WhoCard04.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseSpider/WhoCard01.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseSpider/WhoCard02.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseSpider/WhoCard03.png" alt=""></div>
+                    <div class="course-a-item"> <img src="@/assets/img-CourseSpider/WhoCard04.png" alt=""></div>
                 </div>
 
                 <div class="this-course-photo-block">
@@ -107,29 +105,22 @@ import CourseContact from '@/components/CourseContact.vue'
             <div class="program-course-content">
                 <div class="programm-item-box">
                     <p class="pr-bl">1</p>
-                    <p class="pr-p">Знакомство<br> 
-                        с органами управления</p>
+                    <p class="pr-p">Тренируемся на современном<br>безопасном тренажере</p>
                 </div>
                 <div class="programm-item-box">
                     <p class="pr-bl">2</p>
-                    <p class="pr-p">Парковка<br>в гараж</p>
+                    <p class="pr-p">Ищем точку баланса<br>и учимся удерживать её</p>
                 </div>
                 <div class="programm-item-box">
                     <p class="pr-bl">3</p>
-                    <p class="pr-p">“Габаритный<br>коридор”</p>
+                    <p class="pr-p">Работаем с рычагами<br>управления</p>
                 </div>
                 <div class="programm-item-box">
                     <p class="pr-bl">4</p>
-                    <p class="pr-p">“Змейка”,<br>“Восьмерка”</p>
+                    <p class="pr-p">Детально отрабатываем выполнение<br>элемента с пониманием всех технических<br>и
+                        физических особенностей</p>
                 </div>
-                <div class="programm-item-box">
-                    <p class="pr-bl">5</p>
-                    <p class="pr-p">Скоростное<br>маневрирование</p>
-                </div>
-                <div class="programm-item-box">
-                    <p class="pr-bl">6</p>
-                    <p class="pr-p">Теоретический блок<br>(дистанционно)</p>
-                </div>
+
             </div>
         </div>
 
@@ -141,48 +132,30 @@ import CourseContact from '@/components/CourseContact.vue'
         <div class="result-container">
             <div class="about_result">
                 <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
-                <p>Результаты обучения</p>
+                <p>результаты обучения</p>
             </div>
             <div class="result-content">
                 <div class="result-text-content">
-
-                    <div>
-                        <div class="result-box">
-                            <img src="@/assets/img-courseA/Vector.svg" alt="">
-                            <p>Ваш ребенок научится уверенно управлять мотоциклом с нуля</p>
-                        </div>
-                        <div class="result-box">
-                            <img src="@/assets/img-courseA/Vector.svg" alt="">
-                            <p>Освоит базовые навыки: управление, парковка, маневрирование</p>
-                        </div>
-                        <div class="result-box">
-                            <img src="@/assets/img-courseA/Vector.svg" alt="">
-                            <p>Узнает, как устроен мотоцикл, какие у него принципы работы и движения</p>
-                        </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Вы освоите элемент езды<br>на заднем колесе мотоцикла</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Разовьёте чувство баланса</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Поймёте все нюансы его выполнения<br>с точки зрения физики</p>
+                    </div>
+                    <div class="result-box">
+                        <img src="@/assets/img-courseA/Vector.svg" alt="">
+                        <p>Повысите свой навык<br>управления мотоциклом</p>
                     </div>
 
-                    <div>
-                        <div class="result-box">
-                            <img src="@/assets/img-courseA/Vector.svg" alt="">
-                            <p>Сможет успешно сдать экзамен в ГИБДД*</p>
-                        </div>
-                        <div class="result-box">
-                            <img src="@/assets/img-courseA/Vector.svg" alt="">
-                            <p>Узнает, как устроен мотоцикл, какие у него принципы работы и движения</p>
-                        </div>
-                        <ul>
-                            <li>2-х колесным</li>
-                            <li>3-х колесным, с коляской</li>
-                            <li>4-х колесным</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="result-p">
-                    <p>*Права категории “А” ребенок получит сразу после наступления 18 лет.</p>
                 </div>
             </div>
         </div>
-
         <!-- ЗАПИСЬ-COURSE-PRO-БЛОК-7-->
         <CourseEntry></CourseEntry>
 
@@ -213,5 +186,5 @@ export default {
 
 
 <style scoped>
-@import url(../assets/CourseChild.css);
+@import url(../assets/CourseSpider.css);
 </style>

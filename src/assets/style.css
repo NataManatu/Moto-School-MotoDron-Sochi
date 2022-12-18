@@ -1687,6 +1687,8 @@ header {
 
 .news-content::-webkit-scrollbar {
     height: 5px;
+    width: 450px;
+    
 }
 
 .news-content::-webkit-scrollbar-thumb {
@@ -1729,6 +1731,7 @@ header {
 
 .overflow-text {
     height: 82px;
+    margin-top: 16px;
     overflow-wrap: anywhere;
     overflow: hidden;
 }

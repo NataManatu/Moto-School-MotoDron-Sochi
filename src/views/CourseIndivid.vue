@@ -78,10 +78,10 @@ import CourseContact from '@/components/CourseContact.vue'
             <div class="this-course-content">
 
                 <div class="course-a-grid">
-                    <div class="course-a-item"><img src="@/assets/img-CourseContr/WhoCard01 (1).png" alt=""></div>
-                    <div class="course-a-item"><img src="@/assets/img-CourseContr/WhoCard02.png" alt=""></div>
-                    <div class="course-a-item"><img src="@/assets/img-coursePro/WhoCard3.png" alt=""></div>
-                    <div class="course-a-item"> <img src="@/assets/img-coursePro/WhoCard4.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseIndivid/WhoCard01.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseIndivid/WhoCard02.png" alt=""></div>
+                    <div class="course-a-item"><img src="@/assets/img-CourseIndivid/WhoCard03.png" alt=""></div>
+                    <div class="course-a-item"> <img src="@/assets/img-CourseIndivid/WhoCard04.png" alt=""></div>
                 </div>
 
                 <div class="this-course-photo-block">

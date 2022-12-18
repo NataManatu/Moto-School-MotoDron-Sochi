@@ -526,8 +526,8 @@ header {
     font-size: 16px;
     line-height: 140%;
     color: #8C8C8C;
-   height: 176px;
-   
+    height: 176px;
+
 }
 
 #why-btn {
@@ -1688,7 +1688,7 @@ header {
 .news-content::-webkit-scrollbar {
     height: 5px;
     width: 450px;
-    
+
 }
 
 .news-content::-webkit-scrollbar-thumb {
@@ -2486,23 +2486,17 @@ input[type=submit] {
     margin-top: 101px;
     padding-bottom: 100px;
 }
-
-.quest-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    color: #8C8C8C;
+.quest-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+    color: #8C8C8C;
 }
-
 .quest-text ul {
     line-height: 78px;
     list-style: none;
     border-top: 1px solid #191919;
 }
-
-
 
 .quest-text li {
     border-style: none;
@@ -2517,36 +2511,6 @@ input[type=submit] {
     padding: 10px;
 
 }
-
-.quest-text #li-lh {
-    line-height: normal;
-    height: 78px;
-    display: flex;
-    align-items: center;
-}
-
-.quest-text li:hover {
-    background-color: #191919;
-    border-radius: 5px 0px 0px 5px;
-}
-
-.quest-box {
-    padding: 20px 30px;
-    background: #191919;
-    border-radius: 5px;
-
-}
-
-.quest-box li {
-    list-style: none;
-}
-
-.quest-box li::before {
-    content: "\2022";
-    padding-right: 10px;
-    display: inline-block;
-}
-
 
 /* CONTACT-18-BLOCK */
 

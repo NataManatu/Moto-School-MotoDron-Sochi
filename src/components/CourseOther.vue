@@ -24,7 +24,9 @@
                                 малых и средних скоростях, отработаете правильный алгоритм торможения.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/coursePro">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -45,7 +47,9 @@
                                 тренером исправите ошибки, мешающие свободно управлять мотоциклом.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/courseA_Pro">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
 
@@ -64,7 +68,9 @@
                                 технику скоростных поворотов и навык экстренного торможения.
                             </p>
                         </div>
-                        <button type="button" id="why-btn">Подробнее</button>
+                        <router-link to="/courseContr">
+                            <button type="button" id="why-btn">Подробнее</button>
+                        </router-link>
                     </div>
                 </article>
             </div>

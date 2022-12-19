@@ -33,7 +33,7 @@ html::-webkit-scrollbar-thumb {
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 11px;
-   
+
 
 }
 
@@ -94,9 +94,11 @@ html::-webkit-scrollbar-thumb {
     line-height: 26px;
     letter-spacing: 0.025em;
 }
-.nav-course{
+
+.nav-course {
     margin-top: 44px;
 }
+
 .nav-course span {
     color: #FCD702;
     font-weight: 400;
@@ -118,18 +120,40 @@ html::-webkit-scrollbar-thumb {
     gap: 50px;
     margin-top: 51px;
 }
-.article-header{
+
+.article-header {
     width: 367px;
 }
-.article-header img{
+
+.article-header img {
     width: 100%;
 }
 
-.vector-nav{
+.data-text {
+    margin-top: 15px;
+}
+
+.news-text h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #E3E3E3;
+    margin-top: 19px;
+}
+
+.overflow-text {
+    margin-top: 16px;
+}
+
+.btn-mess {
+    margin-top: 22px;
+}
+
+.vector-nav {
     margin: 0 auto;
     margin-top: 100px;
-   
-    
+
+
 }
 
 hr {

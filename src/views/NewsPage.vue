@@ -42,12 +42,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
+                        <p>April 25 2021  |  By kamal koirala
                             <a href="/">moto-magazine.ru</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -68,12 +68,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -94,12 +94,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -120,12 +120,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -146,12 +146,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -172,12 +172,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -198,12 +198,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -224,12 +224,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -251,12 +251,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -277,12 +277,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -303,12 +303,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный
@@ -329,12 +329,12 @@
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
-                        <p>04 октября 2022 |
-                            <a href="/">moto-magazine.ru</a>
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
                         </p>
                     </div>
                     <div class="news-text">
-                        <h1>Honda представила CB750 Hornet</h1>
+                        <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
                             <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
                                 мощностью 92 л.с. и полный

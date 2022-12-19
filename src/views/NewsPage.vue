@@ -36,7 +36,7 @@
 
 
 
-            <div class="news-content">
+            <div class="news-content-page">
                 <article class="news-program-card">
                     <div class="article-header">
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
@@ -351,19 +351,15 @@
                     </div>
                 </article>
             </div>
-
             <div class="vector-nav">
                 <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
 
                 <sup id="sup-1">1</sup>
                 <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
-                <sub id="sub-2">4</sub>
+                <sub id="sub-2">32</sub>
 
                 <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
             </div>
-
-
-
             <hr>
             <div class="contact-container" id="">
                 <div class="contact-logo">
@@ -391,11 +387,11 @@
                     <a href="tel:+79384567707">+7 938 456 77 07</a>
                 </div>
             </div>
-
+            <div class="contact-futer">
+                <p><a href="#">Политика Конфиденциальности</a></p>
+                <p>designed by <span>dixa </span>2022</p>
+            </div>
         </div>
-
-
-
     </body>
 </template>
 

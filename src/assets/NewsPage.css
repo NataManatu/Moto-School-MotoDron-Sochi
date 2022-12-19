@@ -120,7 +120,9 @@ html::-webkit-scrollbar-thumb {
 .news-content {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: repeat(12,auto);
+    grid-template-rows: repeat(12, auto);
+    max-width: 100%;
+    overflow-x: hidden;
 
 
 }
@@ -136,6 +138,8 @@ html::-webkit-scrollbar-thumb {
 
 
 hr {
+    max-width: 1120px;
+    margin: 0 auto;
     margin-top: 100px;
     opacity: 0.5;
     border: 1px solid #8C8C8C;

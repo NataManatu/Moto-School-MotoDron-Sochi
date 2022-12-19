@@ -34,8 +34,9 @@
                 </p>
             </div>
 
-            <div class="news-content">
 
+
+            <div class="news-content">
                 <article class="news-program-card">
                     <div class="article-header">
                         <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">

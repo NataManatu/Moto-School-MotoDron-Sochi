@@ -993,7 +993,7 @@ header {
 }
 
 .gallery-block-grid::-webkit-scrollbar {
-    height: 20px;
+    height: 5px;
 
 }
 

@@ -39,7 +39,7 @@
             <div class="news-content-page">
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (9).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021  |  By kamal koirala
@@ -49,9 +49,8 @@
                     <div class="news-text">
                         <h1>The best fastest and most powerful road car</h1>
                         <div class="overflow-text">
-                            <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
-                                мощностью 92 л.с. и полный
-                                набор электронных помощников.
+                            <p id="news-text">Самая главная причина, к которой сводятся вышеперечисленные — удовольствие. Наши ученики искренне любят то, чем занимаются, поэтому они каждый год ждут начала сезона, а то и не заканчивают его вовсе. Удовольствие, которое ученики получает от управления мотоциклом, заставляет их совершенствовать навыки, работать над собой. Удовольствие от открытий и путешествий, заставляют их планировать все новые и новые маршруты, делиться находками. Удовольствие самореализации в мотоспорте или мотокультуре, радость общения с единомышленниками — все это стоит того, чтобы купить наши курсы.
+                              
                             </p>
                         </div>
                         <div class="btn-mess">
@@ -65,7 +64,32 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (10).png" alt="" id="news_img-1">
+                    </div>
+                    <div class="data-text">
+                        <p>April 25 2021 |
+                            <a href="/">By kamal koirala</a>
+                        </p>
+                    </div>
+                    <div class="news-text">
+                        <h1>The best fastest and most powerful road car</h1>
+                        <div class="overflow-text">
+                            <p id="news-text">Удовольствие от открытий и путешествий, заставляют их планировать все новые и новые маршруты, делиться находками. Удовольствие самореализации в мотоспорте или мотокультуре, радость общения с единомышленниками — все это стоит того, чтобы купить наши курсы.
+                                Здесь будет другой текст
+                            </p>
+                        </div>
+                        <div class="btn-mess">
+                            <button id="btn5">Подробнее</button>
+                            <div class="mess">
+                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <p>12</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-program-card">
+                    <div class="article-header">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (11).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -91,7 +115,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -117,7 +141,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111-1.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -143,7 +167,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (2).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -169,7 +193,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (3).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -195,33 +219,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
-                    </div>
-                    <div class="data-text">
-                        <p>April 25 2021 |
-                            <a href="/">By kamal koirala</a>
-                        </p>
-                    </div>
-                    <div class="news-text">
-                        <h1>The best fastest and most powerful road car</h1>
-                        <div class="overflow-text">
-                            <p id="news-text">Мотоцикл 2023 модельного года получил 755-кубовую рядную "двойку"
-                                мощностью 92 л.с. и полный
-                                набор электронных помощников.
-                            </p>
-                        </div>
-                        <div class="btn-mess">
-                            <button id="btn5">Подробнее</button>
-                            <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
-                                <p>12</p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="news-program-card">
-                    <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (4).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -248,7 +246,7 @@
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (5).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -274,7 +272,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (6).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -300,7 +298,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (7).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -326,7 +324,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle 111 (8).png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |

@@ -1134,7 +1134,7 @@ const butVect2 = (() => {
                 </article>
 
                 <div class="see-news">
-                    <p><a href="/">Смотреть все новости</a></p>
+                    <p><router-link to="/NewsPage" type="button"> Смотреть все новости</router-link></p>
                 </div>
             </div>
         </div>

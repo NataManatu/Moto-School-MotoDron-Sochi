@@ -990,16 +990,20 @@ header {
     padding-bottom: 100px;
     overflow-x: scroll;
 
+
 }
 
 .gallery-block-grid::-webkit-scrollbar {
+    cursor: pointer;
     height: 5px;
+
 
 }
 
 .gallery-block-grid::-webkit-scrollbar-thumb {
     background: #FCD702;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .gallery-block-grid {
@@ -1688,6 +1692,7 @@ header {
 .news-content::-webkit-scrollbar {
     height: 5px;
     width: 450px;
+    cursor: pointer;
 
 }
 
@@ -2486,12 +2491,14 @@ input[type=submit] {
     margin-top: 101px;
     padding-bottom: 100px;
 }
+
 .quest-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #8C8C8C;
 }
+
 .quest-text ul {
     line-height: 78px;
     list-style: none;
@@ -2503,6 +2510,10 @@ input[type=submit] {
     border-top: 1px solid #191919;
     border-bottom: 1px solid #191919;
     cursor: pointer;
+}
+
+.quest-text li:hover {
+    background-color: #373737;
 }
 
 .quest-text li::before {

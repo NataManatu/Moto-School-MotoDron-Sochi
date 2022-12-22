@@ -361,7 +361,7 @@
             <hr>
             <div class="contact-container" id="">
                 <div class="contact-logo">
-                    <img src="@/assets/img-header/logo.svg" alt="">
+                    <router-link to="/"><img src="@/assets/img-header/logo.svg" alt=""></router-link>
                 </div>
 
                 <div class="contact-nav">

@@ -1272,32 +1272,20 @@ const butVect2 = (() => {
 
 
             <div class="documents-block-grid">
-                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle42.png" alt="" class="img-grid-doc"></div>
-                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle60.png" alt="" class="img-grid-doc"></div>
-                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle67.png" alt="" class="img-grid-doc"></div>
-                <!-- <div class="item-blok-grid" id="doc-61"><img src="@/assets/img-doc-bl-14/Rectangle61.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-177"><img src="@/assets/img-doc-bl-14/Rectangle177.png" alt="">
-                </div> -->
-                <!-- <div class="item-blok-grid" id="doc-178"><img src="@/assets/img-doc-bl-14/Rectangle178.png" alt=""> -->
-                <!-- </div>
-                <div class="item-blok-grid" id="doc-64-1"><img src="@/assets/img-doc-bl-14/Rectangle64-1.png" alt="">
-                </div> -->
-
-                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle64.png" alt="" class="img-grid-doc"></div>
-                <!-- <div class="item-blok-grid" id="doc-41"><img src="@/assets/img-doc-bl-14/Rectangle41.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-179"><img src="@/assets/img-doc-bl-14/Rectangle179.png" alt="">
+                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle42.png" alt=""
+                        class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle60.png" alt=""
+                        class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle67.png" alt=""
+                        class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle64.png" alt=""
+                        class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle181.png" alt=""
+                        class="img-grid-doc">
                 </div>
-                <div class="item-blok-grid" id="doc-180"><img src="@/assets/img-doc-bl-14/Rectangle180.png" alt="">
-                </div> -->
-
-                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle181.png" alt="" class="img-grid-doc">
+                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle182.png" alt=""
+                        class="img-grid-doc">
                 </div>
-                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle182.png" alt="" class="img-grid-doc">
-                </div>
-                <!-- <div class="item-blok-grid" id="doc-60-1"><img src="@/assets/img-doc-bl-14/Rectangle60-1.png" alt="">
-                </div>
-                <div class="item-blok-grid" id="doc-42-1"><img src="@/assets/img-doc-bl-14/Rectangle42-1.png" alt="">
-                </div> -->
             </div>
         </div>
 
@@ -1455,39 +1443,87 @@ const butVect2 = (() => {
             <div class="question-content">
 
                 <div class="quest-block">
+
                     <div class="quest-text">
+
+
+
                         <ul>
-                            <li>Работает ли контрруление на низкой скорости?</li>
-                            <li>Предоставляете ли вы мотоцикл для сдачи экзамена в ГИБДД?</li>
-                            <li id="li-lh-3">Выдаете ли вы экипировку на время занятий на площадке?</li>
-                            <li id="li-lh">Нужна ли регистрация и гражданство,чтобы учиться и сдавать экзамены на
-                                категорию
-                                ”А”?</li>
-                            <li>Что делать, если не сдал экзамен?</li>
+                            <div class="quest-box-1">
+                                <p>Паспорт, СНИЛС, фото 3*4, медицинская справка для открытия категории “А”</p>
+                            </div>
+                            <li id="q_1">Какие документы нужны, чтобы записаться в школу?</li>
+
+                            <div class="quest-box-2">
+                                <p>
+                                    Мы можем заключить договор сразу и приступить к практическим занятиям.<br> Но пока вы не
+                                    предоставите документы, вы не будете зачислены в школу официально – срок обучения
+                                    (для допуска на экзамен в ГИБДД он должен составлять 1.5 мес.) отчитывается именно с
+                                    даты официального оформления.
+                                </p>
+                            </div>
+                            <li id="q_2">Когда нужно предоставить необходимые для обучения документы?</li>
+
+                            <div class="quest-box-3">
+                                <p>
+                                    Каждое занятие длится 90 минут.<br><br>Длительность обучения зависит от выбранного курса,
+                                    ваших задач и возможностей. <br><br>Например, для подготовки к экзамену в ГИБДД с нуля
+                                    понадобится 10 занятий, плюс теория онлайн.<br><br>По законодательству для получения прав
+                                    категории “А” ваше обучение должно продлиться не менее, чем 1.5 месяца.
+                                </p>
+                            </div>
+                            <li id="li-lh-3">Сколько времени длится занятие и сколько занятий нужно?</li>
+
+                            <div class="quest-box-4">
+                                <p>
+                                    Справка нужна только для открытия категории “А”.Если у вас уже есть права, справка
+                                    не нужна.
+
+                                </p>
+                            </div>
+                            <li id="li-lh">Нужна ли медицинская справка, если у меня уже есть права?</li>
+
+                            <div class="quest-box-5">
+                                <p>
+                                    Вы занимаетесь индивидуально.<br><br>Всё внимание инструктора только на вас, на отработке
+                                    ваших навыков.
+                                </p>
+                            </div>
+                            <li id="q_5">Сколько учеников приходит на занятие?</li>
+
+                            <div class="quest-box-6">
+                                <p>
+                                    Расписание составляем для вас!<br><br>Вы выбираете, как часто и в какие дни хотите
+                                    тренироваться. Подстраиваем график занятий под ваш ритм и образ жизни.
+                                </p>
+                            </div>
+                            <li id="q_6">Где посмотреть расписание занятий?</li>
+
+                            <div class="quest-box-7">
+                                <p>
+                                    Не важно, в каком уголке страны вы прописаны, вы можете заниматься у нас и сдавать
+                                    экзамен в любом регионе.
+                                </p>
+                            </div>
+                            <li id="q_7">Для занятий и получения прав категории “А” важен регион прописки?</li>
+
+                            <div class="quest-box-8">
+                                <p>
+                                    Да! У нас гибкая система рассрочки.<br><br>Стандартный вариант: оплата 50% до начала
+                                    обучения, 50% – через месяц. Напишите нам – предложим удобный вам вариант оплаты
+                                    курса.
+                                </p>
+                            </div>
+                            <li id="q_8">Можно ли оплачивать стоимость обучения частями?</li>
+
+                            <div class="quest-box-9">
+                                <p>                                                                      
+                                    Да, в стоимость обучения на любом курсе входит полный комплект экипировки и защиты. Ваша безопасность – наш приоритет.
+                                </p>
+                            </div>
+                            <li id="q_9">Вы выдаете экипировку?</li>
                         </ul>
                     </div>
-                    <!-- <div class="quest-box">
-                        <p>
-                            В обязательном порядке предоставляется защитная экипировка:
-                        </p>
-                        <ul>
-                            <li>шлем</li>
-                            <li>перчатки</li>
-                            <li>защита коленей и логктей</li>
-                        </ul><br>
-                        <p>
-                            Для обучения травмоопасным трюкам выдаётся комплект усиленной защиты:
-                        </p>
-                        <ul>
-                            <li>"черепаха"</li>
-                            <li>мотоботы</li>
-                            <li> мото шорты</li>
-                            <li>кроссовые шлема</li>
-                            <li>усиленная защита ног</li>
-                            <li>защита спины и шеи</li>
-                        </ul><br>
-                        <p>Вся экипировка, прилегающая к открытому телу, регулярно проходит гигиеническую обработку!</p>
-                    </div> -->
                 </div>
             </div>
         </div>

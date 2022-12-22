@@ -155,16 +155,16 @@ const butVect2 = (() => {
 
         <div class="course" id="course">
             <div class="course-title">
-                <img src="@/assets/img-course-bl-4/Line 11.svg" alt="" id="">
+                <img src="@/assets/img-course-bl-4/Line11.svg" alt="" id="">
                 <p>наши курсы</p>
             </div>
 
             <div class="content-vector">
                 <button @click="butVect1" class="but_vect1">
-                    <div id="vector-1"><img src="@/assets/img-course-bl-4/Vector 10.png" alt=""></div>
+                    <div id="vector-1"><img src="@/assets/img-course-bl-4/Vector10.png" alt=""></div>
                 </button>
                 <button @click="butVect2" class="but_vect2">
-                    <div id="vector-2"><img src="@/assets/img-course-bl-4/Vector 10 (1).png" alt=""></div>
+                    <div id="vector-2"><img src="@/assets/img-course-bl-4/Vector-101.png" alt=""></div>
                 </button>
             </div>
 
@@ -217,7 +217,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image1-1.png" alt="" id="cours_img">
                         <div id="price">50 000 ₽</div>
                     </div>
 
@@ -240,7 +240,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image2.png" alt="" id="cours_img">
                         <div id="price">60 000 ₽</div>
                     </div>
 
@@ -261,7 +261,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (3).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image3.png" alt="" id="cours_img">
                         <div id="price">70 000 ₽</div>
                     </div>
 
@@ -279,7 +279,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (4).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image4.png" alt="" id="cours_img">
                         <div id="price">19 000 ₽</div>
                     </div>
 
@@ -300,7 +300,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (5).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image5.png" alt="" id="cours_img">
                         <!-- <div id="price">00 000 ₽</div> -->
                     </div>
 
@@ -322,7 +322,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (6).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image6.png" alt="" id="cours_img">
                         <div id="price">4 000 ₽</div>
                     </div>
 
@@ -342,7 +342,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (7).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image7.png" alt="" id="cours_img">
                         <div id="price-b">БЕСПЛАТНО</div>
                     </div>
 
@@ -363,7 +363,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (8).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image8.png" alt="" id="cours_img">
                         <div id="price">7 500 ₽</div>
                     </div>
 
@@ -386,7 +386,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (9).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image9.png" alt="" id="cours_img">
                         <div id="price">15 000 ₽</div>
                     </div>
 
@@ -406,7 +406,7 @@ const butVect2 = (() => {
 
                 <article class="course-program-card">
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (10).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image10.png" alt="" id="cours_img">
                         <div id="price">3 500 ₽</div>
                     </div>
 

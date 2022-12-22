@@ -75,7 +75,7 @@ const butVect2 = (() => {
         <div class="about" id="about">
 
             <div class="about_logo">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>о нас</p>
             </div>
 
@@ -94,11 +94,11 @@ const butVect2 = (() => {
                 </div>
 
                 <div class="about-img-modul">
-                    <img src="@/assets/img-about-bl-2/pic 1.png" alt="" id="pic-1">
-                    <img src="@/assets/img-about-bl-2/pic 5.png" alt="" id="pic-5">
-                    <img src="@/assets/img-about-bl-2/pic 4.png" alt="" id="pic-4">
-                    <img src="@/assets/img-about-bl-2/pic 3.png" alt="" id="pic-3">
-                    <img src="@/assets/img-about-bl-2/pic 2.png" alt="" id="pic-2">
+                    <img src="@/assets/img-about-bl-2/pic-1.png" alt="" id="pic-1">
+                    <img src="@/assets/img-about-bl-2/pic-5.png" alt="" id="pic-5">
+                    <img src="@/assets/img-about-bl-2/pic-4.png" alt="" id="pic-4">
+                    <img src="@/assets/img-about-bl-2/pic-3.png" alt="" id="pic-3">
+                    <img src="@/assets/img-about-bl-2/pic-2.png" alt="" id="pic-2">
                 </div>
 
             </div>
@@ -108,7 +108,7 @@ const butVect2 = (() => {
 
         <div class="why">
             <div class="why-title">
-                <img src="@/assets/img-why-bl-3/Line 11.svg" alt="">
+                <img src="@/assets/img-why-bl-3/Line11.svg" alt="">
                 <p>почему мы?</p>
             </div>
 

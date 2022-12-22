@@ -45,7 +45,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
                 <div class="course-card">
                     <div class="nav-course">
-                        <p><router-link to="/"><span>Главная</span></router-link>/ Курс “Категория
+                        <p><router-link to="/"><span>Главная</span></router-link> / Курс “Категория
                                 “А”
                         </p>
                     </div>
@@ -133,7 +133,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <div class="result-container">
             <div class="about_result">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Результаты обучения</p>
             </div>
             <div class="result-content">
@@ -185,14 +185,14 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <div class="course_a-documents-container">
             <div class="about_course_a-documents">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>необходимые документы</p>
             </div>
             <div class="course_a-documents-content">
                 <div class="course_a-documents-box">
 
                     <div class="documents-wrapper-img">
-                        <img src="@/assets/img-courseA/Rectangle 165.png" alt="">
+                        <img src="@/assets/img-courseA/Rectangle165.png" alt="">
                     </div>
 
                     <div class="course_a-text-block">

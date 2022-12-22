@@ -42,7 +42,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
                 <div class="course-card">
                     <div class="nav-course">
-                        <p><router-link to="/"><span>Главная</span></router-link>/ Курс “PRO”
+                        <p><router-link to="/"><span>Главная</span></router-link> / Курс “PRO”
                         </p>
                     </div>
                     <div class="about-course">
@@ -73,7 +73,7 @@ import CourseContact from '@/components/CourseContact.vue'
       
         <div class="this-course-container">
             <div class="about_this-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Этот курс для вас если...</p>
             </div>
             <div class="this-course-content">
@@ -86,7 +86,7 @@ import CourseContact from '@/components/CourseContact.vue'
                 </div>
 
                 <div class="this-course-photo-block">
-                    <img src="@/assets/img-courseA/Group 260.png" alt="">
+                    <img src="@/assets/img-courseA/Group260.png" alt="">
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <div class="program-course-container">
             <div class="about_program-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Программа курса</p>
             </div>
             <div class="program-course-content">
@@ -141,7 +141,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <div class="result-container">
             <div class="about_result">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Результаты обучения</p>
             </div>
             <div class="result-content">

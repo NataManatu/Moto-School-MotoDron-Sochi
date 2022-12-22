@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
         <div class=" title-contact">
-            <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+            <img src="@/assets/img-photo-gal-bl-7/Line11.svg" alt="" id="about-gallery_3">
             <p>контакты</p>
         </div>
         <div class="contact-mess">
@@ -12,7 +12,7 @@
                     <p class="mess-cont"><a href="#">dronmotoshkola@yandex.ru</a></p>
                 </div>
                 <div class="mess-col">
-                    <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
+                    <img src="@/assets/img-cont-bl-18/icon01.svg" alt="">
                     <p>Мессенджеры</p>
                     <div class="mess-cont-p">
                         <p class="mess-cont-chat"><a href="#">Начать чат в WhatsApp</a><br>
@@ -21,12 +21,12 @@
                     </div>
                 </div>
                 <div class="mess-col">
-                    <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
+                    <img src="@/assets/img-cont-bl-18/icon02.svg" alt="">
                     <p>Телефон</p>
                     <p class="mess-cont"><a href="#">+7 938 456 77 07</a></p>
                 </div>
                 <div class="mess-col">
-                    <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
+                    <img src="@/assets/img-cont-bl-18/icon03.svg" alt="">
                     <p>Офис</p>
                     <p class="mess-cont"><a href="#">Сочи, переулок Бригадный 1</a></p>
                 </div>

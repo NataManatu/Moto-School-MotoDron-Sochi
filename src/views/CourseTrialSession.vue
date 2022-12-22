@@ -87,7 +87,7 @@ import CourseContact from '@/components/CourseContact.vue'
                 </div>
 
                 <div class="this-course-photo-block">
-                    <img src="@/assets/img-courseA/Group 260.png" alt="">
+                    <img src="@/assets/img-courseA/Group260.png" alt="">
                 </div>
             </div>
         </div>

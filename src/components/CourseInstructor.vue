@@ -9,7 +9,7 @@
                 <div class="instructor-1">
                     <div class="in-1">
                         <div  class="photo-instructor">
-                            <img src="@/assets/img-courseA/Photo1.png" alt="" >
+                            <img src="@/assets/img-command-bl-9/Photo-1.png" alt="" >
                         </div>
                         <p>Терентьев Андрей</p>
                     </div>

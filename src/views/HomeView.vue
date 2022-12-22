@@ -268,7 +268,10 @@ const butVect2 = (() => {
                     <div class="course-text">
                         <h1 id="course-text-h1">Категория “А”+<br>“КонтрАварийный”</h1>
                         <div class="course-text-p">
-                            <p>Профессиональный курс вождения + категория А. Комплекс авторских упражнений, разработанный на базе профессиональных курсов вождения для специальных служб. На курсе вы освоите навыки вождения, необходимые не только в привычных стабильных условиях тренировочной площадки, но и при вождении в городе.
+                            <p>Профессиональный курс вождения + категория А. Комплекс авторских упражнений,
+                                разработанный на базе профессиональных курсов вождения для специальных служб. На курсе
+                                вы освоите навыки вождения, необходимые не только в привычных стабильных условиях
+                                тренировочной площадки, но и при вождении в городе.
                             </p>
                         </div>
                         <router-link to="/courseA_Contr">
@@ -492,7 +495,7 @@ const butVect2 = (() => {
                 </div>
 
                 <div class="bee-moto-content-2">
-                    <img src="@/assets/img-bee-moto-bl-6/sunset-motorcycle-acrobatics-silhouette 1 (1).png" alt=""
+                    <img src="@/assets/img-bee-moto-bl-6/sunset-motorcycle-acrobatics-silhouette011.png" alt=""
                         id="be-img-1">
                     <img src="@/assets/img-bee-moto-bl-6/image-162.png" alt="" id="be-img-2">
                     <div class="t-text-2">
@@ -618,15 +621,9 @@ const butVect2 = (() => {
                 <div class="grid-item" id="grid-67"><img src="@/assets/img-photo-gal-bl-7/Rectangle67.png"
                         class="gallery__img" alt="">
                 </div>
-                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle41-1.png"
-                        class="gallery__img" alt="">
-                </div>
-                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle177.png"
-                        class="gallery__img" alt="">
-                </div>
-                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle178.png"
-                        class="gallery__img" alt="">
-                </div>
+
+
+
                 <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle641.png"
                         class="gallery__img" alt="">
                 </div>
@@ -647,7 +644,9 @@ const butVect2 = (() => {
                         class="gallery__img" alt="">
                 </div>
 
-
+                <div class="grid-item" id="grid-178"><img src="@/assets/img-photo-gal-bl-7/Rectangle178.png"
+                        class="gallery__img" alt="">
+                </div>
                 <div class="grid-item" id="grid-61-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle611.png"
                         class="gallery__img" alt="">
                 </div>
@@ -661,6 +660,12 @@ const butVect2 = (() => {
                         class="gallery__img" alt="">
                 </div>
                 <div class="grid-item" id="grid-66"><img src="@/assets/img-photo-gal-bl-7/Rectangle66.png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-41-b"><img src="@/assets/img-photo-gal-bl-7/Rectangle41-1.png"
+                        class="gallery__img" alt="">
+                </div>
+                <div class="grid-item" id="grid-177"><img src="@/assets/img-photo-gal-bl-7/Rectangle177.png"
                         class="gallery__img" alt="">
                 </div>
             </div>

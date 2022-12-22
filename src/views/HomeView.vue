@@ -301,7 +301,6 @@ const butVect2 = (() => {
                 <article class="course-program-card">
                     <div class="course-img">
                         <img src="@/assets/img-course-bl-4/Image5.png" alt="" id="cours_img">
-                        <!-- <div id="price">00 000 ₽</div> -->
                     </div>
 
                     <div class="course-text">

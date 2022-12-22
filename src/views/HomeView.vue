@@ -622,8 +622,6 @@ const butVect2 = (() => {
                         class="gallery__img" alt="">
                 </div>
 
-
-
                 <div class="grid-item" id="grid-64-1"><img src="@/assets/img-photo-gal-bl-7/Rectangle641.png"
                         class="gallery__img" alt="">
                 </div>

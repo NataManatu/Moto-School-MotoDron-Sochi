@@ -39,7 +39,7 @@
             <div class="news-content-page">
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (9).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1119.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021  |  By kamal koirala
@@ -56,7 +56,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (10).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle11110.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -81,7 +81,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (11).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle11111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -107,7 +107,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111.png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -133,7 +133,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111-1.png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle11111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -159,7 +159,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (2).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1112.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -185,7 +185,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1113.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -211,7 +211,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (4).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1114.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -237,7 +237,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -246,7 +246,7 @@
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (5).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1115.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -264,7 +264,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -272,7 +272,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (6).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1116.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -290,7 +290,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (7).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1117.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -316,7 +316,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -324,7 +324,7 @@
                 </article>
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-NewsPage/Rectangle 111 (8).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-NewsPage/Rectangle1118.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>April 25 2021 |
@@ -342,7 +342,7 @@
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -350,13 +350,13 @@
                 </article>
             </div>
             <div class="vector-nav">
-                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
+                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector10.png" alt=""></div>
 
                 <sup id="sup-1">1</sup>
-                <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
+                <img src="@/assets/img-garage-bl-8/Line55.svg" alt="" id="line-55">
                 <sub id="sub-2">32</sub>
 
-                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector101.png" alt=""></div>
             </div>
             <hr>
             <div class="contact-container" id="">

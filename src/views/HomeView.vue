@@ -1272,32 +1272,32 @@ const butVect2 = (() => {
 
 
             <div class="documents-block-grid">
-                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle42.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle60.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle67.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-61"><img src="@/assets/img-doc-bl-14/Rectangle61.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle42.png" alt="" class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle60.png" alt="" class="img-grid-doc"></div>
+                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle67.png" alt="" class="img-grid-doc"></div>
+                <!-- <div class="item-blok-grid" id="doc-61"><img src="@/assets/img-doc-bl-14/Rectangle61.png" alt=""></div>
                 <div class="item-blok-grid" id="doc-177"><img src="@/assets/img-doc-bl-14/Rectangle177.png" alt="">
-                </div>
-                <div class="item-blok-grid" id="doc-178"><img src="@/assets/img-doc-bl-14/Rectangle178.png" alt="">
-                </div>
+                </div> -->
+                <!-- <div class="item-blok-grid" id="doc-178"><img src="@/assets/img-doc-bl-14/Rectangle178.png" alt=""> -->
+                <!-- </div>
                 <div class="item-blok-grid" id="doc-64-1"><img src="@/assets/img-doc-bl-14/Rectangle64-1.png" alt="">
-                </div>
+                </div> -->
 
-                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle64.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-41"><img src="@/assets/img-doc-bl-14/Rectangle41.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle64.png" alt="" class="img-grid-doc"></div>
+                <!-- <div class="item-blok-grid" id="doc-41"><img src="@/assets/img-doc-bl-14/Rectangle41.png" alt=""></div>
                 <div class="item-blok-grid" id="doc-179"><img src="@/assets/img-doc-bl-14/Rectangle179.png" alt="">
                 </div>
                 <div class="item-blok-grid" id="doc-180"><img src="@/assets/img-doc-bl-14/Rectangle180.png" alt="">
-                </div>
+                </div> -->
 
-                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle181.png" alt="">
+                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle181.png" alt="" class="img-grid-doc">
                 </div>
-                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle182.png" alt="">
+                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle182.png" alt="" class="img-grid-doc">
                 </div>
-                <div class="item-blok-grid" id="doc-60-1"><img src="@/assets/img-doc-bl-14/Rectangle60-1.png" alt="">
+                <!-- <div class="item-blok-grid" id="doc-60-1"><img src="@/assets/img-doc-bl-14/Rectangle60-1.png" alt="">
                 </div>
                 <div class="item-blok-grid" id="doc-42-1"><img src="@/assets/img-doc-bl-14/Rectangle42-1.png" alt="">
-                </div>
+                </div> -->
             </div>
         </div>
 

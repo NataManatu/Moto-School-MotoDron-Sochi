@@ -91,7 +91,7 @@ import CourseContact from '@/components/CourseContact.vue'
 
         <div class="program-course-container">
             <div class="about_program-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Программа курса</p>
             </div>
             <div class="program-course-content">

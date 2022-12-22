@@ -1,7 +1,7 @@
 <template>
     <div class="this-course-container">
             <div class="about_this-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Этот курс для вас если...</p>
             </div>
             <div class="this-course-content">
@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="this-course-photo-block">
-                    <img src="@/assets/img-courseA/Group 260.png" alt="">
+                    <img src="@/assets/img-courseA/Group260.png" alt="">
                 </div>
             </div>
         </div>

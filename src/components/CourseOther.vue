@@ -1,7 +1,7 @@
 <template>
     <div class="other-course-container">
         <div class="about_other-course">
-            <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+            <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
             <p>Другие курсы</p>
         </div>
         <div class="other-course-contant">
@@ -33,7 +33,7 @@
                 <article class="course-program-card">
 
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (1-1).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image1-1.png" alt="" id="cours_img">
                         <div id="price">50 000 ₽</div>
                     </div>
 
@@ -56,7 +56,7 @@
                 <article class="course-program-card">
 
                     <div class="course-img">
-                        <img src="@/assets/img-course-bl-4/Image (2).png" alt="" id="cours_img">
+                        <img src="@/assets/img-course-bl-4/Image2.png" alt="" id="cours_img">
                         <div id="price">60 000 ₽</div>
                     </div>
 

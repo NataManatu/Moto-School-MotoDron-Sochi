@@ -1,7 +1,7 @@
 <template>
     <div class="instuctor-course-container">
         <div class="about_instuctor-course">
-            <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+            <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
             <p>Инструкторы курса</p>
         </div>
         <div class="instuctor-course-contant">
@@ -9,7 +9,7 @@
                 <div class="instructor-1">
                     <div class="in-1">
                         <div  class="photo-instructor">
-                            <img src="@/assets/img-courseA/Rectangle 259.png" alt="" >
+                            <img src="@/assets/img-courseA/Photo1.png" alt="" >
                         </div>
                         <p>Терентьев Андрей</p>
                     </div>

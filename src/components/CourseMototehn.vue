@@ -1,7 +1,7 @@
 <template>
      <div class="mototeh-course-container">
             <div class="about_mototeh-course">
-                <img src="@/assets/img-about-bl-2/Line 11.svg" alt="">
+                <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>мотоТехника курса</p>
             </div>
             <div class="mototeh-course-content">
@@ -16,7 +16,7 @@
                     </div>
                     <div class="moto-2">
                         <div class="moto-2-img">
-                            <img src="@/assets/img-courseA/Image (1).png" alt="">
+                            <img src="@/assets/img-courseA/Image1.png" alt="">
                         </div>
                        
                         <p>Yamaha YZF-R3</p>

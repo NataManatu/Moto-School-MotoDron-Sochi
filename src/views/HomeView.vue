@@ -671,7 +671,7 @@ const butVect2 = (() => {
 
         <div class="garage">
             <div class="garage-title">
-                <img src="@/assets/img-garage-bl-8/Line 11.svg" alt="">
+                <img src="@/assets/img-garage-bl-8/Line11.svg" alt="">
                 <p>Наш гараж</p>
             </div>
 
@@ -722,19 +722,19 @@ const butVect2 = (() => {
 
                 <div class="garage-img">
                     <img src="@/assets/img-garage-bl-8/prev_card.png" alt="" id="garage-img-1">
-                    <img src="@/assets/img-garage-bl-8/Rectangle 36.png" alt="" id="garage-img-2">
+                    <img src="@/assets/img-garage-bl-8/Rectangle36.png" alt="" id="garage-img-2">
                     <img src="@/assets/img-garage-bl-8/next_card1.png" alt="" id="garage-img-3">
                     <img src="@/assets/img-garage-bl-8/next_card2.png" alt="" id="garage-img-4">
                 </div>
 
                 <div class="vector-nav">
-                    <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
+                    <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector10.png" alt=""></div>
 
                     <sup id="sup-1">1</sup>
-                    <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
+                    <img src="@/assets/img-garage-bl-8/Line55.svg" alt="" id="line-55">
                     <sub id="sub-2">4</sub>
 
-                    <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                    <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector101.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -745,7 +745,7 @@ const butVect2 = (() => {
         <div class="command">
 
             <div class="command-title">
-                <img src="@/assets/img-command-bl-9/Line 11.svg" alt="">
+                <img src="@/assets/img-command-bl-9/Line-11.svg" alt="">
                 <p>команда</p>
 
             </div>
@@ -800,7 +800,7 @@ const butVect2 = (() => {
         <div class="bike">
 
             <div class="bike-title">
-                <img src="@/assets/img-bike-bl-10/Line 11.svg" alt="">
+                <img src="@/assets/img-bike-bl-10/Line-11.svg" alt="">
                 <p>выбери свой байк</p>
             </div>
 
@@ -838,7 +838,7 @@ const butVect2 = (() => {
 
         <div class="news" id="news">
             <div class="news-title">
-                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="">
+                <img src="@/assets/img-news-bl-11/Line11.svg" alt="">
                 <p>новости и события</p>
             </div>
 
@@ -846,7 +846,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111.png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -865,7 +865,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -874,7 +874,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 2.png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle2.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -893,7 +893,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>5</p>
                             </div>
                         </div>
@@ -902,7 +902,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (1).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1111.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -921,7 +921,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -930,7 +930,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (2).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1112.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -958,7 +958,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>11</p>
                             </div>
                         </div>
@@ -968,7 +968,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (3).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1113.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -986,7 +986,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -995,7 +995,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (4).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1114.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -1014,7 +1014,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -1023,7 +1023,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (5).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1115.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -1042,7 +1042,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -1051,7 +1051,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (6).png" alt="" id="news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1116.png" alt="" id="news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -1070,7 +1070,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -1079,7 +1079,7 @@ const butVect2 = (() => {
 
                 <article class="news-program-card">
                     <div class="article-header">
-                        <img src="@/assets/img-news-bl-11/Rectangle 111 (7).png" alt="" id=" news_img-1">
+                        <img src="@/assets/img-news-bl-11/Rectangle1117.png" alt="" id=" news_img-1">
                     </div>
                     <div class="data-text">
                         <p>04 октября 2022 |
@@ -1098,7 +1098,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -1126,7 +1126,7 @@ const butVect2 = (() => {
                         <div class="btn-mess">
                             <button id="btn5">Подробнее</button>
                             <div class="mess">
-                                <img src="@/assets/img-news-bl-11/img_543833 1 (Traced).svg" alt="" id="svg_mess">
+                                <img src="@/assets/img-news-bl-11/img_5438331Traced.svg" alt="" id="svg_mess">
                                 <p>12</p>
                             </div>
                         </div>
@@ -1145,7 +1145,7 @@ const butVect2 = (() => {
 
         <div class="workout">
             <div class="workout-title">
-                <img src="@/assets/img-news-bl-11/Line 11.svg" alt="">
+                <img src="@/assets/img-news-bl-11/Line11.svg" alt="">
                 <p>тренировки</p>
             </div>
 
@@ -1189,11 +1189,11 @@ const butVect2 = (() => {
 
             </div>
             <div class="vector-nav" id="video-block-vector">
-                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector 10.png" alt=""></div>
+                <div id="vector-3"><img src="@/assets/img-garage-bl-8/Vector10.png" alt=""></div>
                 <sup id="sup-1">1</sup>
-                <img src="@/assets/img-garage-bl-8/Line 55.svg" alt="" id="line-55">
+                <img src="@/assets/img-garage-bl-8/Line55.svg" alt="" id="line-55">
                 <sub id="sub-2">9</sub>
-                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector 10 (1).png" alt=""></div>
+                <div id="vector-4"><img src="@/assets/img-garage-bl-8/Vector101.png" alt=""></div>
             </div>
 
 
@@ -1206,7 +1206,7 @@ const butVect2 = (() => {
         <div class="statistic">
 
             <div class="statistic-title">
-                <img src="@/assets/img-statistic-bl-13/Line 11.svg" alt="">
+                <img src="@/assets/img-statistic-bl-13/Line-11.svg" alt="">
                 <p>Статистика</p>
             </div>
             <div class="statistic-content">
@@ -1246,7 +1246,7 @@ const butVect2 = (() => {
                     </article>
 
                     <article class="article-statistic">
-                        <img src="@/assets/img-statistic-bl-13/137 (1).svg" alt="" id="article-statistic-img">
+                        <img src="@/assets/img-statistic-bl-13/1371.svg" alt="" id="article-statistic-img">
                         <p id="title-article">Мото-часов</p>
                         <div class="article-stat-text">
                             <p>Проведено на треке и пересеченной местности вместе с учениками провели уже более тысячи
@@ -1264,37 +1264,37 @@ const butVect2 = (() => {
         <div class="documents">
 
             <div class="title-documets">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
+                <img src="@/assets/img-photo-gal-bl-7/Line11.svg" alt="">
                 <p>наши документы</p>
             </div>
 
 
             <div class="documents-block-grid">
-                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle 42.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle 60.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle 67.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-61"><img src="@/assets/img-doc-bl-14/Rectangle 61.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-177"><img src="@/assets/img-doc-bl-14/Rectangle 177.png" alt="">
+                <div class="item-blok-grid" id="doc-42"><img src="@/assets/img-doc-bl-14/Rectangle42.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-60"><img src="@/assets/img-doc-bl-14/Rectangle60.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-67"><img src="@/assets/img-doc-bl-14/Rectangle67.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-61"><img src="@/assets/img-doc-bl-14/Rectangle61.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-177"><img src="@/assets/img-doc-bl-14/Rectangle177.png" alt="">
                 </div>
-                <div class="item-blok-grid" id="doc-178"><img src="@/assets/img-doc-bl-14/Rectangle 178.png" alt="">
+                <div class="item-blok-grid" id="doc-178"><img src="@/assets/img-doc-bl-14/Rectangle178.png" alt="">
                 </div>
-                <div class="item-blok-grid" id="doc-64-1"><img src="@/assets/img-doc-bl-14/Rectangle 64-1.png" alt="">
-                </div>
-
-                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle 64.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-41"><img src="@/assets/img-doc-bl-14/Rectangle 41.png" alt=""></div>
-                <div class="item-blok-grid" id="doc-179"><img src="@/assets/img-doc-bl-14/Rectangle 179.png" alt="">
-                </div>
-                <div class="item-blok-grid" id="doc-180"><img src="@/assets/img-doc-bl-14/Rectangle 180.png" alt="">
+                <div class="item-blok-grid" id="doc-64-1"><img src="@/assets/img-doc-bl-14/Rectangle64-1.png" alt="">
                 </div>
 
-                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle 181.png" alt="">
+                <div class="item-blok-grid" id="doc-64"><img src="@/assets/img-doc-bl-14/Rectangle64.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-41"><img src="@/assets/img-doc-bl-14/Rectangle41.png" alt=""></div>
+                <div class="item-blok-grid" id="doc-179"><img src="@/assets/img-doc-bl-14/Rectangle179.png" alt="">
                 </div>
-                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle 182.png" alt="">
+                <div class="item-blok-grid" id="doc-180"><img src="@/assets/img-doc-bl-14/Rectangle180.png" alt="">
                 </div>
-                <div class="item-blok-grid" id="doc-60-1"><img src="@/assets/img-doc-bl-14/Rectangle 60-1.png" alt="">
+
+                <div class="item-blok-grid" id="doc-181"><img src="@/assets/img-doc-bl-14/Rectangle181.png" alt="">
                 </div>
-                <div class="item-blok-grid" id="doc-42-1"><img src="@/assets/img-doc-bl-14/Rectangle 42-1.png" alt="">
+                <div class="item-blok-grid" id="doc-182"><img src="@/assets/img-doc-bl-14/Rectangle182.png" alt="">
+                </div>
+                <div class="item-blok-grid" id="doc-60-1"><img src="@/assets/img-doc-bl-14/Rectangle60-1.png" alt="">
+                </div>
+                <div class="item-blok-grid" id="doc-42-1"><img src="@/assets/img-doc-bl-14/Rectangle42-1.png" alt="">
                 </div>
             </div>
         </div>
@@ -1307,7 +1307,7 @@ const butVect2 = (() => {
         <div class="reviews" id="reviews">
             <div class="reviews-title">
 
-                <img src="@/assets/img-revievs-bl-15/Line 11.svg" alt="">
+                <img src="@/assets/img-revievs-bl-15/Line11.svg" alt="">
                 <p>отзывы</p>
 
             </div>
@@ -1318,22 +1318,22 @@ const butVect2 = (() => {
                     </div>
 
                     <div class="rev-photo-text-2">
-                        <img src="@/assets/img-revievs-bl-15/Photo (1).png" alt="">
+                        <img src="@/assets/img-revievs-bl-15/Photo1.png" alt="">
                     </div>
                     <div class="rev-photo-text-2">
-                        <img src="@/assets/img-revievs-bl-15/Photo (2).png" alt="">
+                        <img src="@/assets/img-revievs-bl-15/Photo2.png" alt="">
                     </div>
 
                     <div class="rev-photo-text-4">
-                        <img src="@/assets/img-revievs-bl-15/Photo (3).png" alt="">
+                        <img src="@/assets/img-revievs-bl-15/Photo3.png" alt="">
                     </div>
 
 
 
-                    <img src="@/assets/img-revievs-bl-15/Photo (4).png" alt="">
-                    <img src="@/assets/img-revievs-bl-15/Photo (5).png" alt="">
-                    <img src="@/assets/img-revievs-bl-15/Photo (6).png" alt="">
-                    <img src="@/assets/img-revievs-bl-15/Photo (7).png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo4.png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo5.png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo6.png" alt="">
+                    <img src="@/assets/img-revievs-bl-15/Photo7.png" alt="">
                 </div>
 
                 <div class="reviews-form" id="">
@@ -1343,7 +1343,7 @@ const butVect2 = (() => {
                         <div class="reviews-btn-input">
                             <button class="reviews-btn" type="button">Закрыть</button>
                             <div class="yandex">
-                                <img src="@/assets/img-revievs-bl-15/202877_normal 2.svg" alt="">
+                                <img src="@/assets/img-revievs-bl-15/202877_normal2.svg" alt="">
                                 <p><a href="">Смотреть все отзывы</a></p>
                             </div>
                         </div>
@@ -1400,10 +1400,10 @@ const butVect2 = (() => {
                                 </div>
                                 <div class="col-75">
                                     <div class="photo-form">
-                                        <img src="@/assets/img-revievs-bl-15/Rectangle 293.png" alt="">
-                                        <img src="@/assets/img-revievs-bl-15/Rectangle 292.png" alt="">
-                                        <img src="@/assets/img-revievs-bl-15/Rectangle 290.png" alt="">
-                                        <img src="@/assets/img-revievs-bl-15/Rectangle 291.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle293.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle292.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle290.png" alt="">
+                                        <img src="@/assets/img-revievs-bl-15/Rectangle291.png" alt="">
                                     </div>
                                     <input type="submit" value="Опубликовать отзыв" id="rev_btn">
                                 </div>
@@ -1420,20 +1420,20 @@ const butVect2 = (() => {
         <div class="parters">
 
             <div class="title-partners">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="">
+                <img src="@/assets/img-photo-gal-bl-7/Line11.svg" alt="">
                 <p>партнеры</p>
             </div>
 
             <div class="container-partners">
 
-                <img src="@/assets/img-partners-bl-16/logo_gray-2.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray_02.png" alt="">
                 <img src="@/assets/img-partners-bl-16/Partner_Card02.png" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (1).svg" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (1).png" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (2).png" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (3).png" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (4).png" alt="">
-                <img src="@/assets/img-partners-bl-16/logo_gray (5).png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray_1.svg" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray01.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray12.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray_3.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray_4.png" alt="">
+                <img src="@/assets/img-partners-bl-16/logo_gray_5.png" alt="">
 
             </div>
         </div>
@@ -1446,7 +1446,7 @@ const butVect2 = (() => {
         <div class="question">
 
             <div class=" title-quest">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <img src="@/assets/img-photo-gal-bl-7/Line11.svg" alt="" id="about-gallery_3">
                 <p>Часто задаваемые вопросы</p>
             </div>
 
@@ -1494,7 +1494,7 @@ const butVect2 = (() => {
 
         <div class="contact" id="contact">
             <div class=" title-contact">
-                <img src="@/assets/img-photo-gal-bl-7/Line 11.svg" alt="" id="about-gallery_3">
+                <img src="@/assets/img-photo-gal-bl-7/Line11.svg" alt="" id="about-gallery_3">
                 <p>контакты</p>
             </div>
             <div class="contact-mess">
@@ -1505,7 +1505,7 @@ const butVect2 = (() => {
                         <p class="mess-cont"><a href="#">dronmotoshkola@yandex.ru</a></p>
                     </div>
                     <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (1).svg" alt="">
+                        <img src="@/assets/img-cont-bl-18/icon01.svg" alt="">
                         <p>Мессенджеры</p>
                         <div class="mess-cont-p">
                             <p class="mess-cont"><a href="#">Начать чат в WhatsApp</a><br>
@@ -1514,12 +1514,12 @@ const butVect2 = (() => {
                         </div>
                     </div>
                     <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (2).svg" alt="">
+                        <img src="@/assets/img-cont-bl-18/icon02.svg" alt="">
                         <p>Телефон</p>
                         <p class="mess-cont"><a href="#">+7 938 456 77 07</a></p>
                     </div>
                     <div class="mess-col">
-                        <img src="@/assets/img-cont-bl-18/icon (3).svg" alt="">
+                        <img src="@/assets/img-cont-bl-18/icon03.svg" alt="">
                         <p>Офис</p>
                         <p class="mess-cont"><a href="#">Сочи, переулок Бригадный 1</a></p>
                     </div>

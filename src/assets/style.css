@@ -55,10 +55,10 @@ header {
 }
 
 .header-menu {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 
 }

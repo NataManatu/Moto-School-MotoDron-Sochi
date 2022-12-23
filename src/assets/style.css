@@ -2390,8 +2390,7 @@ input[type=submit] {
 }
 
 .question-content {
-    position: relative;
-    z-index: 0;
+
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 101px;
@@ -2412,14 +2411,12 @@ input[type=submit] {
 }
 
 .quest-text li {
+    position: relative;
+    z-index: 0;
     border-style: none;
     border-top: 1px solid #191919;
     border-bottom: 1px solid #191919;
     cursor: pointer;
-}
-
-.quest-text li:hover {
-    background-color: #191919;
 }
 
 .quest-text li::before {
@@ -2429,6 +2426,9 @@ input[type=submit] {
 
 }
 
+.qwerty1{
+    position: relative;
+}
 .quest-box-1,
 .quest-box-2,
 .quest-box-3,
@@ -2439,8 +2439,8 @@ input[type=submit] {
 .quest-box-8,
 .quest-box-9 {
     position: absolute;
-    z-index: 1;
     display: none;
+    z-index: 1;
     max-width: 575px;
     align-self: center;
     align-self: flex-end;
@@ -2452,15 +2452,11 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #191919;
     color: #8C8C8C;
-
 }
 
-#q_1:active .quest-box-1 {
+.qwerty1:hover .quest-box-1 {
     display: block;
-
 }
-
-
 
 
 

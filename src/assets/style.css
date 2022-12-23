@@ -63,9 +63,9 @@ header {
 
 }
 
-/* уменьшила на 3 px */
+/* уменьшила на 6px */
 .nav {
-    margin-left: 153px;
+    margin-left: 150px;
 }
 
 .nav ul {
@@ -83,12 +83,12 @@ header {
     cursor: pointer;
 }
 
-/* уменьшила на 3 px */
+/* уменьшила на 6 px */
 .social {
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-left: 153px;
+    margin-left: 150px;
 
 }
 
@@ -2391,6 +2391,7 @@ input[type=submit] {
 
 .question-content {
     position: relative;
+    z-index: 0;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 101px;
@@ -2438,6 +2439,7 @@ input[type=submit] {
 .quest-box-8,
 .quest-box-9 {
     position: absolute;
+    z-index: 1;
     display: none;
     max-width: 575px;
     align-self: center;

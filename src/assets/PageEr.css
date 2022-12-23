@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/metro");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: auto;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+}
+
+html::-webkit-scrollbar-thumb {
+  height: 200px;
+  background: #fcd702;
+  border-radius: 20px;
+}
+
+.pageEr {
+  width: 100%;
+  height: 768px;
+  margin: 0 auto;
+  padding-top: 94px;
+  text-align: center;
+  background-color: #000000;
+}
+.bg {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 941px;
+  height: 580px;
+  background-image: url(@/assets/img-PageEr/Gear.svg);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.er-number {
+  font-weight: 700;
+  font-size: 240px;
+  line-height: 347px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #FCD702;
+}
+.er-text {
+  margin: 0 auto;
+  max-width: 348px;
+  color: #8C8C8C;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+ 
+  
+}

@@ -6,7 +6,7 @@
             <div class="bg">
                 <div class="er-content">
                     <p class="er-number">404</p>
-                    <p class="er-text">Эта страница потерялась,
+                    <p class="er-text">Эта страница потерялась,<br>
                         но на нашем сайте еще много интересного</p>
                 </div>
                 <div class="er-list">

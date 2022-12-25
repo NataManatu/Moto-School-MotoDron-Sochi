@@ -40,6 +40,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   background-color: #000000;
 }
+
 .bg {
   margin: 0 auto;
   text-align: center;
@@ -50,6 +51,7 @@ html::-webkit-scrollbar-thumb {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .er-number {
   font-weight: 700;
   font-size: 240px;
@@ -58,6 +60,7 @@ html::-webkit-scrollbar-thumb {
   text-transform: uppercase;
   -webkit-text-stroke: 2px #FCD702;
 }
+
 .er-text {
   margin: 0 auto;
   max-width: 328px;
@@ -66,12 +69,14 @@ html::-webkit-scrollbar-thumb {
   font-weight: 600;
   font-size: 24px;
   line-height: 140%;
-  
+
 }
-.er-list{
+
+.er-list {
   color: #8C8C8C;
   margin-top: 86px;
 }
+
 .er-list ul {
   margin: 0 auto;
   max-width: 460px;
@@ -81,24 +86,28 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-between;
   gap: 40px;
- 
+
 }
-.er-list ul li{
+
+.er-list ul li {
   list-style: none;
+  cursor: pointer;
 }
-.pageEr button{
+
+.pageEr button {
   margin: 0 auto;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 32px;
-width: 246px;
-height: 42px;
-background: #FCD702;
-border-radius: 3px;
-font-weight: 400;
-font-size: 18px;
-line-height: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  width: 246px;
+  height: 42px;
+  background: #FCD702;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
 
 }

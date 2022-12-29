@@ -26,7 +26,7 @@ const butVect2 = (() => {
                         <ul>
                             <li><a href="#course">Курсы</a></li>
                             <li><a href="#news">Новости</a> </li>
-                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#about">О&#160;нас</a></li>
                             <li><a href="#contact">Контакты</a></li>
                             <li><a href="#reviews">Отзывы</a></li>
                         </ul>

@@ -41,6 +41,16 @@ header {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1199.10px) { 
+  .nav {
+    margin-left: 100px;
+  }
+  .tel {
+    margin-left: 20px;
+    white-space:nowrap;
+  }
+}
+
 .header-container {
   margin: 0 auto;
   max-width: 1200px;
@@ -48,11 +58,10 @@ header {
 }
 
 .header-menu {
-  /* width: 100%; */
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
+ 
 }
 
 /* уменьшила на 6px */
@@ -85,6 +94,7 @@ header {
 
 .tel {
   margin-left: 40px;
+  white-space:nowrap;
 }
 
 .tel a {
@@ -661,7 +671,7 @@ header {
   border-radius: 5px;
   z-index: 150;
   padding-bottom: 28px;
-  margin-left:calc(50% - 300px);
+  margin-left: calc(50% - 300px);
 }
 
 .win_icon {

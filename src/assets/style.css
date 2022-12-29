@@ -520,17 +520,17 @@ header {
 /*entry  блок-5 */
 
 .entry {
+  position: relative;
   background-color: #000000;
   background-image: url(@/assets/img-entry-bl-5/Rectangle-126.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.entry {
   width: 100%;
   margin: 0 auto;
   padding-top: 100px;
+
 }
+
 
 .entry::before {
   content: "он ждет тебя";
@@ -647,16 +647,23 @@ header {
 }
 
 .modal-win {
-  max-width: 600px;
-  max-height: 400px;
-  background: rgba(51, 51, 51, 0.75);
-  border-radius: 5px;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 28px;
+  display: none;
 }
 
-.modal-win img {
+.modal-win-click {
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background: rgba(51, 51, 51, 0.75);
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 28px;
+  margin: 0 auto;
+  margin-left:calc(50% - 300px);
+}
+
+.win_icon {
   margin-top: 66px;
 }
 

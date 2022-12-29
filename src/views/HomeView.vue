@@ -430,9 +430,15 @@ const butVect2 = (() => {
         </div>
 
         <!-- ENTRY--блок-5 -->
-       
         <div class="entry">
 
+            <div :class="modal_win">
+                <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross">
+                <img src="@/assets/img-entry-bl-5/Succesicon.svg" class="win_icon" alt="">
+                <p class="win_p">Данные успешно отправлены</p>
+                <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
+                <button type="button" id="modal_win_btn" @click="close_win">Закрыть</button>
+            </div>
             <div class="entry-title">
                 <img src="@/assets/img-entry-bl-5/Line11.svg" alt="">
                 <p>он ждет тебя</p>
@@ -452,23 +458,18 @@ const butVect2 = (() => {
                             <input type="tel" placeholder="Номер телефона ">
                         </div>
 
-                        <button type="submit" id="#entry-button">Записаться</button>
+                        <button type="submit" id="#entry-button" @click="entry_win">Записаться</button>
                     </div>
-                   
+
                     <p class="entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с
                         <a href="/">Политикой Конфиденциальности.</a>
                     </p>
                 </div>
+
             </div>
+
         </div>
-       
-        <div class="modal-win">
-            <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross">
-            <img src="@/assets/img-entry-bl-5/Succesicon.svg" alt="">
-            <p class="win_p">Данные успешно отправлены</p>
-            <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
-            <button type="button" id="modal_win_btn">Закрыть</button>
-        </div>
+
 
         <!-- BEE-MOTO--блок-6 -->
 
@@ -1652,11 +1653,16 @@ const butVect2 = (() => {
 export default {
     data() {
         return {
-
+            modal_win: 'modal-win',
         }
     },
     methods: {
-
+        entry_win() {
+            this.modal_win = 'modal-win-click'
+        },
+        close_win() {
+            this.modal_win = 'modal-win'
+        }
     },
 
 }

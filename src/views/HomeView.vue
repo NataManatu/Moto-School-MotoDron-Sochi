@@ -433,7 +433,7 @@ const butVect2 = (() => {
         <div class="entry">
 
             <div :class="modal_win">
-                <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross">
+                <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross" @click="close_win">
                 <img src="@/assets/img-entry-bl-5/Succesicon.svg" class="win_icon" alt="">
                 <p class="win_p">Данные успешно отправлены</p>
                 <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>

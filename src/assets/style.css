@@ -526,6 +526,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  height: 704px;
   margin: 0 auto;
   padding-top: 100px;
 
@@ -694,13 +695,16 @@ header {
   font-size: 18px;
   border-style: none;
   margin-top: 59px;
+  cursor: pointer;
 
 }
+
 
 #cross {
   float: right;
   margin-top: 21px;
   margin-right: 21px;
+  cursor: pointer;
 }
 
 /*BEE MOTO-- блок-6 */

@@ -653,13 +653,13 @@ header {
 .modal-win-click {
   display: block;
   position: absolute;
+  text-align: center;
   width: 600px;
   height: 400px;
   background: rgba(51, 51, 51, 0.75);
   border-radius: 5px;
-  text-align: center;
+  z-index: 150;
   padding-bottom: 28px;
-  margin: 0 auto;
   margin-left:calc(50% - 300px);
 }
 

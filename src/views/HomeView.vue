@@ -5,12 +5,13 @@ const butVect1 = (() => {
 const butVect2 = (() => {
     document.querySelector('.course-content').scrollLeft += 300
 })
+
+
 </script>
 
 <template>
 
     <body>
-
 
         <!-- HEADER -->
 
@@ -183,7 +184,7 @@ const butVect2 = (() => {
                                 но по-настоящему научитесь управлять мотоциклом.
                             </p>
                         </div>
-                        <!-- <router-link to="/coursea" type="button" id="why-btn"> Категория “А”</router-link> -->
+
                         <router-link to="/coursea">
                             <button type="button" id="why-btn">Подробнее</button>
                         </router-link>
@@ -429,7 +430,7 @@ const butVect2 = (() => {
         </div>
 
         <!-- ENTRY--блок-5 -->
-
+       
         <div class="entry">
 
             <div class="entry-title">
@@ -453,12 +454,20 @@ const butVect2 = (() => {
 
                         <button type="submit" id="#entry-button">Записаться</button>
                     </div>
-
+                   
                     <p class="entry-p" id="p">Нажимая кнопку “Записаться” вы солгашаетесь<br>с
                         <a href="/">Политикой Конфиденциальности.</a>
                     </p>
                 </div>
             </div>
+        </div>
+       
+        <div class="modal-win">
+            <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross">
+            <img src="@/assets/img-entry-bl-5/Succesicon.svg" alt="">
+            <p class="win_p">Данные успешно отправлены</p>
+            <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
+            <button type="button" id="modal_win_btn">Закрыть</button>
         </div>
 
         <!-- BEE-MOTO--блок-6 -->
@@ -1559,7 +1568,7 @@ const butVect2 = (() => {
                                 </div>
                                 <li id="q_9">Вы выдаете экипировку?</li>
                             </div>
-                            
+
                         </ul>
                     </div>
                 </div>

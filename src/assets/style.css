@@ -646,6 +646,56 @@ header {
   color: #8c8c8c;
 }
 
+.modal-win {
+  max-width: 600px;
+  max-height: 400px;
+  background: rgba(51, 51, 51, 0.75);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.modal-win img {
+  margin-top: 66px;
+}
+
+.win_p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #E3E3E3;
+  margin-top: 36px;
+}
+
+.win_p_2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  align-items: center;
+  color: #E3E3E3;
+  margin-top: 7px;
+}
+
+#modal_win_btn {
+  width: 130px;
+  height: 42px;
+  padding: 8px 32px;
+  background: #FCD702;
+  border-radius: 3px;
+  color: #000000;
+  font-size: 18px;
+  border-style: none;
+  margin-top: 59px;
+
+}
+
+#cross {
+  float: right;
+  margin-top: 21px;
+  margin-right: 21px;
+}
+
 /*BEE MOTO-- блок-6 */
 
 .bee-moto {
@@ -2254,6 +2304,7 @@ input[type="submit"] {
   color: #fcd702;
   padding: 10px;
 }
+
 .quest-text li:hover {
   background-color: #191919;
 }
@@ -2282,27 +2333,35 @@ input[type="submit"] {
 .qwerty1:hover .quest-box-1 {
   display: block;
 }
+
 .qwerty2:hover .quest-box-2 {
   display: block;
 }
+
 .qwerty3:hover .quest-box-3 {
   display: block;
 }
+
 .qwerty4:hover .quest-box-4 {
   display: block;
 }
+
 .qwerty5:hover .quest-box-5 {
   display: block;
 }
+
 .qwerty6:hover .quest-box-6 {
   display: block;
 }
+
 .qwerty7:hover .quest-box-7 {
   display: block;
 }
+
 .qwerty8:hover .quest-box-8 {
   display: block;
 }
+
 .qwerty9:hover .quest-box-9 {
   display: block;
 }

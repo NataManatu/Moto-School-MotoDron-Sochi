@@ -41,15 +41,7 @@ header {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1199.10px) { 
-  .nav {
-    margin-left: 100px;
-  }
-  .tel {
-    margin-left: 20px;
-    white-space:nowrap;
-  }
-}
+
 
 .header-container {
   margin: 0 auto;
@@ -61,7 +53,7 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
- 
+
 }
 
 /* уменьшила на 6px */
@@ -94,7 +86,7 @@ header {
 
 .tel {
   margin-left: 40px;
-  white-space:nowrap;
+  white-space: nowrap;
 }
 
 .tel a {
@@ -174,6 +166,46 @@ header {
 #btn3 a {
   text-decoration: none;
   color: #000000;
+}
+
+@media screen and (max-width:1199.98px) {
+  .nav {
+    margin-left: 130px;
+  }
+
+  .social {
+    margin-left: 130px;
+  }
+
+  .header-container {
+    padding: 7px 10px 250px 10px;
+  }
+}
+
+@media screen and (max-width:1165px) {
+  .nav {
+    margin-left: 110px;
+  }
+  .social {
+    margin-left: 110px;
+  }
+
+  .header-container { 
+    padding: 7px 10px 250px 10px;
+  }
+}
+@media screen and (max-width:1145px) {
+  .nav {
+    margin-left: 90px;
+  }
+
+  .social {
+    margin-left: 90px;
+  }
+  .header-container {
+    
+    padding: 7px 10px 250px 10px;
+  }
 }
 
 /* ABOUT--2 блок*/

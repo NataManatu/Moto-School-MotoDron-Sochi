@@ -29,7 +29,7 @@ const butVect2 = (() => {
                             <li><a href="#about">О&#160;нас</a></li>
                             <li><a href="#contact">Контакты</a></li>
                             <li><a href="#reviews">Отзывы</a></li>
-                            <li><a href="#"><img id="bmenu" src="@/assets/img-header/menu125.svg"></a></li>
+                           
                         </ul>
                     </div>
 
@@ -43,6 +43,9 @@ const butVect2 = (() => {
                     <div class="tel">
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
+                    
+                    <div><img id="bmenu" src="@/assets/img-header/menu125.svg"></div>
+
                 </div>
 
                 <div class="header-box">

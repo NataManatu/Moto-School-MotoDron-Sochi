@@ -237,7 +237,11 @@ header {
     display: none;
   }
 
-  .nav ul li a #bmenu {
+  .tel {
+    margin: 0;
+  }
+
+  #bmenu {
     display: block;
   }
 
@@ -275,7 +279,7 @@ header {
   .slogan {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
 
 

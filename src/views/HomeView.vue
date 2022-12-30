@@ -29,7 +29,7 @@ const butVect2 = (() => {
                             <li><a href="#about">О&#160;нас</a></li>
                             <li><a href="#contact">Контакты</a></li>
                             <li><a href="#reviews">Отзывы</a></li>
-                           
+
                         </ul>
                     </div>
 
@@ -45,6 +45,36 @@ const butVect2 = (() => {
                     </div>
 
                     <div><img id="bmenu" src="@/assets/img-header/menu125.svg"></div>
+
+                    <div class="drop-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Курсы</a>
+                            </li>
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="#">Отзывы</a>
+                            </li>
+                            <li>
+                             <hr>                       
+                            </li>
+                            <li>
+                                <a href="#">WhatsApp</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">VKontakte</a>
+                            </li>
+                        </ul>
+
+                    </div>
 
                 </div>
 
@@ -62,7 +92,7 @@ const butVect2 = (() => {
                             <p>Мы воспитываем мотоциклистов! Запишитесь<br>
                                 на бесплатное пробное занятие</p>
                         </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="button-gpoup">
                     <div class="wrapper">

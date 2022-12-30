@@ -228,6 +228,10 @@ header {
 }
 
 @media screen and (max-width:768px) {
+  .header-container {
+    height: 593px;
+  }
+
   .logo img {
     width: 80px;
     height: 40px;
@@ -247,6 +251,7 @@ header {
 
   #bmenu {
     display: block;
+    cursor: pointer;
   }
 
   .header-container {
@@ -262,7 +267,7 @@ header {
     margin: 0 auto;
     margin-top: 117px;
     max-width: 437px;
-    
+
   }
 
   .button-gpoup {
@@ -295,8 +300,51 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
+
+}
+
+.drop-menu {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  height: 593px;
+  margin-top: 518px;
+  margin-left: 430px;
+  background: rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drop-menu hr {
+  width: 150px;
+  border: 1px solid #FFFFFF;
+
+}
+
+.drop-menu ul li {
+  list-style: none;
+  margin-top: 15px;
+  color: #E3E3E3;
+
+
+}
+
+.drop-menu a {
+  color: #E3E3E3;
+  text-decoration: none;
+}
+
+.drop-menu li:hover {
+  background-color: #373737;
+  animation-duration: 300ms;
 
 }
 

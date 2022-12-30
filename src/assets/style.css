@@ -168,44 +168,44 @@ header {
   color: #000000;
 }
 
+
+
 @media screen and (max-width:1199.98px) {
   .nav {
-    margin-left: 130px;
+    margin-left: 60px;
   }
-
   .social {
-    margin-left: 130px;
+    margin-left: 60px;
   }
-
   .header-container {
     padding: 7px 10px 250px 10px;
   }
-}
-
-@media screen and (max-width:1165px) {
-  .nav {
-    margin-left: 110px;
+  .nav ul {
+    gap: 30px;
   }
-  .social {
-    margin-left: 110px;
-  }
-
-  .header-container { 
-    padding: 7px 10px 250px 10px;
+  .header-box {
+    margin-left: 250px;
   }
 }
-@media screen and (max-width:1145px) {
-  .nav {
-    margin-left: 90px;
-  }
 
+@media screen and (max-width:995px) {
+  .nav {
+    margin-left: 45px;
+  }
   .social {
-    margin-left: 90px;
+    margin-left: 45px;
   }
   .header-container {
-    
     padding: 7px 10px 250px 10px;
   }
+  .nav ul {
+    gap: 20px;
+  }
+  .header-box {
+    margin-left: 100px;
+  }
+.social{display: none;}
+
 }
 
 /* ABOUT--2 блок*/

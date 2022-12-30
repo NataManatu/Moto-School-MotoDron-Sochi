@@ -29,7 +29,7 @@ const butVect2 = (() => {
                             <li><a href="#about">О&#160;нас</a></li>
                             <li><a href="#contact">Контакты</a></li>
                             <li><a href="#reviews">Отзывы</a></li>
-                            <li><a href="#" id="bmenu">&#9776;</a></li>
+                            <li><a href="#"><img id="bmenu" src="@/assets/img-header/menu125.svg"></a></li>
                         </ul>
                     </div>
 

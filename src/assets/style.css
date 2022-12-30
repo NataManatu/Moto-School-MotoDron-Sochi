@@ -168,21 +168,27 @@ header {
   color: #000000;
 }
 
-
+#bmenu {
+  display: none;
+}
 
 @media screen and (max-width:1199.98px) {
   .nav {
     margin-left: 60px;
   }
+
   .social {
     margin-left: 60px;
   }
+
   .header-container {
     padding: 7px 10px 250px 10px;
   }
+
   .nav ul {
     gap: 30px;
   }
+
   .header-box {
     margin-left: 250px;
   }
@@ -192,19 +198,51 @@ header {
   .nav {
     margin-left: 45px;
   }
+
   .social {
     margin-left: 45px;
   }
+
   .header-container {
     padding: 7px 10px 250px 10px;
   }
+
   .nav ul {
     gap: 20px;
   }
+
   .header-box {
     margin-left: 100px;
   }
-.social{display: none;}
+
+  .social {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  .nav {
+    display: none;
+  }
+
+  .nav ul li a #bmenu {
+    display: block;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .header-container {
+    padding: 7px 10px 250px 10px;
+  }
+
+  .header-box {
+    margin-left: 50px;
+  }
+
 
 }
 

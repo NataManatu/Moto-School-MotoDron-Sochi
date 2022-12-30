@@ -129,6 +129,7 @@ header {
   margin-top: 114px;
   gap: 20px;
   font-size: inherit;
+
 }
 
 .wrapper {
@@ -137,8 +138,9 @@ header {
   align-items: center;
   width: 377px;
   height: 50px;
-  gap: 40px;
+  gap: 96px;
   line-height: 50px;
+  margin-left: 575px;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 2px;
 }
@@ -191,7 +193,8 @@ header {
     gap: 30px;
   }
 
-  .header-box {
+  .header-box,
+  .wrapper {
     margin-left: 250px;
   }
 }
@@ -213,7 +216,8 @@ header {
     gap: 20px;
   }
 
-  .header-box {
+  .header-box,
+  .wrapper {
     margin-left: 100px;
   }
 
@@ -258,7 +262,18 @@ header {
     margin: 0 auto;
     margin-top: 117px;
     max-width: 437px;
+    
+  }
+
+  .button-gpoup {
+    justify-content: space-between;
     padding-bottom: 47px;
+
+  }
+
+  .wrapper {
+    margin-left: 0;
+    gap: 96px;
   }
 
   .header-box p {

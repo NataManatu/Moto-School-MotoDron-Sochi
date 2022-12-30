@@ -43,7 +43,7 @@ const butVect2 = (() => {
                     <div class="tel">
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
-                    
+
                     <div><img id="bmenu" src="@/assets/img-header/menu125.svg"></div>
 
                 </div>
@@ -62,15 +62,14 @@ const butVect2 = (() => {
                             <p>Мы воспитываем мотоциклистов! Запишитесь<br>
                                 на бесплатное пробное занятие</p>
                         </div>
+                    </div>    
+                </div>
+                <div class="button-gpoup">
+                    <div class="wrapper">
+                        <router-link to="/coursePro" type="button"> Курс “Pro”</router-link>
+                        <router-link to="/coursea" type="button"> Категория “А”</router-link>
                     </div>
-
-                    <div class="button-gpoup">
-                        <div class="wrapper">
-                            <router-link to="/coursePro" type="button"> Курс “Pro”</router-link>
-                            <router-link to="/coursea" type="button"> Категория “А”</router-link>
-                        </div>
-                        <button type="button" id="btn3">Записаться</button>
-                    </div>
+                    <button type="button" id="btn3">Записаться</button>
                 </div>
             </div>
         </header>

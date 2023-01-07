@@ -43,8 +43,8 @@ header {
 
 .header-container {
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 7px 0px 250px 0px;
+  max-width: 1250px;
+  padding: 7px 25px 250px 25px;
 }
 
 .logo img {
@@ -181,7 +181,7 @@ header {
 
 @media screen and (max-width:1299.98px) {
   .header-container {
-    padding: 7px 10px 250px 10px;
+    padding: 7px 20px 250px 20px;
   }
 
   .nav {
@@ -209,7 +209,7 @@ header {
 
 /* //////////// */
 
-@media screen and (max-width:1070.98px) {
+@media screen and (max-width:1080.98px) {
   .nav {
     margin-left: 80px;
   }
@@ -224,7 +224,7 @@ header {
   }
 
   .header-container {
-    padding: 7px 10px 250px 10px;
+    padding: 7px 20px 250px 20px;
   }
 
   .nav ul {
@@ -239,7 +239,7 @@ header {
 
 /* //////////// */
 
-@media screen and (max-width:1028px) {
+@media screen and (max-width:1047px) {
   .nav {
     margin-left: 70px;
   }
@@ -249,7 +249,7 @@ header {
   }
 
   .header-container {
-    padding: 7px 10px 250px 10px;
+    padding: 7px 20px 250px 20px;
   }
 
   .tel {

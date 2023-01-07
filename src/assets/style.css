@@ -56,6 +56,7 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
 }
 
@@ -176,7 +177,14 @@ header {
   display: none;
 }
 
-@media screen and (max-width:1199.98px) {
+/* //////////// */
+
+
+@media screen and (max-width:1299.98px) {
+  .header-container {
+    padding: 7px 10px 250px 10px;
+  }
+
   .nav {
     margin-left: 100px;
   }
@@ -185,8 +193,9 @@ header {
     margin-left: 100px;
   }
 
-  .header-container {
-    padding: 7px 10px 250px 10px;
+  .tel {
+    margin-left: 40px;
+    white-space: nowrap;
   }
 
   .nav ul {
@@ -198,6 +207,8 @@ header {
     margin-left: 250px;
   }
 }
+
+/* //////////// */
 
 @media screen and (max-width:1070.98px) {
   .nav {
@@ -208,6 +219,11 @@ header {
     margin-left: 80px;
   }
 
+  .tel {
+    margin-left: 40px;
+    white-space: nowrap;
+  }
+
   .header-container {
     padding: 7px 10px 250px 10px;
   }
@@ -222,8 +238,9 @@ header {
   }
 }
 
+/* //////////// */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1028px) {
   .nav {
     margin-left: 70px;
   }
@@ -234,6 +251,11 @@ header {
 
   .header-container {
     padding: 7px 10px 250px 10px;
+  }
+
+  .tel {
+    margin-left: 30px;
+    white-space: nowrap;
   }
 
   .nav ul {
@@ -251,7 +273,41 @@ header {
 
 }
 
-@media screen and (max-width:768px) {
+/* //////////// */
+
+@media screen and (max-width:780px) {
+  .nav {
+    margin-left: 50px;
+  }
+
+
+  .header-container {
+    padding: 7px 10px 250px 10px;
+  }
+
+  .tel {
+    margin-left: 30px;
+    white-space: nowrap;
+  }
+
+  .nav ul {
+    gap: 20px;
+  }
+
+  .header-box,
+  .wrapper {
+    margin-left: 100px;
+  }
+
+  .social {
+    display: none;
+  }
+
+}
+
+/* TABLET */
+
+@media screen and (max-width:750px) {
   .header-container {
     height: 593px;
   }
@@ -330,13 +386,130 @@ header {
 
 }
 
+/* /////// */
+
+
+
+@media screen and (max-width:671px) {
+  .wrapper {
+    gap: 50px;
+  }
+
+  .header-container {
+    padding: 15px 70px 0px 70px;
+
+  }
+
+}
+
+@media screen and (max-width:602px) {
+  .wrapper {
+    gap: 40px;
+  }
+
+  .header-container {
+    padding: 15px 60px 0px 60px;
+
+  }
+}
+
+@media screen and (max-width:551px) {
+  .wrapper {
+    gap: 40px;
+  }
+
+  .header-container {
+    padding: 15px 30px 0px 30px;
+
+  }
+}
+
+@media screen and (max-width:488px) {
+  .wrapper {
+    gap: 30px;
+
+  }
+
+  .header-container {
+    padding: 15px 30px 0px 30px;
+
+  }
+
+  .button-gpoup {
+    margin-top: 94px;
+  }
+}
+
+@media screen and (max-width:473px) {
+  .header-container {
+    padding: 15px 75px 0px 75px;
+
+  }
+
+  .tel {
+    font-size: 12px;
+  }
+
+  .slogan {
+    margin-top: 118px;
+  }
+
+  .button-gpoup {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    gap: 110px;
+
+  }
+
+  .dron img {
+    width: 280px;
+    height: 43px;
+  }
+
+  .motoschool img {
+    width: 280px;
+    height: 17px;
+
+  }
+
+  .header-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+
+  #btn3 {
+    width: 280px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    font-size: 16px;
+  }
+
+  .wrapper {
+    width: 280px;
+    height: 38px;
+  }
+
+  .wrapper a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+/* DROPMENU */
+
+
 .drop-menu {
   visibility: hidden;
   position: absolute;
   width: 250px;
   height: 593px;
   margin-top: 518px;
-  margin-left: 430px;
+  margin-left: 363px;
   background: rgba(0, 0, 0, 0.75);
   font-weight: 400;
   font-size: 18px;
@@ -345,6 +518,11 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  z-index: 1;
+}
+
+.drop-menu:active {
+  visibility: visible;
 }
 
 .drop-menu hr {

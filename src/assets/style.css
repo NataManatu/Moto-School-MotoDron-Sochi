@@ -385,7 +385,7 @@ header {
 
 }
 
-/* MOBILE*/
+/* /////// */
 
 @media screen and (max-width:671px) {
   .wrapper {
@@ -443,7 +443,7 @@ header {
   }
 }
 
-/* /////// */
+/* mobile */
 
 @media screen and (max-width:473px) {
   .header-container {

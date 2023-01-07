@@ -451,7 +451,7 @@ header {
 
   }
 
-  .tel a{
+  .tel a {
     font-size: 12px;
   }
 
@@ -614,7 +614,9 @@ header {
   animation-duration: 300ms;
 }
 
+
 /* ABOUT--2 блок*/
+
 
 .about {
   width: 100%;
@@ -652,9 +654,9 @@ header {
 }
 
 .about-content {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding: 0px 25px 100px 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -693,6 +695,103 @@ header {
 #pic-5 {
   margin-top: 20px;
 }
+
+.about-img-modul_2 {
+  display: none;
+}
+
+/* /////////// */
+
+
+@media screen and (max-width:1100.98px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    gap: 30px;
+  }
+ 
+
+}
+
+/* /////////// */
+
+@media screen and (max-width:640.98px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about::before {
+    font-weight: 400;
+    font-size: 64px;
+
+  }
+
+  .about_logo p {
+    font-weight: 400;
+    font-size: 32px;
+
+  }
+
+  .about-img-modul {
+    gap: 5px;
+  }
+
+}
+
+/* /////////// */
+
+@media screen and (max-width:580.98px) {
+
+  .about-img-modul {
+    display: none;
+  }
+
+  .about-img-modul_2 {
+    display: flex;
+    gap: 9px;
+  }
+  #pic1 {
+    margin-top: 42px;
+  }
+  
+  #pic2 {
+    margin-top: 22px;
+  }
+  
+  #pic3 {
+    margin-top: 10px;
+  }
+  
+  #pic5 {
+    margin-top: 20px;
+  }
+ 
+}
+
+/* /////////// */
+
+@media screen and (max-width:430.98px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about::before {
+    font-weight: 400;
+    font-size: 48px;
+
+  }
+
+  .about_logo p {
+    font-weight: 400;
+    font-size: 24px;
+
+  }
+
+}
+
 
 /* WHY ARE WE--3 блок*/
 

@@ -135,6 +135,14 @@ const butVect2 = (() => {
                     <img src="@/assets/img-about-bl-2/pic-2.png" alt="" id="pic-2">
                 </div>
 
+                <div class="about-img-modul_2">
+                    <img src="@/assets/img-about-bl-2/pic1.png" alt="" id="pic1">
+                    <img src="@/assets/img-about-bl-2/pic5.png" alt="" id="pic5">
+                    <img src="@/assets/img-about-bl-2/pic4.png" alt="" id="pic4">
+                    <img src="@/assets/img-about-bl-2/pic3.png" alt="" id="pic3">
+                    <img src="@/assets/img-about-bl-2/pic2.png" alt="" id="pic2">
+                </div>
+
             </div>
         </div>
 

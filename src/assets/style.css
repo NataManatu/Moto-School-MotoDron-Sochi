@@ -710,7 +710,7 @@ header {
     margin-top: 56px;
     gap: 30px;
   }
- 
+
 
 }
 
@@ -752,22 +752,23 @@ header {
     display: flex;
     gap: 9px;
   }
+
   #pic1 {
     margin-top: 42px;
   }
-  
+
   #pic2 {
     margin-top: 22px;
   }
-  
+
   #pic3 {
     margin-top: 10px;
   }
-  
+
   #pic5 {
     margin-top: 20px;
   }
- 
+
 }
 
 /* /////////// */
@@ -831,11 +832,11 @@ header {
   color: #e3e3e3;
 }
 
-/* контейнер на макете не ро центру,поставила как надо */
+/* контейнер на макете не по центру,поставила как надо */
 .why-content {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding: 0px 25px 100px 25px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -883,6 +884,169 @@ header {
   overflow-wrap: anywhere;
   overflow: hidden;
 }
+
+/* ///// */
+
+@media screen and (max-width:1166.98px) {
+  .why-text-block {
+    padding: 0px 25px 100px 25px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .why-content {
+    gap: 40px;
+  }
+
+}
+
+/* ///// */
+
+@media screen and (max-width:1119.98px) {
+  .why-text-block {
+    padding: 0px 25px 100px 25px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .why-content {
+    gap: 40px;
+  }
+
+  #why-img-content {
+    display: none;
+  }
+
+}
+
+/* ///// */
+
+@media screen and (max-width:1119.98px) {
+  .why-text-block {
+    padding: 0px 25px 100px 25px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .why-content {
+    gap: 40px;
+  }
+
+  #why-img-content {
+    display: none;
+  }
+
+}
+
+
+
+/* TABLET */
+
+@media screen and (max-width:639.98px) {
+  .why {
+    background-image: url(@/assets/img-why-bl-3/bg-bl-3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 66px;
+
+  }
+
+  #why-img-content {
+    display: none;
+  }
+
+  .why::before {
+    font-weight: 400;
+    font-size: 64px;
+    padding-left: 25px;
+
+  }
+
+  .why-title p {
+    font-weight: 400;
+    font-size: 32px;
+    white-space: nowrap;
+
+  }
+
+  .why-content {
+    display: grid;
+    margin-top: 50px;
+  }
+
+  .why-text-block {
+    justify-content: space-between;
+    margin-top: -60px;
+
+  }
+
+  #text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+}
+
+/* ////// */
+@media screen and (max-width:585.98px) {
+  .why-text-block {
+    padding: 0px 25px 100px 25px;
+    justify-content: space-between;
+  }
+
+  #why-img-content {
+    display: none;
+  }
+
+  #text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width:319.98px) {
+  .why {
+    background-image: url(@/assets/img-why-bl-3/bg-bl-3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 66px;
+
+  }
+
+  #why-img-content {
+    display: none;
+  }
+
+  .why::before {
+    font-weight: 400;
+    font-size: 48px;
+    padding-left: 25px;
+  }
+
+  .why-title p {
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+
+  .why-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #text {
+    font-size: 16px;
+  }
+}
+
 
 /* COURSE--(блок 4) */
 

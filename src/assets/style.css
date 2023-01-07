@@ -178,11 +178,11 @@ header {
 
 @media screen and (max-width:1199.98px) {
   .nav {
-    margin-left: 60px;
+    margin-left: 100px;
   }
 
   .social {
-    margin-left: 60px;
+    margin-left: 100px;
   }
 
   .header-container {
@@ -199,13 +199,37 @@ header {
   }
 }
 
-@media screen and (max-width:995px) {
+@media screen and (max-width:1070.98px) {
   .nav {
-    margin-left: 45px;
+    margin-left: 80px;
   }
 
   .social {
-    margin-left: 45px;
+    margin-left: 80px;
+  }
+
+  .header-container {
+    padding: 7px 10px 250px 10px;
+  }
+
+  .nav ul {
+    gap: 30px;
+  }
+
+  .header-box,
+  .wrapper {
+    margin-left: 250px;
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  .nav {
+    margin-left: 70px;
+  }
+
+  .social {
+    margin-left: 70px;
   }
 
   .header-container {

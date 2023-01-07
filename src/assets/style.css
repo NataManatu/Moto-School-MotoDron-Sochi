@@ -179,7 +179,6 @@ header {
 
 /* //////////// */
 
-
 @media screen and (max-width:1299.98px) {
   .header-container {
     padding: 7px 10px 250px 10px;
@@ -388,8 +387,6 @@ header {
 
 /* /////// */
 
-
-
 @media screen and (max-width:671px) {
   .wrapper {
     gap: 50px;
@@ -402,6 +399,8 @@ header {
 
 }
 
+/* /////// */
+
 @media screen and (max-width:602px) {
   .wrapper {
     gap: 40px;
@@ -413,6 +412,8 @@ header {
   }
 }
 
+/* /////// */
+
 @media screen and (max-width:551px) {
   .wrapper {
     gap: 40px;
@@ -423,6 +424,8 @@ header {
 
   }
 }
+
+/* /////// */
 
 @media screen and (max-width:488px) {
   .wrapper {
@@ -440,7 +443,71 @@ header {
   }
 }
 
+/* /////// */
+
 @media screen and (max-width:473px) {
+  .header-container {
+    padding: 15px 70px 0px 70px;
+
+  }
+
+  .tel a{
+    font-size: 12px;
+  }
+
+  .slogan {
+    margin-top: 118px;
+  }
+
+  .button-gpoup {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    gap: 110px;
+
+  }
+
+  .dron img {
+    width: 280px;
+    height: 43px;
+  }
+
+  .motoschool img {
+    width: 280px;
+    height: 17px;
+
+  }
+
+  .header-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+
+  #btn3 {
+    width: 280px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    font-size: 16px;
+  }
+
+  .wrapper {
+    width: 280px;
+    height: 38px;
+  }
+
+  .wrapper a {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+/* /////// */
+
+@media screen and (max-width:440px) {
   .header-container {
     padding: 15px 75px 0px 75px;
 
@@ -502,7 +569,6 @@ header {
 
 /* DROPMENU */
 
-
 .drop-menu {
   visibility: hidden;
   position: absolute;
@@ -536,7 +602,6 @@ header {
   margin-top: 15px;
   color: #E3E3E3;
 
-
 }
 
 .drop-menu a {
@@ -547,7 +612,6 @@ header {
 .drop-menu li:hover {
   background-color: #373737;
   animation-duration: 300ms;
-
 }
 
 /* ABOUT--2 блок*/

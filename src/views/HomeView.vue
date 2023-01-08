@@ -44,8 +44,8 @@ const butVect2 = (() => {
                         <a href="tel:+79384567707">+7 938 456 77 07</a>
                     </div>
 
-                    <button type="button" id="bmenu"><img  src="@/assets/img-header/menu125.svg"></button>
-
+                    <label id="bmenu" for="menu-check"><img src="@/assets/img-header/menu125.svg"></label>
+                    <input type="checkbox" id="menu-check">
                     <div class="drop-menu">
                         <ul>
                             <li>
@@ -61,7 +61,7 @@ const butVect2 = (() => {
                                 <a href="#">Отзывы</a>
                             </li>
                             <li>
-                             <hr>                       
+                                <hr>
                             </li>
                             <li>
                                 <a href="#">WhatsApp</a>

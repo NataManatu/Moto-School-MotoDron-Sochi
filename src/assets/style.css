@@ -31,11 +31,11 @@ html::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
+
 /* HEADER */
 
 header {
   margin: 0 auto;
-  height: auto;
   background-image: url(@/assets/img-header/mota1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,8 +43,8 @@ header {
 
 .header-container {
   margin: 0 auto;
-  max-width: 1250px;
-  padding: 7px 25px 250px 25px;
+  max-width: 1260px;
+  padding: 7px 30px 250px 30px;
 }
 
 .logo img {
@@ -108,7 +108,7 @@ header {
 .header-box {
   max-width: 553px;
   margin-top: 190px;
-  margin-left: 575px;
+  margin-left: 45%;
 }
 
 .slogan p {
@@ -141,7 +141,7 @@ header {
   height: 50px;
   gap: 96px;
   line-height: 50px;
-  margin-left: 575px;
+  margin-left: 45%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 2px;
 }
@@ -175,15 +175,64 @@ header {
 
 #bmenu {
   display: none;
+  background-color: transparent;
+  border-style: none;
+  position: relative;
+  /* z-index: 9; */
 }
+
+/* DROPMENU */
+
+.drop-menu {
+  position: fixed;
+  width: 250px;
+  min-height: 593px;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
+#bmenu:hover.drop-menu {
+  display: flex;
+}
+
+.drop-menu hr {
+  margin: 0 auto;
+  width: 150px;
+  border: 1px solid #FFFFFF;
+
+}
+
+.drop-menu ul li {
+  list-style: none;
+  margin-top: 15px;
+  color: #E3E3E3;
+
+}
+
+.drop-menu a {
+  color: #E3E3E3;
+  text-decoration: none;
+}
+
+.drop-menu li:hover {
+  background-color: #373737;
+
+}
+
 
 /* //////////// */
 
-@media screen and (max-width:1299.98px) {
-  .header-container {
-    padding: 7px 20px 250px 20px;
-  }
-
+@media (max-width:1299.98px) {
   .nav {
     margin-left: 100px;
   }
@@ -201,15 +250,13 @@ header {
     gap: 30px;
   }
 
-  .header-box,
-  .wrapper {
-    margin-left: 250px;
-  }
+  
+
 }
 
 /* //////////// */
 
-@media screen and (max-width:1080.98px) {
+@media (max-width:1115px) {
   .nav {
     margin-left: 80px;
   }
@@ -223,33 +270,21 @@ header {
     white-space: nowrap;
   }
 
-  .header-container {
-    padding: 7px 20px 250px 20px;
-  }
-
   .nav ul {
     gap: 30px;
   }
-
-  .header-box,
-  .wrapper {
-    margin-left: 250px;
+  .wrapper,
+  .header-box {
+    margin-left: auto;
   }
+
 }
 
 /* //////////// */
 
-@media screen and (max-width:1047px) {
+@media screen and (max-width:1085px) {
   .nav {
     margin-left: 70px;
-  }
-
-  .social {
-    margin-left: 70px;
-  }
-
-  .header-container {
-    padding: 7px 20px 250px 20px;
   }
 
   .tel {
@@ -261,54 +296,37 @@ header {
     gap: 20px;
   }
 
-  .header-box,
-  .wrapper {
-    margin-left: 100px;
-  }
-
   .social {
     display: none;
   }
+
 
 }
 
 /* //////////// */
 
-@media screen and (max-width:780px) {
+@media (max-width:800px) {
+
   .nav {
-    margin-left: 50px;
-  }
-
-
-  .header-container {
-    padding: 7px 10px 250px 10px;
+   margin-left: 0px;
   }
 
   .tel {
-    margin-left: 30px;
-    white-space: nowrap;
+    display: none;
   }
 
   .nav ul {
     gap: 20px;
   }
 
-  .header-box,
-  .wrapper {
-    margin-left: 100px;
-  }
-
-  .social {
-    display: none;
-  }
 
 }
 
 /* TABLET */
 
-@media screen and (max-width:750px) {
+@media (max-width:640px) {
   .header-container {
-    height: 593px;
+    padding: 15px 30px 47px 30px;
   }
 
   .logo img {
@@ -333,11 +351,6 @@ header {
     cursor: pointer;
   }
 
-  .header-container {
-    padding: 15px 80px 0px 80px;
-
-  }
-
   .header-menu {
     justify-content: space-between;
   }
@@ -352,12 +365,14 @@ header {
   .button-gpoup {
     justify-content: space-between;
     padding-bottom: 47px;
+    gap: 70px;
 
   }
 
   .wrapper {
+    max-width: 347px;
     margin-left: 0;
-    gap: 96px;
+    gap: 10%;
   }
 
   .header-box p {
@@ -382,73 +397,24 @@ header {
 
   }
 
-
 }
+
 
 /* /////// */
 
-@media screen and (max-width:671px) {
-  .wrapper {
-    gap: 50px;
-  }
-
-  .header-container {
-    padding: 15px 70px 0px 70px;
-
-  }
-
-}
-
-/* /////// */
-
-@media screen and (max-width:602px) {
-  .wrapper {
-    gap: 40px;
-  }
-
-  .header-container {
-    padding: 15px 60px 0px 60px;
-
-  }
-}
-
-/* /////// */
-
-@media screen and (max-width:551px) {
-  .wrapper {
-    gap: 40px;
-  }
-
-  .header-container {
-    padding: 15px 30px 0px 30px;
-
-  }
-}
-
-/* /////// */
-
-@media screen and (max-width:488px) {
-  .wrapper {
-    gap: 30px;
-
-  }
-
-  .header-container {
-    padding: 15px 30px 0px 30px;
-
-  }
-
+@media (max-width:488px) {
+  
   .button-gpoup {
     margin-top: 94px;
   }
 }
 
-/* mobile */
 
-@media screen and (max-width:473px) {
+/* MOBILE*/
+
+@media (max-width:320px) {
   .header-container {
-    padding: 15px 70px 0px 70px;
-
+    padding: 17px 20px 30px 20px;
   }
 
   .tel a {
@@ -503,116 +469,13 @@ header {
     font-size: 16px;
     font-weight: 400;
   }
-}
 
-/* /////// */
-
-@media screen and (max-width:440px) {
-  .header-container {
-    padding: 15px 75px 0px 75px;
-
-  }
-
-  .tel {
-    font-size: 12px;
-  }
-
-  .slogan {
-    margin-top: 118px;
-  }
-
-  .button-gpoup {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 32px;
-    gap: 110px;
-
-  }
-
-  .dron img {
-    width: 280px;
-    height: 43px;
-  }
-
-  .motoschool img {
-    width: 280px;
-    height: 17px;
-
-  }
-
-  .header-box p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    margin-top: 20px;
-  }
-
-  #btn3 {
-    width: 280px;
-    height: 38px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
-    font-size: 16px;
-  }
-
-  .wrapper {
-    width: 280px;
-    height: 38px;
-  }
-
-  .wrapper a {
-    font-size: 16px;
-    font-weight: 400;
-  }
-}
-
-/* DROPMENU */
-
-.drop-menu {
-  visibility: hidden;
-  position: absolute;
-  width: 250px;
-  height: 593px;
-  margin-top: 518px;
-  margin-left: 363px;
-  background: rgba(0, 0, 0, 0.75);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  z-index: 1;
-}
-
-.drop-menu:active {
-  visibility: visible;
-}
-
-.drop-menu hr {
-  width: 150px;
-  border: 1px solid #FFFFFF;
 
 }
 
-.drop-menu ul li {
-  list-style: none;
-  margin-top: 15px;
-  color: #E3E3E3;
 
-}
 
-.drop-menu a {
-  color: #E3E3E3;
-  text-decoration: none;
-}
 
-.drop-menu li:hover {
-  background-color: #373737;
-  animation-duration: 300ms;
-}
 
 
 /* ABOUT--2 блок*/

@@ -89,7 +89,7 @@ const butVect2 = (() => {
                         </div>
 
                         <div>
-                            <p>Мы воспитываем мотоциклистов! Запишитесь<br>
+                            <p>Мы воспитываем мотоциклистов!<br>Запишитесь
                                 на бесплатное пробное занятие</p>
                         </div>
                     </div>
@@ -480,7 +480,7 @@ const butVect2 = (() => {
                 <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
                 <button type="button" id="modal_win_btn" @click="close_win">Закрыть</button>
             </div>
-            
+
             <div class="entry-title">
                 <img src="@/assets/img-entry-bl-5/Line11.svg" alt="">
                 <p>он ждет тебя</p>

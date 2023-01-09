@@ -175,8 +175,6 @@ header {
 
 #bmenu {
   display: none;
-  background-color: transparent;
-  border-style: none;
   position: relative;
   z-index: 2;
 }
@@ -188,9 +186,8 @@ header {
 /* DROPMENU */
 
 .drop-menu {
-
   position: absolute;
-  width: 250px;
+  width: 300px;
   min-height: 593px;
   top: 0;
   right: 0;
@@ -202,7 +199,7 @@ header {
   display: none;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 2px;
 
 }
 
@@ -346,6 +343,7 @@ header {
   }
 
   .tel {
+    display: block;
     margin: 0;
   }
 
@@ -407,15 +405,43 @@ header {
 
 }
 
+@media (max-width:525px) {
+  .dron img {
+    width: 280px;
+    height: 43px;
+  }
 
-/* /////// */
+  .motoschool img {
+    width: 280px;
+    height: 17px;
 
-@media (max-width:488px) {
+  }
+
+  .tel a {
+    font-size: 14px;
+  }
 
   .button-gpoup {
-    margin-top: 94px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 32px;
+    gap: 110px;
+
   }
+  .wrapper a {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .wrapper {
+    width: 280px;
+    height: 38px;
+  }
+
 }
+
+
+
 
 
 /* MOBILE*/

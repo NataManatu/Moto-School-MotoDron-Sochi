@@ -146,6 +146,15 @@ import CourseContact from '@/components/CourseContact.vue'
 
 
         <div class="result-container">
+
+            <div :class="modal_win">
+                <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross" @click="close_win">
+                <img src="@/assets/img-entry-bl-5/Succesicon.svg" class="win_icon" alt="">
+                <p class="win_p">Данные успешно отправлены</p>
+                <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
+                <button type="button" id="modal_win_btn" @click="close_win">Закрыть</button>
+            </div>
+
             <div class="about_result">
                 <img src="@/assets/img-about-bl-2/Line11.svg" alt="">
                 <p>Результаты обучения</p>
@@ -247,17 +256,24 @@ import CourseContact from '@/components/CourseContact.vue'
 </template>
 
 <script>
+
 export default {
     data() {
         return {
-
+            modal_win: 'modal-win',
         }
     },
     methods: {
-
+        entry_win() {
+            this.modal_win = 'modal-win-click'
+        },
+        close_win() {
+            this.modal_win = 'modal-win'
+        }
     },
 
 }
+
 </script>
 
 

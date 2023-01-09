@@ -34,10 +34,10 @@ const butVect2 = (() => {
                     </div>
 
                     <div class="social">
-                        <a href="/"><img src="@/assets/img-header/whatsapp.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/tg.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/inst.svg"></a>
-                        <a href="/"><img src="@/assets/img-header/vk.svg"></a>
+                        <a href="#"><img src="@/assets/img-header/whatsapp.svg"></a>
+                        <a href="#"><img src="@/assets/img-header/tg.svg"></a>
+                        <a href="#"><img src="@/assets/img-header/inst.svg"></a>
+                        <a href="#"><img src="@/assets/img-header/vk.svg"></a>
                     </div>
 
                     <div class="tel">
@@ -49,16 +49,16 @@ const butVect2 = (() => {
                     <div class="drop-menu">
                         <ul>
                             <li>
-                                <a href="#">Курсы</a>
+                                <a href="#course">Курсы</a>
                             </li>
                             <li>
-                                <a href="#">Новости</a>
+                                <a href="#news">Новости</a>
                             </li>
                             <li>
-                                <a href="#">Контакты</a>
+                                <a href="#contact">Контакты</a>
                             </li>
                             <li>
-                                <a href="#">Отзывы</a>
+                                <a href="#reviews">Отзывы</a>
                             </li>
                             <li>
                                 <hr>
@@ -480,6 +480,7 @@ const butVect2 = (() => {
                 <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
                 <button type="button" id="modal_win_btn" @click="close_win">Закрыть</button>
             </div>
+            
             <div class="entry-title">
                 <img src="@/assets/img-entry-bl-5/Line11.svg" alt="">
                 <p>он ждет тебя</p>
@@ -852,6 +853,13 @@ const butVect2 = (() => {
 
         <div class="bike">
 
+            <div :class="modal_win">
+                <img src="@/assets/img-entry-bl-5/Group282.svg" alt="" id="cross" @click="close_win">
+                <img src="@/assets/img-entry-bl-5/Succesicon.svg" class="win_icon" alt="">
+                <p class="win_p">Данные успешно отправлены</p>
+                <p class="win_p_2">Мы свяжемся с вами в ближайшее время</p>
+                <button type="button" id="modal_win_btn" @click="close_win">Закрыть</button>
+            </div>
             <div class="bike-title">
                 <img src="@/assets/img-bike-bl-10/Line-11.svg" alt="">
                 <p>выбери свой байк</p>

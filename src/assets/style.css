@@ -1119,7 +1119,7 @@ header {
     font-weight: 400;
     font-size: 24px;
     white-space: nowrap;
-    
+
   }
 
   .course-title {
@@ -1174,7 +1174,8 @@ header {
     font-size: 16px;
     line-height: 140%;
     /* or 22px */
-  
+    word-wrap: break-word;
+
   }
 
   #why-btn {
@@ -1192,7 +1193,7 @@ header {
     line-height: 140%;
     text-decoration: none;
   }
-  
+
 }
 
 
@@ -1385,6 +1386,121 @@ header {
   margin-top: 21px;
   margin-right: 21px;
   cursor: pointer;
+}
+
+/* TABLET */
+@media screen and (max-width:640px) {
+  .entry::before {
+    font-weight: 400;
+    font-size: 64px;
+    padding: 11px;
+  }
+
+  .entry-title p {
+    font-weight: 400;
+    font-size: 32px;
+    white-space: nowrap;
+  }
+
+  .entry-title {
+    margin-left: -180px;
+  }
+
+  .entry-content {
+    display: block;
+    margin: 76px auto;
+    padding-left: 93px;
+
+  }
+
+  .entry-content h1 {
+    text-align: left;
+    line-height: 115%;
+  }
+
+  .entry-block {
+    margin-top: 35px;
+  }
+
+  .entry-block p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+  }
+
+  .entry-p {
+    color: #8c8c8c;
+  }
+
+  .entry-inp-btn button {
+    width: 142px;
+    height: 46px;
+  }
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width:440px) {
+  .entry::before {
+    font-weight: 400;
+    font-size: 48px;
+    padding: 11px;
+  }
+
+  .entry-content {
+    margin: 0;
+    padding: 62px 30px 54px 30px;
+
+  }
+
+  .entry-title p {
+    font-weight: 400;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+
+  .entry-title {
+    margin-left: -180px;
+  }
+
+  .entry-content h1 {
+    text-align: left;
+    line-height: 115%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    letter-spacing: 0.05em;
+
+  }
+
+  .entry-block {
+    margin-top: 20px;
+  }
+
+  .entry-block p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+  }
+
+  .entry-inp-btn {
+    display: flex;
+    flex-direction:column;
+
+  }
+
+  .entry-inp-btn button {
+    width: 280px;
+    height: 46px;
+  }
+
+  .entry-input input{
+    width: 280px;
+    height: 48px;
+  }
 }
 
 /*BEE MOTO-- блок-6 */
